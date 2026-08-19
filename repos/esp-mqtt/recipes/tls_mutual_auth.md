@@ -2,6 +2,9 @@
 
 > **适用摘要**: 使用客户端证书 + 私钥 + 服务端 CA 实现 mqtts:// 双向认证，对应 `examples/ssl_mutual_auth/`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "MQTT 双向认证"

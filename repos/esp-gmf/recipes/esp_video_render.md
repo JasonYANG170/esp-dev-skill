@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_video_render` 把一路或多路视频（H.264/MJPEG 解码输入）与 UI 叠加（overlay→container→widget 层级）合成到统一显示后端（直接 LCD / LVGL 集成 / framebuffer）。每路 stream 独立控制位置/裁剪/旋转/显隐/z-order/alpha；dirty-region 部分刷新减少重绘；支持同步或异步渲染、手动 compose 模式。覆盖视频播放器、智能屏、机器人双眼、视频门铃、摄像头预览等场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/esp_video_render.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "视频显示/渲染"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在本地克隆 esp-at 仓库，安装 ESP-IDF 环境，选择目标芯片/模块，配置功能，编译生成 `factory_XXX.bin` 并烧录到设备。
 
+> Evidence: `repos/esp-at/resources/`, source/examples in `repos/esp-at/`, and this recipe path `repos/esp-at/recipes/build_and_flash.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "编译 AT 固件"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 ESP 协处理器配置为 802.15.4 的 RCP（Radio Co-Processor），host 上运行 OpenThread Host 或 Zigbee Host。当前 OpenThread/Zigbee 数据通过**专用 UART** 通道在 host 与 RCP 间传输（与 ESP-Hosted 主传输分离）；Wi-Fi 仍走 ESP-Hosted 传输。可工作于基础模式或 Border Router / Gateway 模式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/openthread_zigbee_rcp.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-Hosted 跑 OpenThread"

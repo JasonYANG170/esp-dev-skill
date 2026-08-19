@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `ESP32_NOW` 库（`ESP_NOW` 类 + `ESP_NOW_Peer` 子类）在 ESP32 设备间做广播 / 点对点通信，无需 AP。⚠️ 必须先 `WiFi.mode()` 再 `ESP_NOW.begin()`。
 
+> Version: Arduino-ESP32 core version and selected board package.
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/espnow.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-NOW 通信"

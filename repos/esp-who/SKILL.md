@@ -7,25 +7,7 @@ description: >-
   Trigger words: "ESP-WHO", "esp-who", "人脸检测", "人脸识别", "行人检测", "二维码识别",
   "WhoDetect", "WhoRecognition", "WhoQRCode", "WhoFrameCap", "ESP32-S3-EYE", "ESP32-P4",
   "ESP-DL", "目标检测", "face recognition", "object detect"
-tags:
-  - embedded
-  - esp32
-  - esp32s3
-  - esp32p4
-  - esp-idf
-  - esp-dl
-  - esp-who
-  - vision
-  - face-detection
-  - face-recognition
-  - qrcode
-  - image-processing
-  - AI
-  - espressif
 license: MIT
-compatibility: >-
-  ESP32-S3 (ESP32-S3-EYE, ESP32-S3-Korvo-2) and ESP32-P4 (ESP32-P4 Function EV Board);
-  ESP-IDF release/v5.4 or release/v5.5; C++17; idf.py + CMake build.
 metadata:
   author: Community
   version: "1.0.0"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 让 Wi-Fi/Ethernet 与 Thread 网络中处于同一组播组的设备相互可达（ICMP/UDP）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/multicast_forwarding.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "组播转发"
 - "multicast forwarding"

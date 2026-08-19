@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 ESP-DL 跑一个 YOLO11n-pose/COCO 姿态模型：软件解码 JPEG 得到 `img_t`，构造 `COCOPose`（内部用 `yolo11posePostProcessor`），`run(img)` 得到每个实例的边界框 + 17 个 COCO 关键点坐标。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/vision_pose.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "跑 yolo11 姿态估计"

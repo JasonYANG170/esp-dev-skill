@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在没有 802.15.4 radio 的主芯片（ESP32-C3/S3/P4）上，通过 UART 连接一块 ESP32-H2/C6（烧录 ot_rcp 固件作为 Radio Co-Processor）构建 Zigbee 网关，可选 Wi-Fi/以太网回程、软件共存与 RCP 自动升级。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-zigbee-sdk/resources/`, source/examples in `repos/esp-zigbee-sdk/`, and this recipe path `repos/esp-zigbee-sdk/recipes/zigbee_gateway_rcp.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做 Zigbee 网关"

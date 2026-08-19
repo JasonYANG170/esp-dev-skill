@@ -30,4 +30,4 @@ esp-dev-skill 聚合 41 个 ESP 框架/SDK 子技能。主 `SKILL.md` 是路由�
 ## Do Not Modify
 
 - `repos/<repo>/resources/` —— 各仓库 API 文档来源
-- `SKILL.md` frontmatter —— 技能元数据
+- `SKILL.md` frontmatter —— 默认保留；仅为 skill 合规、路由准确性或受支持元数据更新

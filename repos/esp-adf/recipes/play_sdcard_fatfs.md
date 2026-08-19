@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 fatfs_stream 作为 reader 从 SD 卡读音频文件，接解码器与 i2s 输出。SD 卡通过 `audio_board_sdcard_init` 挂载。数据流：SD 卡 → fatfs_stream(reader) → decoder → i2s_stream(writer) → codec。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-adf/resources/`, source/examples in `repos/esp-adf/`, and this recipe path `repos/esp-adf/recipes/play_sdcard_fatfs.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "播放 SD 卡音乐"

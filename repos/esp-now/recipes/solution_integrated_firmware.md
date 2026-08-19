@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用条件编译在单个二进制中同时集成 Wi-Fi 配网（BLE/SoftAP）、ESP-NOW 配网、设备控制、无线调试、批量 OTA、安全握手与时间同步；通过 `CONFIG_APP_ESPNOW_INITIATOR`/`RESPONDER` 切换角色，单按键复用配网/绑定/控制/复位，共享 LED 表达状态（参考 `examples/solution`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-NOW 综合方案"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用本地 openssl HTTPS 服务器下发 `ota_with_rcp_image`，触发 BR 自身 OTA（必要时连带 RCP）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/http_ota.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "OTA 升级 Border Router"
 - "ota download"

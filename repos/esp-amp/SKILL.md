@@ -7,19 +7,7 @@ description: >-
   event, virtqueue, RPMsg, RPC, build system configuration, subcore life-cycle
   management, and automatic light sleep power optimization.
   Trigger words: "ESP-AMP", "esp-amp", "AMP", "maincore", "subcore", "main core", "sub core", "LP core", "HP core", "inter-core", "IPC", "RPMsg", "virtqueue", "非对称多核", "主核", "副核", "跨核通信", "核间通信"
-tags:
-  - embedded
-  - esp32
-  - espressif
-  - esp-idf
-  - AMP
-  - asymmetric-multiprocessing
-  - multicore
-  - RPMsg
-  - RPC
-  - IPC
 license: Apache-2.0
-compatibility: "Target chips: ESP32-C5 / ESP32-C6 (HP maincore + LP subcore), ESP32-P4 (HP maincore + HP subcore). Toolchain/build: ESP-IDF v5.3.1+ (C6/P4) or v5.5+ (C5), idf.py build with unified or separate build mode."
 metadata:
   author: Community
   version: "1.0.0"

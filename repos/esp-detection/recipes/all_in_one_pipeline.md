@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 `espdet_run.py` 一条命令串联 train → export → quantize → 生成芯片端 ESP-IDF 工程（自动 `git clone esp-dl`、复制模板、`rename_project` 替换占位符）。
 
+> Evidence: `repos/esp-detection/resources/`, source/examples in `repos/esp-detection/`, and this recipe path `repos/esp-detection/recipes/all_in_one_pipeline.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "一条命令训练+部署"

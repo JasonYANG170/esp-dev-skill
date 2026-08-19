@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 UVC 主机驱动从 USB 摄像头采集视频流，处理设备连接回调、格式协商、帧回调（Frame Buffer），并在任务中取帧与归还帧。支持等时/批量传输、PSRAM 帧缓冲、多路流、运行时改格式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-usb/resources/`, source/examples in `repos/esp-usb/`, and this recipe path `repos/esp-usb/recipes/host_uvc.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 摄像头"

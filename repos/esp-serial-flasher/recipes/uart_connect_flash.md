@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 ESP-IDF 主机（或任意 serial port）上，用 UART 接口把目标 ESP 芯片置入下载模式、连接（ROM bootloader，非 stub）、提速、多分区烧录并复位。这是最常用、最基础的烧录场景。
 
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/uart_connect_flash.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "用 MCU 烧录 ESP"

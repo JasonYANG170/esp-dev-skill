@@ -2,6 +2,10 @@
 
 > **适用摘要**: 主机端使用 `tools/configure_esp_secure_cert.py` 工具，通过命令行参数或 CSV 配置文件生成 `esp_secure_cert.bin`，可选签名（Secure Boot V2）与解析已有镜像。这是出厂烧录与 QEMU 测试的标准流程。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp_secure_cert_mgr/resources/`, source/examples in `repos/esp_secure_cert_mgr/`, and this recipe path `repos/esp_secure_cert_mgr/recipes/generate_partition_csv.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "生成 esp_secure_cert 分区"

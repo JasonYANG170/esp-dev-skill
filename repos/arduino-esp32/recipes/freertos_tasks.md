@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 Arduino 环境中用原生 FreeRTOS API（`xTaskCreate`/`xTaskCreatePinnedToCore`、队列、信号量、互斥）实现并发任务，避免阻塞 `loop()`。
 
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/freertos_tasks.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "多任务 / 并发"

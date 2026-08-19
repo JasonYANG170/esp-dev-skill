@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 `bist_ext_crystal_fail_test()` 通过 XT WDT 监测外部 32.768 kHz 晶振（仅 `SOC_XT_WDT_SUPPORTED` 的 SoC，如 C3）；用 `bist_main_crystal_test()` 测 40 MHz 主晶振相对 32 kHz 参考的频率漂移（IEC 60730 组件 3）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "时钟自检 / clock test"

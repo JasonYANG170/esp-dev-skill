@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 TinyUSB Vendor 类实现厂商自定义 USB 通信（含 WebUSB/WinUSB），包括缓冲模式与零缓冲直通模式、收发 API、WebUSB URL 描述符。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/tinyusb/resources/`, source/examples in `repos/tinyusb/`, and this recipe path `repos/tinyusb/recipes/vendor_and_webusb.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Vendor class"

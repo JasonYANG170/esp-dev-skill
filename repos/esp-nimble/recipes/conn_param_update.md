@@ -2,6 +2,10 @@
 
 > **适用摘要**: 连接建立后协商更合适的连接参数：从机用 L2CAP Connection Parameter Update Procedure 请求、主机用 Link-Layer Connection Parameters Request Procedure 下发，以及处理对端的更新请求回调（accept / reject）与最终的 `BLE_GAP_EVENT_CONN_UPDATE` 结果。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-nimble/resources/`, source/examples in `repos/esp-nimble/`, and this recipe path `repos/esp-nimble/recipes/conn_param_update.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "连接参数更新 / connection parameter update"

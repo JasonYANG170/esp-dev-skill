@@ -7,20 +7,7 @@ description: >-
   wireless debug, time synchronization, and coin-cell low-power switching.
   Trigger words: "ESP-NOW", "esp-now", "Espressif", "乐鑫", "ESP32", "ESP32-C3", "ESP32-S3",
   "ESP32-C2", "ESP32-C6", "无连接通信", "广播", "组网", "绑定", "OTA", "配网", "provisioning"
-tags:
-  - embedded
-  - esp-now
-  - wifi
-  - espressif
-  - esp32
-  - esp-idf
-  - iot
-  - firmware
-  - connectionless
-  - ota
-  - provisioning
 license: Apache-2.0
-compatibility: Target chips ESP32/ESP32-C2/C3/C6/S2/S3 (recommended); build via ESP-IDF (>= v4.4) and idf.py; component added through ESP Component Registry (espressif/esp-now)
 metadata:
   author: Community
   version: "1.1.0"

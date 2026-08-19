@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用组件封装的 NVS 存储接口、带调试记录的内存宏、以及重启计数/异常判定等工具函数（基于 `src/utils/include/` 三个头文件）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-now/resources/`, source/examples in `repos/esp-now/`, and this recipe path `repos/esp-now/recipes/storage_utils.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "保存配置到 NVS"

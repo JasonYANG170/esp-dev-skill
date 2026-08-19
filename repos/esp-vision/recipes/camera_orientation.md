@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用水平镜像 / 垂直翻转校正传感器安装方向，并用 `sensor.status()` 诊断分辨率、像素格式、sensor ID 与就绪状态。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/camera_orientation.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "画面上下颠倒 / 左右反了"

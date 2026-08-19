@@ -2,6 +2,10 @@
 
 > **适用摘要**: 实现 BLE 扫描（passive / active），解析广播报告 `BLE_GAP_EVENT_DISC`，并解析 `ble_hs_adv_fields` 各字段。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-nimble/resources/`, source/examples in `repos/esp-nimble/`, and this recipe path `repos/esp-nimble/recipes/scanner.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "扫描 / scan / discovery"

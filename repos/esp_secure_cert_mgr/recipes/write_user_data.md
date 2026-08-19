@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在设备运行期向 `esp_secure_cert` 分区写入自定义 TLV（`ESP_SECURE_CERT_USER_DATA_1..5`）。演示 flash 模式的擦除、写入、读回校验完整流程，含写配置与备份/恢复策略。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp_secure_cert_mgr/resources/`, source/examples in `repos/esp_secure_cert_mgr/`, and this recipe path `repos/esp_secure_cert_mgr/recipes/write_user_data.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "运行时写 esp_secure_cert 分区"

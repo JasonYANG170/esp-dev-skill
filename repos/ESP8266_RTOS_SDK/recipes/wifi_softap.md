@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 ESP8266 配为 SoftAP 开放热点，监听 station 的连接/离开事件，设置最大连接数与认证模式。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/wifi_softap.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP8266 做热点"

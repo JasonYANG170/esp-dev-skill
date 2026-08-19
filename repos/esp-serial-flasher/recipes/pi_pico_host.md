@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 Raspberry Pi Pico（RP2040）或 Pico 2（RP2350）作主机经 `uart1` 烧录 ESP 目标，走内置 `pi_pico_port`（`PORT=PI_PICO`）。Pico 2 的 RP2350 可选 ARM 或 RISC-V 核，由 `PICO_PLATFORM` 决定，两套交叉编译器**不可互换**。镜像经 `.uf2` 拖拽烧入 Pico。
 
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/pi_pico_host.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Pico 烧录 ESP"

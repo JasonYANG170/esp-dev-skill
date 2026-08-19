@@ -2,6 +2,10 @@
 
 > **适用摘要**: 处理 ESP-MQTT 全部事件类型，包括 CONNECTED/DISCONNECTED/SUBSCRIBED/UNSUBSCRIBED/PUBLISHED/DATA/ERROR，并解析错误句柄。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-mqtt/resources/`, source/examples in `repos/esp-mqtt/`, and this recipe path `repos/esp-mqtt/recipes/event_handling.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "MQTT 事件处理"

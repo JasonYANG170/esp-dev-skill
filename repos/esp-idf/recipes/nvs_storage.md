@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 NVS（Non-Volatile Storage）持久化整数/字符串/blob，含 `nvs_open`/`nvs_set_*`/`nvs_get_*`/`nvs_commit`（适配自 storage/nvs/nvs_rw_value）。
 
+> Version: ESP-IDF version used by the project.
+> Evidence: `repos/esp-idf/resources/`, source/examples in `repos/esp-idf/`, and this recipe path `repos/esp-idf/recipes/nvs_storage.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "保存配置"

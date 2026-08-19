@@ -2,6 +2,10 @@
 
 > **适用摘要**: 选择并配置 Claiming 类型（Self / Assisted / No Claim），完成 Wi-Fi/Thread 配网、Proof of Possession（PoP）以及用户-节点映射（含挑战-响应）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-rainmaker/resources/`, source/examples in `repos/esp-rainmaker/`, and this recipe path `repos/esp-rainmaker/recipes/claiming_and_provisioning.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RainMaker claiming 怎么配"

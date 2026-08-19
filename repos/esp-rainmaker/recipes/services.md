@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用 RainMaker 标准服务：时区（timezone）、系统（reboot/factory-reset/wifi-reset）、连接性（Connectivity，含 MQTT LWT）、分组（Groups）。均须在 `esp_rmaker_start()` 之前调用。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-rainmaker/resources/`, source/examples in `repos/esp-rainmaker/`, and this recipe path `repos/esp-rainmaker/recipes/services.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "时区服务 timezone"

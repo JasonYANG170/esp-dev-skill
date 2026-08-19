@@ -2,6 +2,10 @@
 
 > **适用摘要**: 编辑 `product_info.json`（vendor/product/chip/connection 等）与 `data_model.zap`（endpoint/cluster/attribute），改后重跑 Upload Configuration 生成并烧录 `data_model.bin`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/product_configuration.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "改 vendor/product 名"

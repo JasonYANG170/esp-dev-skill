@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 SmartConfig（Esptouch / AirKiss / Esptouch v2）让 ESP8266 通过手机 App 获取 SSID 与密码并连上 AP；基于 `SC_EVENT` 事件流处理。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/smartconfig.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "一键配网"

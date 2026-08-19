@@ -2,6 +2,10 @@
 
 > **适用摘要**: ESP-ADF 用 `esp_peripherals` 统一管理外设（Wi-Fi、SD 卡、触摸、ADC 按键、GPIO 按键等），所有外设事件汇入同一个 `audio_event_iface`，与 pipeline 事件一起处理。本 recipe 覆盖外设初始化与事件分发。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-adf/resources/`, source/examples in `repos/esp-adf/`, and this recipe path `repos/esp-adf/recipes/peripherals_services.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "按键控制播放"

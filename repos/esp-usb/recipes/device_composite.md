@@ -2,6 +2,10 @@
 
 > **适用摘要**: 让 ESP 芯片同时作为 USB 串口和大容量存储设备（composite），使用接口关联描述符（IAD）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-usb/resources/`, source/examples in `repos/esp-usb/`, and this recipe path `repos/esp-usb/recipes/device_composite.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 复合设备"

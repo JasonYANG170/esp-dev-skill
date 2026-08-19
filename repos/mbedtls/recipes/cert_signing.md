@@ -2,6 +2,9 @@
 
 > **适用摘要**: 加载签发者（CA）私钥与证书、主体公钥或 CSR，设置版本/序列号/有效期/主题/扩展，签发 DER 或 PEM 证书。适用于自建 CA 签发端实体证书。
 
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/cert_signing.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "签发证书"

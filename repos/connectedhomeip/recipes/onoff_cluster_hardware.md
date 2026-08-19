@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 Matter OnOff 集群（`ZCL_ON_OFF_CLUSTER_ID`）的属性写入事件映射到物理 GPIO（LED 或继电器），并在本地状态变化时回写服务端属性。这是 lock-app 与 all-clusters-app 的核心模式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/connectedhomeip/resources/`, source/examples in `repos/connectedhomeip/`, and this recipe path `repos/connectedhomeip/recipes/onoff_cluster_hardware.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "OnOff 控制 LED"

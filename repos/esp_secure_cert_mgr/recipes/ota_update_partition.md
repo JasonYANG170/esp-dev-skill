@@ -2,6 +2,10 @@
 
 > **适用摘要**: 远程更新 `esp_secure_cert` 分区（轮换证书/密钥）。演示三种暂存策略（unallocated space / passive OTA / direct）、用 NVS 记录恢复点实现断电回滚，以及 `esp_secure_cert_tlv_set_partition()` 切换活动分区做校验。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp_secure_cert_mgr/resources/`, source/examples in `repos/esp_secure_cert_mgr/`, and this recipe path `repos/esp_secure_cert_mgr/recipes/ota_update_partition.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "OTA 更新证书分区"

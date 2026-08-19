@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `WhoRecognitionAppLCD`（或 `WhoRecognitionAppTerm`）跑完整人脸识别流程：实时检测人脸、按键注册新面孔、识别已注册人脸、删除最后一条特征。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-who/resources/`, source/examples in `repos/esp-who/`, and this recipe path `repos/esp-who/recipes/human_face_recognition.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "人脸识别"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 `train.py::Train()` 在方形输入分辨率（如 224×224、416×416）下从零训练 espdet_pico 检测模型，并验证 mAP。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-detection/resources/`, source/examples in `repos/esp-detection/`, and this recipe path `repos/esp-detection/recipes/train_square.md`.
+
 ## 触发意图
 
 - "训练 espdet_pico"

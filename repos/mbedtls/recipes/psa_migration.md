@@ -2,6 +2,10 @@
 
 > **适用摘要**: 将基于 Mbed TLS 3.x 的代码迁移到 4.x：移除手动 RNG（entropy/ctr_drbg）、删除 `mbedtls_ssl_conf_rng` 调用、改用 `psa_crypto_init()`、用 PSA 配置宏替换旧加密宏。这是 4.x 最大的破坏性变更。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/psa_migration.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "迁移到 mbedTLS 4.x"

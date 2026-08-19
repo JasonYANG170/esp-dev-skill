@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 esp-matter 的命名空间 API 从零搭出一个设备数据模型 —— 创建 node、标准 device type endpoint、为 endpoint 追加 cluster、为 cluster 追加 attribute 与 command，并把 `priv_data` 传给回调。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-matter/resources/`, source/examples in `repos/esp-matter/`, and this recipe path `repos/esp-matter/recipes/device_data_model.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么创建一个 Matter 设备数据模型"

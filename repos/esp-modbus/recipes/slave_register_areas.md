@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `mbc_slave_set_descriptor` 把用户存储结构映射到 Modbus 的 Holding / Input / Coil / Discrete 区域。覆盖 `mb_register_area_descriptor_t` 字段、`HOLD_OFFSET`/`INPUT_OFFSET` 宏、分段区域、字节 vs 位的区别、访问权限。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-modbus/resources/`, source/examples in `repos/esp-modbus/`, and this recipe path `repos/esp-modbus/recipes/slave_register_areas.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "从站怎么映射寄存器"

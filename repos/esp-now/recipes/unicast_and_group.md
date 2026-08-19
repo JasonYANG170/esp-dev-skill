@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `espnow_add_peer` 实现单播定向发送，使用 `espnow_add_group` / `espnow_set_group` 动态管理设备分组与组播（基于 `espnow.h` 真实 API）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-now/resources/`, source/examples in `repos/esp-now/`, and this recipe path `repos/esp-now/recipes/unicast_and_group.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-NOW 单播"

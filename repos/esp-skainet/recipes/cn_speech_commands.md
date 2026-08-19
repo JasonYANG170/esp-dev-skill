@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 ESP32-S3 上实现"唤醒 → 中文命令词识别"完整链路。WakeNet 唤醒后进入 MultiNet 命令模式，命中/超时后回到待唤醒，并从 sdkconfig 默认命令表导入。
 
+> Evidence: `repos/esp-skainet/resources/`, source/examples in `repos/esp-skainet/`, and this recipe path `repos/esp-skainet/recipes/cn_speech_commands.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "中文命令词识别"

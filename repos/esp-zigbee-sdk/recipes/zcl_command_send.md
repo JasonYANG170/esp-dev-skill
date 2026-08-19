@@ -2,6 +2,10 @@
 
 > **适用摘要**: 汇总常用 ZCL 命令的发送方法——on/off toggle/on/off、level move-to-level、color move-to-hue-and-saturation，以及通用 read/write/config-report 命令的请求结构与调用。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-zigbee-sdk/resources/`, source/examples in `repos/esp-zigbee-sdk/`, and this recipe path `repos/esp-zigbee-sdk/recipes/zcl_command_send.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "发 on/off 命令"

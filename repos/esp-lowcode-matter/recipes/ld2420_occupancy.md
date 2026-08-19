@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `occupancy_sensor_ld2420_init` 初始化 LD2420，进入 normal/report 模式，周期读取占用状态与距离，以 `LOW_CODE_FEATURE_ID_OCCUPANCY_SENSOR_VALUE` 上报。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/ld2420_occupancy.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "人体存在检测"

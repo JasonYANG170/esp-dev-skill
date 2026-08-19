@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `led_indicator` 组件的 LEDC 后端创建支持亮度调节的单色 LED 指示灯，实现呼吸灯、亮度过渡（25%/75%）等灯效。LEDC 后端支持 `LED_BLINK_BREATHE` / `LED_BLINK_BRIGHTNESS` 动作。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/led_indicator_ledc.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "PWM LED 调光"

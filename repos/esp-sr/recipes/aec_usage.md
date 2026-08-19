@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 ESP-SR AEC 消除扬声器回声，覆盖三种集成方式（独立 `aec_create`、带 input_format 的 `afe_aec_create`、经 AFE pipeline）以及 SR/FD/VOIP 三类 mode 选型。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-sr/resources/`, source/examples in `repos/esp-sr/`, and this recipe path `repos/esp-sr/recipes/aec_usage.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "回声消除"

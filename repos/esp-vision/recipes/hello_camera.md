@@ -2,6 +2,10 @@
 
 > **适用摘要**: 复位摄像头、选择像素格式与分辨率、等待自动曝光/白平衡稳定后连续采集，并通过 `img.flush()` 在主机预览。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/hello_camera.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "摄像头采集"

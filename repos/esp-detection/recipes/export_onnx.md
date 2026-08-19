@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `deploy/export.py::Export()` 把训练好的 `.pt` 导出为 ONNX（opset 13、onnxsim 简化），输出固定 6 个张量，为后续 esp-ppq 量化做准备。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-detection/resources/`, source/examples in `repos/esp-detection/`, and this recipe path `repos/esp-detection/recipes/export_onnx.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "导出 ONNX"

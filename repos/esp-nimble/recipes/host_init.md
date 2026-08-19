@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 ESP-IDF 工程中正确初始化 NimBLE Host：注册回调、注册 GATT 服务、启动 host 任务，并确保所有 GAP 操作在 Host 同步后发起。
 
+> Evidence: `repos/esp-nimble/resources/`, source/examples in `repos/esp-nimble/`, and this recipe path `repos/esp-nimble/recipes/host_init.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "初始化 NimBLE"

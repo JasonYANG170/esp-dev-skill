@@ -2,6 +2,10 @@
 
 > **适用摘要**: 配置 Last Will and Testament，使客户端异常断开时由 broker 代发通知消息。MQTT 3.1.1 与 5.0 均支持。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-mqtt/resources/`, source/examples in `repos/esp-mqtt/`, and this recipe path `repos/esp-mqtt/recipes/last_will.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "MQTT 遗嘱消息"

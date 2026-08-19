@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 Bluedroid 实现 A2DP Sink（Advanced Audio Distribution Profile，接收手机推送的音频流）与 AVRCP CT（音量/播放控制）：`esp_a2d_sink_init`、`esp_a2d_register_callback`、`esp_a2d_sink_register_audio_data_callback` 收 PCM 数据、`esp_a2d_sink_connect` 主动连接、`esp_avrc_ct_init` 控制器。**仅 esp32 支持，需 `CONFIG_BT_A2DP_ENABLE`。** 适配自 `examples/bluetooth/bluedroid/classic_bt/a2dp_sink_stream`。
 
+> Version: ESP-IDF version used by the project.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "蓝牙音箱 / 蓝牙耳机"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 订阅 `ESP_HOSTED_EVENT` 事件循环，感知协处理器 INIT、传输 UP/DOWN/失败，并用心跳（heartbeat）做活体检测；在传输故障或意外重启时自动 deinit → 重新 init/connect 恢复链路。这是生产级 ESP-Hosted 应用的必备模式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/host_events_recovery.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-Hosted 传输断线重连"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 利用硬件 HMAC 外设 + PBKDF2-HMAC-SHA256 实时派生 ECDSA 私钥。分区里只存 salt，私钥永不在 flash 中。演示写入配置与（可选）一步生成并烧录 eFuse 的完整流程。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp_secure_cert_mgr/resources/`, source/examples in `repos/esp_secure_cert_mgr/`, and this recipe path `repos/esp_secure_cert_mgr/recipes/hmac_ecdsa_derivation.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "HMAC 派生 ECDSA 私钥"

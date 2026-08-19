@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 ESP32 主机的 USB OTG（USB Host）经 CDC-ACM 类烧录目标（目标的 USB Serial/JTAG 或 USB OTG 外设）。无需额外 TX/RX/BOOT 线，单根 USB 即可。port 可在断开后经 `esp_loader_init_serial()` 重连。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/usb_cdc_acm.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 烧录 ESP"

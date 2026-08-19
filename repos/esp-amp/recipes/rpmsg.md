@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 ESP-AMP RPMsg（Remote Processor Messaging）实现双向端到端通信，基于一对 Virtqueue（TX/RX），支持在单个设备上创建多个端点复用底层队列。支持零拷贝发送。这是最常用的核间数据交换方式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-amp/resources/`, source/examples in `repos/esp-amp/`, and this recipe path `repos/esp-amp/recipes/rpmsg.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RPMsg"

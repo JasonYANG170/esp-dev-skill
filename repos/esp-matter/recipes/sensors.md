@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在一个 Matter 节点上创建多个传感器 endpoint（温度、湿度、占用），从传感器驱动异步拿到数据后，用 `chip::DeviceLayer::SystemLayer().ScheduleLambda(...)` 切到 Matter 线程，再 `attribute::update()` 上报。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-matter/resources/`, source/examples in `repos/esp-matter/`, and this recipe path `repos/esp-matter/recipes/sensors.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做一个 Matter 温湿度传感器"

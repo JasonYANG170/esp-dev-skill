@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用语音通信型 AFE（`AFE_TYPE_VC`）+ 深度降噪模型做实时降噪，并把原始/降噪后 PCM 通过 ringbuf + SD 卡落盘用于评估对比。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-skainet/resources/`, source/examples in `repos/esp-skainet/`, and this recipe path `repos/esp-skainet/recipes/deep_noise_suppression.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "deep noise suppression"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_mqtt_cxx` 组件的 `idf::mqtt::Client` 封装类实现 MQTT 客户端 —— 继承 Client 重写 `on_connected`/`on_data` 等成员事件回调，通过 `BrokerConfiguration`/`ClientCredentials`/`Configuration` 三件套配置 broker、安全（明文/PEM/DER/PSK/Insecure/GlobalCAStore）与连接参数，使用 `subscribe`/`publish` 与 `Filter` 主题过滤器。支持 MQTT 3.11 与 TLS。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-protocols/resources/`, source/examples in `repos/esp-protocols/`, and this recipe path `repos/esp-protocols/recipes/mqtt_cxx_client.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "esp_mqtt_cxx C++ MQTT"

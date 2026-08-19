@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 ESP-SR 内置的中文 TTS 模块把 UTF-8 中文文本流式合成为 16k/16bit 语音。仅支持中文，需 `voice_data` 分区存放声音集。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-sr/resources/`, source/examples in `repos/esp-sr/`, and this recipe path `repos/esp-sr/recipes/chinese_tts.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "中文语音合成"

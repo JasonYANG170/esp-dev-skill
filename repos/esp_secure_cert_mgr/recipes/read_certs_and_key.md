@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在固件中通过便捷 API 读取 `esp_secure_cert` 分区里的设备证书、CA 证书与（非 DS 场景下的）私钥，并正确释放内存。适用于 TLS 客户端加载凭据等场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp_secure_cert_mgr/resources/`, source/examples in `repos/esp_secure_cert_mgr/`, and this recipe path `repos/esp_secure_cert_mgr/recipes/read_certs_and_key.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "读取设备证书"

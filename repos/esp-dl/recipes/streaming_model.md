@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把长时序输入（如音频）切分成 chunk，逐 chunk 喂给流式 `.espdl` 模型；模型内部自动维护跨 chunk 的状态（StreamingCache）。适合音频/语音等实时场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/streaming_model.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "部署流式模型"

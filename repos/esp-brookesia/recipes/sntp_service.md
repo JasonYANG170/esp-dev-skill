@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `brookesia_service_sntp` 配置 NTP 服务器与时区，查询同步状态、服务器列表与时区。SNTP 可选依赖 NVS 做持久化，网络可用后自动同步。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-brookesia/resources/`, source/examples in `repos/esp-brookesia/`, and this recipe path `repos/esp-brookesia/recipes/sntp_service.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "同步网络时间 NTP"

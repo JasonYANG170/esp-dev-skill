@@ -2,6 +2,10 @@
 
 > **适用摘要**: 让具备 Wi-Fi 但无 802.15.4 的设备（如 ESP32-S3）通过 TREL 经 Wi-Fi 直接参与 Thread 网络，与 Thread CLI 设备互通。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/trel.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "TREL"
 - "Thread over Wi-Fi"

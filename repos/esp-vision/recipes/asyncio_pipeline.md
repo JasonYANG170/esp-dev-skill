@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 MicroPython `asyncio` 把视觉流水线（采集/推理/预览）与遥测、健康监控拆成协作调度的协程，通过复制后的标量状态与锁避免并发访问摄像头/模型/帧缓冲。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/asyncio_pipeline.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "多任务视觉应用"

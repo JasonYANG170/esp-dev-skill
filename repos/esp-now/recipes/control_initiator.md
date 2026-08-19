@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 initiator 设备上通过按键触发绑定、解绑与控制数据发送，控制 responder（灯/插座）动作（参考 `examples/control`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-NOW 控制"

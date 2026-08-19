@@ -2,6 +2,10 @@
 
 > **适用摘要**: 创建 `display.Display()`（即 `ESP32Display`）并把采集帧用 `write()` 送到屏幕，支持 `fit` 缩放、显式 `x_scale`/`y_scale`、`roi` 裁剪与背光调节。显示对象只创建一次并复用。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/lcd_display.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "LCD 显示"

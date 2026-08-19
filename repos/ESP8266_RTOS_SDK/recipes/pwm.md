@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用软件 PWM 驱动（`pwm_init`）配置多通道（最多 8 路）的周期、占空比、相位，运行时调整并调用 `pwm_start` 生效，支持停机与通道反相。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/pwm.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "PWM 输出"

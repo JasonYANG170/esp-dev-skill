@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `knob` 组件接入 AB 相旋转编码器，创建旋钮句柄、注册左右旋/上下限/归零事件回调、读取累计计数值。组件基于 GPIO 中断实现，支持 power-save。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/knob.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "旋转编码器"

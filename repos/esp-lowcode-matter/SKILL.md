@@ -8,19 +8,7 @@ description: >-
   Trigger words: "esp-lowcode-matter", "LowCode", "low code", "ESP LowCode", "Matter", "esp32-c6",
   "ESP32-C6", "LP core", "setup loop", "low_code_feature_update_to_system", "嘉立创Matter",
   "低代码 Matter", "Matter 设备", "Matter 产品"
-tags:
-  - embedded
-  - matter
-  - esp32
-  - esp32-c6
-  - low-code
-  - espressif
-  - smart-home
-  - lp-core
-  - firmware
-  - iot
 license: Apache-2.0
-compatibility: ESP32-C6 only (HP+LP asymmetric cores); build with ESP-IDF v5.3 + ESP-AMP; flash via esptool.py
 metadata:
   author: Community
   version: "1.1.0"

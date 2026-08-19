@@ -2,6 +2,10 @@
 
 > **适用摘要**: 选择板型 (DEV_KIT / STANDALONE / M5STACK_CORES3)、配置 UART/SPI 通信接口与 RCP Reset/Boot 引脚、Standalone 模组接线。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/board_and_interface.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "怎么选板型"
 - "配置 SPI 接口连 RCP"

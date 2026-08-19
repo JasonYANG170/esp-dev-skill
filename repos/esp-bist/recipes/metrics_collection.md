@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `bist_metrics.h` 提供的 `BIST_METRICS_*` 宏，基于 RISC-V 性能计数器 CSR（`0x7e0` PCER / `0x7e1` PCMR / `0x7e2` PCCR）测量 BIST 测试的周期数、指令数、load/store、分支、hazard 等微架构事件。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-bist/resources/`, source/examples in `repos/esp-bist/`, and this recipe path `repos/esp-bist/recipes/metrics_collection.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "BIST 性能测量"

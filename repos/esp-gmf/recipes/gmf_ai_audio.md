@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `gmf_ai_audio` 把 `esp-sr`（AEC/NS/VAD/唤醒词 WakeNet/命令词 MultiNet/DOA）封装成 6 个 GMF element：`ai_afe`（全功能统一入口，含 feed/fetch 双任务、wakeup+VAD 状态机、命令词与手动唤醒）、`ai_aec`/`ai_wn`/`ai_ns`/`ai_vad`/`ai_doa`（单能力 element，可直接接入 GMF pipeline）。配套 `esp_gmf_afe_manager` 可脱离 pipeline 独立使用。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/gmf_ai_audio.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "唤醒词检测"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 responder 设备上进入绑定窗口、注册控制数据回调、维护绑定列表（持久化到 NVS），并依据控制数据执行动作（参考 `examples/control` 与 `examples/coin_cell_demo/bulb`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "responder 接收控制"

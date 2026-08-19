@@ -2,6 +2,10 @@
 
 > **适用摘要**: 理解并定制 ESP-WHO 的摄像头→处理节点链。讲解 `WhoFrameCap` + `WhoFetchNode`/`WhoDecodeNode`/`WhoPPAResizeNode` 的组装方式，以及 `fb_count`/`ringbuf_len` 的取值规则。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-who/resources/`, source/examples in `repos/esp-who/`, and this recipe path `repos/esp-who/recipes/frame_cap_pipeline.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "自定义 frame_cap pipeline"

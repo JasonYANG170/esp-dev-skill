@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 ESP32-C3/C5/C6/C61（仅 SPI 可用）以及 ESP32-P4/S3 上配置 SPI（或 Parallel IO）接口的低分辨率摄像头，含双 SPI 摄像头同时使用。SPI 是唯一全系列支持的接口。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-video-components/resources/`, source/examples in `repos/esp-video-components/`, and this recipe path `repos/esp-video-components/recipes/spi_sensor.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "SPI 摄像头"

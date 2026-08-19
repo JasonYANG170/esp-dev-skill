@@ -2,6 +2,10 @@
 
 > **适用摘要**: 从零搭建一个 ESP RainMaker 节点工程，完成 NVS、网络初始化、节点创建、设备挂载、服务启用与 Agent 启动的完整流程。这是所有 RainMaker 应用的骨架。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-rainmaker/resources/`, source/examples in `repos/esp-rainmaker/`, and this recipe path `repos/esp-rainmaker/recipes/getting_started.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "创建 RainMaker 节点"

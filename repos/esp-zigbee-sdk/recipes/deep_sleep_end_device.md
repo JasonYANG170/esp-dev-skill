@@ -2,6 +2,10 @@
 
 > **适用摘要**: 实现 Zigbee End Device 的 deep sleep 最低功耗模式：每次唤醒都从 reset 重启、重新初始化协议栈并 rejoin 网络，用 RTC timer + EXT1（BOOT 按键）双唤醒源，`RTC_DATA_ATTR` 跨睡眠保存时间戳。与 light sleep（Zigbee 任务常驻、keep-alive 自动维持）是两套完全不同的流程。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-zigbee-sdk/resources/`, source/examples in `repos/esp-zigbee-sdk/`, and this recipe path `repos/esp-zigbee-sdk/recipes/deep_sleep_end_device.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Zigbee 深度休眠 / 深睡"

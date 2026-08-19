@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_rmaker_thread_br_enable(platform_config)` 把一个 RainMaker 节点变成 **Thread Border Router (TBR)**，让 RainMaker-over-Thread 设备经 BR 上的 **NAT64** 会话接入 RainMaker 云。覆盖 ESP32-S3(主) + ESP32-H2(RCP) 分体、RCP 自动更新、dataset/`ThreadCmd` 控制、LwIP IPv6 编译要求。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-rainmaker/resources/`, source/examples in `repos/esp-rainmaker/`, and this recipe path `repos/esp-rainmaker/recipes/thread_border_router.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RainMaker Thread 边界路由器 / TBR"

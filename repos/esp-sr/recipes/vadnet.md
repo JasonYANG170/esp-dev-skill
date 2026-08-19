@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 VADNet（神经网络 VAD，替代 WebRTC VAD）检测语音/噪声状态，处理 VAD cache 防止首字截断。可经 AFE pipeline 默认启用，或单独运行。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-sr/resources/`, source/examples in `repos/esp-sr/`, and this recipe path `repos/esp-sr/recipes/vadnet.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "VAD 检测"

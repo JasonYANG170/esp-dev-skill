@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 ESP-BIST 仓库自带的 MCP 服务器（`mcp-server/server.py`，FastMCP + BM25）接到 Cursor 或 VS Code，让 AI 助手通过 6 个工具（`search_bist_docs`、`get_api_reference`、`get_architecture_info`、`search_kconfig_options`、`search_source_code`、`get_supported_socs`）直接查询仓库的真实文档/头文件/Kconfig/源码，而不是凭记忆猜测；并用 `ingest.py` 在内容变更时重新生成 `data/*.json` 快照（CI 由 `mcp_data_drift` 强制）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-bist/resources/`, source/examples in `repos/esp-bist/`, and this recipe path `repos/esp-bist/recipes/mcp_server_setup.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "BIST MCP server"

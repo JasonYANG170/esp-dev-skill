@@ -2,6 +2,9 @@
 
 > **适用摘要**: 使用 `spi_bus` 组件初始化 SPI 主机总线、在总线上添加设备、进行单字节/多字节/16 位/32 位传输。该组件封装了 ESP-IDF `spi_master`，提供更简洁的句柄式接口。
 
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/spi_bus.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "初始化 SPI 总线"

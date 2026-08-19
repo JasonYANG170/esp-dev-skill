@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `timerBegin` / `timerAlarm` 配置 64 位硬件定时器并产生周期中断。ESP32/S2/S3 各 4 个，C3/C6/H2 各 2 个。
 
+> Version: Arduino-ESP32 core version and selected board package.
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/hardware_timer.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "周期定时中断"

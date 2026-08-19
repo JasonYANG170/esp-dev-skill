@@ -2,6 +2,10 @@
 
 > **适用摘要**: 不使用 UART，改为通过 SPI 或 SDIO 接口在 ESP-AT 设备与主机 MCU 之间传输 AT 指令与数据，适用于需要更高吞吐或主机 MCU 已占用 UART 的场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-at/resources/`, source/examples in `repos/esp-at/`, and this recipe path `repos/esp-at/recipes/at_over_spi_sdio.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "SPI AT"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 新建 ESP-Brookesia 项目：声明组件依赖、初始化 ServiceManager、绑定服务、完成第一次服务调用。这是使用任何 Brookesia 服务（Wi-Fi / NVS / Audio 等）的统一前置步骤。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-brookesia/resources/`, source/examples in `repos/esp-brookesia/`, and this recipe path `repos/esp-brookesia/recipes/project_setup.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "新建 ESP-Brookesia 项目"

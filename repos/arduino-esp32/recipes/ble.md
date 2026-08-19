@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `BLEDevice` 库实现 BLE 扫描、GATT Server/Client、UART 透传、Notify 通知、iBeacon/Eddystone 广播。⚠️ 3.x 中 ESP32 仍用 Bluedroid，其余 SoC（C3/C5/C6/H2/S3）默认走 NimBLE；4.0 起 Bluedroid 将被移除。
 
+> Version: Arduino-ESP32 core version and selected board package.
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/ble.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "BLE 扫描 / BLE scan"

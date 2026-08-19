@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用邻域/秩/保边滤波降噪或增强边缘，配合 `binary` 做阈值分割与形态学清理。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/image_filters.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "图像滤波"

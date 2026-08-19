@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `ble_conn_mgr` 组件的简化 API（`esp_ble_conn_init` / `esp_ble_conn_start`）搭建 BLE 外设/中心角色，覆盖周期广播（periodic advertising）、周期同步（periodic sync）、SPP 串口透传、L2CAP CoC 信道。组件基于 NimBLE，用 `esp_ble_conn_config_t` 配设备名/广播数据/扩展广播/周期广播，事件经 `esp_event` 投递到 `BLE_CONN_MGR_EVENTS`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/ble_conn_mgr.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "BLE 外设 / 中心"

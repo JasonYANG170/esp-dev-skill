@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 NimBLE Mesh 子系统实现一个 Bluetooth Mesh 节点，注册 Generic OnOff / Health / Vendor 模型，完成初始化与代理广播。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-nimble/resources/`, source/examples in `repos/esp-nimble/`, and this recipe path `repos/esp-nimble/recipes/mesh_node.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Bluetooth Mesh / 蓝牙 mesh"

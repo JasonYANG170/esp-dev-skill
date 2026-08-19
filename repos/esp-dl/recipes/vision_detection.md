@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 ESP-DL 跑一个 YOLO11/COCO 检测模型：软件解码 JPEG 得到 `img_t`，构造检测器（`DetectWrapper` 子类），`run(img)` 得到检测结果（类别、分数、框），按需释放内存。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/vision_detection.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "跑 yolo 检测"

@@ -2,6 +2,8 @@
 
 > **适用摘要**: 用 Bluedroid 协议栈实现 BLE GATT Server：控制器/Host 初始化固定顺序、设置广播（`esp_ble_gap_config_adv_data` / raw）、用属性表注册自定义服务与特征值（`esp_ble_gatts_create_attr_tab`）、处理 `ESP_GATTS_WRITE_EVT`、发送 notification/indication（`esp_ble_gatts_send_indicate`）。适配自 `examples/bluetooth/bluedroid/ble/gatt_server_service_table`。
 
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "BLE 从机"

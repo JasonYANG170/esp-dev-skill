@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `perf_tester` 控制台与 `test/` 测试工程量化 WakeNet/MultiNet 的唤醒率（RAR）、误唤醒率（FAR）与 CPU/内存占用，并生成 pass/fail 报告。适用于产品发布前的精度验收与回归测试。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-skainet/resources/`, source/examples in `repos/esp-skainet/`, and this recipe path `repos/esp-skainet/recipes/perf_benchmarking.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "测试唤醒率"

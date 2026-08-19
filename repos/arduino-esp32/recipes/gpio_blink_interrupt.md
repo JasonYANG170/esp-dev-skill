@@ -1,6 +1,10 @@
 # GPIO 输出输入与中断
 
 > **适用摘要**: 使用 Arduino 标准 `pinMode`/`digitalWrite`/`digitalRead` 控制引脚，并用 `attachInterrupt` 响应外部中断（按键、脉冲等）。
+> Excludes: ESP-IDF-only projects and ESP8266 RTOS SDK projects.
+> Arduino: Verify the selected Arduino-ESP32 core version and board variant before assigning pins.
+> Evidence: `repos/arduino-esp32/resources/api_reference.md`, `libraries/ESP32/examples/GPIO/GPIOInterrupt/GPIOInterrupt.ino`, and board `variants/<board>/pins_arduino.h`.
+> Validation: example-derived.
 
 ## 触发意图
 

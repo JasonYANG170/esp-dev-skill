@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把标准输入/输出（`printf`/stdin）重定向到 USB CDC，或将 CDC 接口注册进 VFS 以便用 `fopen/fread/fwrite` 读写。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-usb/resources/`, source/examples in `repos/esp-usb/`, and this recipe path `repos/esp-usb/recipes/device_console_vfs.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 打印日志"

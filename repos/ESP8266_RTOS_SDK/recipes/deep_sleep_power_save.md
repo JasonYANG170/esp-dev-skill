@@ -2,6 +2,10 @@
 
 > **适用摘要**: ESP8266 的两类省电：①WiFi modem sleep（`esp_wifi_set_ps`，STA 连上 AP 后周期性关 RF，保持连接，三种模式 NONE/MIN/MAX）；②deep sleep（`esp_deep_sleep`，关 CPU+RF，定时器或 RST 唤醒，唤醒等同重启）。前者在连接态省电，后者用于周期性采集场景。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/deep_sleep_power_save.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP8266 省电 / 低功耗"

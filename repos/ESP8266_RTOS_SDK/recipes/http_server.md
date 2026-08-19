@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_http_server` 组件在 ESP8266 上跑 RESTful/控制平面 HTTP 服务，注册 URI handler（`HTTP_GET`/`HTTP_POST`/`HTTP_PUT`）处理 `/hello`、`/echo` 等，支持读请求头/查询串、`httpd_resp_send`/`httpd_resp_send_chunk` 响应、运行期动态注册/注销 handler。是 `http_request.md`（出站请求）的入站对应。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/http_server.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP8266 HTTP server"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用仓库自带的内置本地工具 `set_reminder` / `get_local_time` / `set_volume` / `set_emotion`，理解其参数、行为与注册方式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-agents-firmware/resources/`, source/examples in `repos/esp-agents-firmware/`, and this recipe path `repos/esp-agents-firmware/recipes/builtin_tools.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "内置工具有哪些"

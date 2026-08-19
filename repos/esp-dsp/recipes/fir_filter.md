@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `dsps_fir_f32`（标准 FIR）、`dsps_fird_f32`（抽取 FIR）、`dsps_firmr_f32`（多速率 FIR）做滤波、降采样与任意速率变换。涵盖 `fir_f32_t` 初始化、分块复用与延迟线对齐。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/fir_filter.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "FIR 滤波器"

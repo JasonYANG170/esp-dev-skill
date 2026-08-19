@@ -2,6 +2,10 @@
 
 > **适用摘要**: 设备启动时对 `esp_secure_cert` 分区做两层校验：完整性 TLV（SHA256，工具生成时自动追加）与签名块（Secure Boot V2，RSA/ECDSA）。校验应在解析分区内容之前进行。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp_secure_cert_mgr/resources/`, source/examples in `repos/esp_secure_cert_mgr/`, and this recipe path `repos/esp_secure_cert_mgr/recipes/verify_partition.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "校验 esp_secure_cert 分区"

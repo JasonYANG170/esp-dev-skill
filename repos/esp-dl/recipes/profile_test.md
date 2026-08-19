@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 `model->test()` 验证板端推理正确性，用 `profile_memory()` / `profile_module()` / `profile()` 打印内存占用和逐层延迟，定位精度与性能瓶颈。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/profile_test.md`.
+
 ## 触发意图
 
 - "验证模型推理对不对"

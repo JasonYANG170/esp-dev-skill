@@ -2,6 +2,10 @@
 
 > **适用摘要**: 当内置的 sensor 默认格式不满足需求时，通过自定义寄存器初始化序列 + `esp_cam_sensor_format_t` 描述 + `VIDIOC_S_SENSOR_FMT` 命令，让 sensor 按非内置分辨率/格式/帧率工作。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-video-components/resources/`, source/examples in `repos/esp-video-components/`, and this recipe path `repos/esp-video-components/recipes/custom_format.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "自定义分辨率"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 让 Thread 设备经 BR 的 NAT64 访问 IPv4 互联网（如 `curl http://www.espressif.com`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/nat64.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "NAT64"
 - "DNS64"

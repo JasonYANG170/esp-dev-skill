@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_doa` 模块基于双麦克风做声源方向角（DOA）估计。需要关闭 AEC、按 input_format 中 `M` 的位置手动拆出左右声道，再喂给 `esp_doa_process`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-skainet/resources/`, source/examples in `repos/esp-skainet/`, and this recipe path `repos/esp-skainet/recipes/direction_of_arrival.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "direction of arrival"

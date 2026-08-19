@@ -1,25 +1,12 @@
 ---
-name: ESP8266_RTOS_SDK-skill
+name: esp8266-rtos-sdk-skill
 description: >-
   AI Skill for ESP8266_RTOS_SDK (esp-idf style) firmware development on the ESP8266EX chip.
   Used when users need to create, modify, or debug ESP8266 FreeRTOS projects, including WiFi STA/AP/ESPNOW,
   peripheral drivers (GPIO/UART/I2C/SPI/PWM/ADC/hw_timer), sockets/HTTP/MQTT/SNTP networking, NVS/SPIFFS storage,
   partition tables, OTA firmware upgrade, and sleep/power management.
   Trigger words: "ESP8266", "ESP8266_RTOS_SDK", "ESP8266EX", "乐鑫", "安信可", "FreeRTOS", "esp-idf style", "xtensa-lx106", "IDF_PATH", "menuconfig", "SoftAP", "ESPNOW", "smartconfig", "OTA"
-tags:
-  - embedded
-  - esp8266
-  - espressif
-  - freertos
-  - wifi
-  - esp-idf
-  - rtos
-  - firmware
-  - xtensa
-  - lwip
-  - microcontroller
 license: Apache-2.0
-compatibility: Target chip ESP8266EX (Tensilica L106 32-bit); toolchain xtensa-lx106-elf gcc v8.4.0; build via ESP8266_RTOS_SDK (esp-idf style) `make`/CMake with IDF_PATH set
 metadata:
   author: Community
   version: "1.1.0"

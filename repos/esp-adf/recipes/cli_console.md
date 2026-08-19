@@ -2,6 +2,8 @@
 
 > **适用摘要**: 用 ESP-IDF 的 `esp_console`（线性命令行）在 ESP-ADF 工程里注册命令，配合串口做交互调试与控制（如手动切歌、调音量、查状态）。ESP-ADF 自带 `cli` 示例演示命令注册与执行。
 
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "命令行控制"

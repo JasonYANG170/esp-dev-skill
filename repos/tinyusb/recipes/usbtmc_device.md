@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 TinyUSB USBTMC 类把设备暴露成 USB 测试测量仪器（电源、万用表、示波器），让 pyvisa / NI-VISA / Linux usbtmc 通过 SCPI 命令读写。含 USB488 模式、status byte（STB/MAV/SRQ）、`*IDN?` 查询、Bulk-IN/OUT 消息收发与清除/中止回调。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/tinyusb/resources/`, source/examples in `repos/tinyusb/`, and this recipe path `repos/tinyusb/recipes/usbtmc_device.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 仪器 / SCPI over USB"

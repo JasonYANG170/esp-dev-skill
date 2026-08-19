@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在设备上写 Lua 脚本控制 GPIO / 显示 / LED strip，用 `storage` 安全读写文件，用 `event_publisher` 把结果发回 IM/路由器，用 `capability.call` 在脚本里调 `cap_*` 工具。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-claw/resources/`, source/examples in `repos/esp-claw/`, and this recipe path `repos/esp-claw/recipes/automation_lua.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "写个 Lua 脚本点灯"

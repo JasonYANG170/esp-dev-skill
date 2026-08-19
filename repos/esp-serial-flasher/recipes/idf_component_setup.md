@@ -2,6 +2,9 @@
 
 > **适用摘要**: 把 ESP Serial Flasher 作为 managed component 添加到 ESP-IDF 项目，配置 port 编译选项，设置 sdkconfig.defaults，并接入目标固件 bin2array 流程。
 
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/idf_component_setup.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-IDF 集成 esp-serial-flasher"

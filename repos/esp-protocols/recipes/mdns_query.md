@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 mDNS 查询局域网服务与主机，包括 PTR（服务）、SRV、TXT、A/AAAA 记录，遍历结果链表并释放。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-protocols/resources/`, source/examples in `repos/esp-protocols/`, and this recipe path `repos/esp-protocols/recipes/mdns_query.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "mDNS 查询服务"

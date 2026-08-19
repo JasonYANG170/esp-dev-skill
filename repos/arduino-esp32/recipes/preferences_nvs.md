@@ -2,6 +2,9 @@
 
 > **适用摘要**: 使用 ESP32 专属 `Preferences` 库（基于片上 NVS）保存配置/计数器等小数据，含 namespace、各类型读写、只读模式。建议替代 Arduino EEPROM。
 
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/preferences_nvs.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "掉电保存 / 持久化"

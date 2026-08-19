@@ -9,23 +9,7 @@ description: >-
   ble_sm / ble_hs_id) and the FreeRTOS NPL port used by ESP chips.
   Trigger words: "NimBLE", "esp-nimble", "BLE", "bluetooth", "蓝牙", "GAP", "GATT", "SMP",
   "advertising", "广播", "scan", "扫描", "pairing", "配对", "ESP32", "ESP32-C3", "ESP32-S3", "ESP32-H2"
-tags:
-  - embedded
-  - BLE
-  - bluetooth
-  - NimBLE
-  - esp-nimble
-  - GAP
-  - GATT
-  - SMP
-  - mesh
-  - ESP32
-  - firmware
 license: Apache-2.0
-compatibility: >-
-  Target chips: ESP32 (with controller lib), ESP32-C3, ESP32-S3, ESP32-C2,
-  ESP32-H2, ESP32-H4, and other NimBLE-supported controllers. Build via
-  ESP-IDF (FreeRTOS NPL port in porting/npl/freertos and porting/npl/esp-idf).
 metadata:
   author: Community
   version: "1.1.0"

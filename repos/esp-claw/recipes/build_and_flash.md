@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在本地用 ESP-IDF v5.5.4 + ESP Board Manager 编译 ESP-Claw `edge_agent`，选择开发板、调整 menuconfig、烧录并进入串口 Console。
 
+> Evidence: `repos/esp-claw/resources/`, source/examples in `repos/esp-claw/`, and this recipe path `repos/esp-claw/recipes/build_and_flash.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "编译 ESP-Claw"

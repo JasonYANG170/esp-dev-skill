@@ -2,6 +2,8 @@
 
 > **适用摘要**: 在 ESP-IDF 工程中集成 ESP-NOW 组件，完成 storage/Wi-Fi/espnow 初始化，实现广播发送用户数据并通过回调接收（参考 `examples/get-started`）。
 
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-NOW 收发数据"

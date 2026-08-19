@@ -2,6 +2,10 @@
 
 > **适用摘要**: 为输出 RAW 格式的传感器（SC2336、OV5640 RAW 等）启用 ISP Pipeline Controller，自动执行 AE（自动曝光）、AWB（自动白平衡）、AF（自动对焦，需电机）算法，获得正常颜色与亮度的图像。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-video-components/resources/`, source/examples in `repos/esp-video-components/`, and this recipe path `repos/esp-video-components/recipes/isp_pipeline.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RAW 传感器偏色"

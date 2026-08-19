@@ -2,6 +2,9 @@
 
 > **适用摘要**：WASM 应用用标准 BSD socket API（`socket/connect/send/recv` 等）实现 TCP 客户端/服务端；在 `__wasi__` 环境下需包含 `wasi_socket_ext.h`，并配置特殊 sdkconfig.defaults。
 
+> Evidence: `repos/esp-wdf/resources/`, source/examples in `repos/esp-wdf/`, and this recipe path `repos/esp-wdf/recipes/sockets_network.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "WASM TCP 客户端"

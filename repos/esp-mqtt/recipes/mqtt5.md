@@ -2,6 +2,8 @@
 
 > **适用摘要**: 使用 MQTT v5.0：设置协议版本、连接属性、用户属性、共享订阅、读取 reason code 与 CONNACK 服务端属性，对应 `examples/mqtt5/`。
 
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "MQTT 5"

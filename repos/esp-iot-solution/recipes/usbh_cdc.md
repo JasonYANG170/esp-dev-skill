@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `iot_usbh_cdc` 组件在 ESP32-S2/ESP32-S3/ESP32-P4 等 USB Host 上接入 USB CDC-ACM 串口设备（如 4G 模组、USB 转串口），安装驱动、打开端口、收发数据并处理设备连接/断开事件。驱动提供带环形缓冲与不带缓冲两种模式，以及自定义控制传输接口。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/usbh_cdc.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB CDC 串口"

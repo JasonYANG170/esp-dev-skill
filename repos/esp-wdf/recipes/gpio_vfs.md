@@ -2,6 +2,10 @@
 
 > **适用摘要**：WASM 应用通过设备节点 `/dev/gpio/<pin>` 访问 GPIO：`open` 拿到 fd，`ioctl(GPIOCSCFG)` 配置上下拉，`write` 翻转电平，`close` 释放。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wdf/resources/`, source/examples in `repos/esp-wdf/`, and this recipe path `repos/esp-wdf/recipes/gpio_vfs.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "控制 GPIO"

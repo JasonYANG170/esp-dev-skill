@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `relay_driver_init` / `relay_driver_set_power` 控制继电器，实现单通道（`products/socket`）与多 endpoint 双通道（`products/socket_2_channel`）智能插座。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/relay_socket.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "智能插座"

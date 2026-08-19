@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 ESP-IoT-Solution 的触摸按键组件在 ESP32 / ESP32-S2 / ESP32-S3（ESP32-P4 支持多频采样）上实现电容触摸检测。本 recipe 以仓库公开文档化的 `touch_button_sensor` 组件为主：配置通道列表与阈值、创建实例、注册触摸状态回调、周期性 `touch_button_sensor_handle_events` 处理事件。另提供与 `iot_button` 框架集成的 `iot_button_new_touch_button_device` 接口。注意：ESP32/S2/S3 的触摸抗干扰能力有限，仅供测试/演示，不建议量产通过 EMS 测试；本组件需 IDF >= v5.3。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/touch_button.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "触摸按键"

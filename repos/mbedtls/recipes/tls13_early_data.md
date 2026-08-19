@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 TLS 1.3 中收发早期数据（0-RTT data）。客户端用 `mbedtls_ssl_write_early_data()` 在握手首飞即发送应用数据、用 `mbedtls_ssl_get_early_data_status()` 判断服务端是否接受；服务端用 `mbedtls_ssl_conf_early_data()` 开启接收、在握手/read/write 返回 `MBEDTLS_ERR_SSL_RECEIVED_EARLY_DATA` 时用 `mbedtls_ssl_read_early_data()` 读取。早期数据 API 与普通 `ssl_read/write` 语义差异较大（独有的 `CANNOT_WRITE_EARLY_DATA` / `RECEIVED_EARLY_DATA` / `EARLY_DATA_STATUS_REJECTED` 分支），需单独处理。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/tls13_early_data.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "TLS 1.3 0-RTT"

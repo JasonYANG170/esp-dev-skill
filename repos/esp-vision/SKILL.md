@@ -7,23 +7,7 @@ description: >-
   Trigger words: "ESP-VISION", "ESP32-P4", "ESP32-S3", "ESP32-S31", "ESP32_P4X_EYE", "ESP32_S3_EYE",
   "esp-vision", "乐鑫视觉", "端侧 AI", "edge AI", "computer vision", "计算机视觉", "ESP-DL",
   "espdl", "MicroPython", "imlib", "OpenMV", "sensor.snapshot", "图像处理", "摄像头", "目标检测", "姿态估计"
-tags:
-  - embedded
-  - esp32
-  - esp-vision
-  - computer-vision
-  - edge-ai
-  - esp-dl
-  - micropython
-  - imlib
-  - openmv
-  - camera
-  - h264
-  - rtsp
 license: Apache-2.0
-compatibility: >-
-  Target chips ESP32-P4 / ESP32-S3 / ESP32-S31; builds with ESP-IDF release/v5.5, release/v6.0, or master
-  via the board-aware `idf.py --board <BOARD>` extension (or top-level Makefile). Language: MicroPython v1.28.0.
 metadata:
   author: Community
   version: "1.1.0"

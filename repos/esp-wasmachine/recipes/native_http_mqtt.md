@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用并使用 ESP-WASMachine 暴露给 WASM 应用的 HTTP client 与 MQTT native API（基于 `esp_http_client` 与 `esp-mqtt`，通过函数 ID 派发）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wasmachine/resources/`, source/examples in `repos/esp-wasmachine/`, and this recipe path `repos/esp-wasmachine/recipes/native_http_mqtt.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "WASM 应用发 HTTP 请求"

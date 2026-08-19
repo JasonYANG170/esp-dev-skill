@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 PSA Crypto API 的密钥派生框架从主密钥派生新密钥或密钥材料。涵盖 HKDF、PBKDF2、TLS12-PRF 的输入步骤、`psa_key_derivation_output_key` 直接派生密钥对象、以及密钥阶梯(key ladder)模式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/TF-PSA-Crypto/resources/`, source/examples in `repos/TF-PSA-Crypto/`, and this recipe path `repos/TF-PSA-Crypto/recipes/key_derivation.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "HKDF 派生密钥"

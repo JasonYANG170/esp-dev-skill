@@ -2,6 +2,8 @@
 
 > **适用摘要**: 克隆 esp-matter 及 connectedhomeip 子模块，配置 ESP-IDF，设置目标芯片，构建并烧录 `light` 示例，确认设备能启动并打印 commissioning 广播日志。
 
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "搭建 esp-matter 环境"

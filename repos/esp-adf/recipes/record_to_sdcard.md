@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 i2s_stream(reader) 从 codec 麦克风取音，接编码器（wav_encoder / amrwb_encoder / amrnb_encoder），再经 fatfs_stream(writer) 写入 SD 卡。数据流：mic → i2s(reader) → encoder → fatfs(writer) → SD。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-adf/resources/`, source/examples in `repos/esp-adf/`, and this recipe path `repos/esp-adf/recipes/record_to_sdcard.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "录音到 SD 卡"

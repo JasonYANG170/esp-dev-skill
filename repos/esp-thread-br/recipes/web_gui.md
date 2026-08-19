@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用 BR Web Server，通过浏览器图形界面发现/组网/查状态，访问 REST API，并接入 Home Assistant。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/web_gui.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "Web GUI"
 - "REST API"

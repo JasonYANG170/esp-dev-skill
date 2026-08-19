@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 TinyUSB CDC 类实现 USB 虚拟串口，包括配置使能、收发读写、DTR/RTS 线状态、行编码回调。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/tinyusb/resources/`, source/examples in `repos/tinyusb/`, and this recipe path `repos/tinyusb/recipes/cdc_virtual_serial.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 虚拟串口"

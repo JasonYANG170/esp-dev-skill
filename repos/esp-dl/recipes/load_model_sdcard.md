@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 `.espdl` 放到 FAT32 SD 卡，用 `MODEL_LOCATION_IN_SDCARD` 加载。适合 Flash 紧张或需要频繁换模型的场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/load_model_sdcard.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "模型放 SD 卡"

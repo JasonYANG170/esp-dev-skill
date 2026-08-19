@@ -2,6 +2,9 @@
 
 > **适用摘要**: 设备烧录后，在默认 BLE Rendezvous 模式下，使用 chip-tool 或 python controller 完成 PASE 配对、下发 Wi-Fi 凭据、关闭 BLE 并解析 mDNS，使设备加入网络。这是示例的默认配网路径。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "BLE 配网"

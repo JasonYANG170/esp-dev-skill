@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_websocket_client` 建立 ws/wss 连接，处理连接/数据/错误事件，收发文本、二进制与分片帧，配置 TLS（证书包/双向认证）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-protocols/resources/`, source/examples in `repos/esp-protocols/`, and this recipe path `repos/esp-protocols/recipes/websocket_client.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "WebSocket 客户端"

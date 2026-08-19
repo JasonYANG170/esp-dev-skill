@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 ESP-Claw 的「长期记忆」工具（`memory_store` / `recall` / `list` / `update` / `forget`）和可编辑 profile 三件套（`user.md` / `soul.md` / `identity.md`）让 Agent 跨会话记住事实与人格；理解 full / lightweight 两种模式、summary-tag 轻量检索（无向量库）、自动抽取/去重，以及「`MEMORY.md` 不是检索真相」这一关键陷阱。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-claw/resources/`, source/examples in `repos/esp-claw/`, and this recipe path `repos/esp-claw/recipes/memory_usage.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "记住 / 别忘了 / 保存这条事实"

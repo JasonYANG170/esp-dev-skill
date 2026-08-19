@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `display_ssd1306_i2c_create` 创建 OLED 句柄，用 `display_ssd1306_draw_string` / `display_ssd1306_refresh_gram` / `display_ssd1306_clear_screen` 显示文本，结合事件回调显示配网状态。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/ssd1306_display.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "加 OLED 显示"

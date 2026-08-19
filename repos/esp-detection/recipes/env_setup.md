@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 PC 上搭建 esp-detection 的 Python 训练/导出/量化环境（conda + requirements + esp-ppq），并验证自定义模块可被加载。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-detection/resources/`, source/examples in `repos/esp-detection/`, and this recipe path `repos/esp-detection/recipes/env_setup.md`.
+
 ## 触发意图
 
 - "搭建 esp-detection 环境"

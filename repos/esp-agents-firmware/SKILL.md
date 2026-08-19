@@ -9,19 +9,7 @@ description: >-
   Trigger words: "ESP Private Agents", "esp-agents-firmware", "ESP Agent", "voice chat agent",
   "Matter Controller", "Thread Border Router", "ESP-BOX-3", "ESP-VoCat", "M5Stack CoreS3",
   "AI Agent firmware", "ESP 智能体", "ESP 语音助手", "嘉立创", "智能体固件", "语音对话", "Matter 控制"
-tags:
-  - embedded
-  - esp32
-  - esp-idf
-  - ai-agent
-  - voice-assistant
-  - matter
-  - thread
-  - rainmaker
-  - websocket
-  - espressif
 license: Apache-2.0
-compatibility: ESP-IDF v5.5.2+ (release/5.5 branch); target boards ESP-BOX-3 / ESP-VoCat Core Board v1.2 / M5Stack CoreS3 (+ M5Stack H2 Gateway for Thread Border Router)
 metadata:
   author: Community
   version: "1.1.0"

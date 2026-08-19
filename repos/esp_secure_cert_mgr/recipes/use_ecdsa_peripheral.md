@@ -2,6 +2,10 @@
 
 > **适用摘要**: 当私钥类型为 `ESP_SECURE_CERT_ECDSA_PERIPHERAL_KEY`（私钥存于 eFuse block，由硬件 ECDSA 外设使用），演示如何判断类型、取 efuse block id，并用 mbedTLS/PSA 完成签名与验签。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp_secure_cert_mgr/resources/`, source/examples in `repos/esp_secure_cert_mgr/`, and this recipe path `repos/esp_secure_cert_mgr/recipes/use_ecdsa_peripheral.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ECDSA 外设怎么签名"

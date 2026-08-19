@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `SPI` 库在多总线上以主机方式与外设（传感器、SD、显示屏等）通信，含 `SPIClass` 自定义引脚与多总线复用。
 
+> Version: Arduino-ESP32 core version and selected board package.
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/spi_master.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "SPI 读取传感器 / 显示屏"

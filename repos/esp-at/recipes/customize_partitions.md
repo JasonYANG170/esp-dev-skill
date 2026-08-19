@@ -2,6 +2,10 @@
 
 > **适用摘要**: 修改二级分区表 `at_customize.csv`，新增/调整用户数据分区，生成并烧录 `at_customize.bin`，为 `AT+SYSFLASH`、`AT+FS`、SSL 服务端、BLE 服务端等功能提供存储。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-at/resources/`, source/examples in `repos/esp-at/`, and this recipe path `repos/esp-at/recipes/customize_partitions.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "自定义分区"

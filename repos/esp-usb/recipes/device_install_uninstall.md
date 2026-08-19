@@ -2,6 +2,10 @@
 
 > **适用摘要**: TinyUSB 设备驱动的安装与卸载生命周期、ATTACHED/DETACHED/SUSPEND/RESUME 事件回调、以及自供电设备的 VBUS 监测配置。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-usb/resources/`, source/examples in `repos/esp-usb/`, and this recipe path `repos/esp-usb/recipes/device_install_uninstall.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 设备热插拔检测"

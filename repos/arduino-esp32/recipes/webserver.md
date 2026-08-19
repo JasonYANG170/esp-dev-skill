@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `WebServer` 库（基于 3.x `Network` 库）实现 HTTP 路由、Basic/Digest 认证、文件上传、`serveStatic`、流式响应，并与 `Update` 联动做网页 OTA。单客户端同步模型。
 
+> Version: Arduino-ESP32 core version and selected board package.
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/webserver.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "HTTP 服务 / Web 控制"

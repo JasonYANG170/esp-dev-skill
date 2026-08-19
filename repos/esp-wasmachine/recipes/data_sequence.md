@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `wasmachine_data_sequence` 组件（`data_seq`）在固件/VM 与 WASM 应用之间序列化传递参数，是 native 模块 `ioctl`/属性容器的底层机制。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wasmachine/resources/`, source/examples in `repos/esp-wasmachine/`, and this recipe path `repos/esp-wasmachine/recipes/data_sequence.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "data_seq 怎么用"

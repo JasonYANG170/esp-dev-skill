@@ -2,6 +2,9 @@
 
 > **适用摘要**: 使�� `Zigbee` 库（基于 ESP-ZIGBEE-SDK）创建 Zigbee 终端设备/路由/协调器，注册 `ZigbeeEP` 端点（灯/开关/传感器/网关），含组网、绑定、睡眠终端与 RCP 网关。⚠️ 仅 ESP32-C6/C5/H2 有原生 802.15.4 无线电；其它 SoC 需外接 RCP。
 
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/zigbee.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Zigbee 设备 / 智能家居"

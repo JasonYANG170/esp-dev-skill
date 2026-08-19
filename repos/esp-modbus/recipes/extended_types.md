@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用 `CONFIG_FMB_EXT_TYPE_SUPPORT`，使用 `PARAM_TYPE_U32_ABCD` / `PARAM_TYPE_FLOAT_CDAB` / `PARAM_TYPE_DOUBLE_HGFEDCBA` 等扩展类型，以及 `mb_set_float_abcd` / `mb_get_uint32_dcba` 等字节序转换助手，正确处理第三方设备的 32/64 位值。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-modbus/resources/`, source/examples in `repos/esp-modbus/`, and this recipe path `repos/esp-modbus/recipes/extended_types.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Modbus float ABCD 字节序"

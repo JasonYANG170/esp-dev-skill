@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 `ota_service` 组件从网络（HTTP）下载新固件并写入 OTA 分区。服务内置版本比较、分区管理、流式写入与错误码（`OTA_SERV_ERR_REASON_*`）。
 
+> Evidence: `repos/esp-adf/resources/`, source/examples in `repos/esp-adf/`, and this recipe path `repos/esp-adf/recipes/ota_service.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "固件 OTA 升级"

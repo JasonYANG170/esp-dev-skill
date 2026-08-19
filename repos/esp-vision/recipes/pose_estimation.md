@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `espdl.YOLO11nPose` 做 COCO 17 关键点姿态估计，绘制检测框、骨架连线与关节点。缺失/低置信度关键点返回为 `(0, 0)`，绘图前需跳过。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/pose_estimation.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "姿态估计"

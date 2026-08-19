@@ -2,6 +2,9 @@
 
 > **适用摘要**: 使用 `esp_simplefoc` 组件（基于 Arduino-FOC，适配 ESP 的 LEDC/MCPWM）驱动三相无刷电机（BLDC），覆盖开环速度（`velocity_openloop`）与闭环速度（`velocity` + 角度传感器 AS5600/MT6701/AS5048A + PID）。入口仍是 ESP-IDF 的 `app_main`，但电机代码是 C++（`BLDCMotor` / `BLDCDriver3PWM` / `AS5600`）。
 
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/foc_motor.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "FOC 无刷电机"

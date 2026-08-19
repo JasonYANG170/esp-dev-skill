@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `cap_scheduler` 按时发布 `schedule` 事件，再用 Event Router 规则决定触发后做什么（唤醒 Agent / 发固定 IM / 跑 Lua）。支持 `cron` / `interval` / `once`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-claw/resources/`, source/examples in `repos/esp-claw/`, and this recipe path `repos/esp-claw/recipes/scheduled_task.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "每天 8 点提醒我"

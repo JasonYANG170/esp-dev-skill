@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 `esp_ble_conn_mgr` 之上使用 `ble_profiles` 组件的��准 GATT 服务与 profile：`esp_ble_ota_raw` 提供基于扇区 CRC 校验的 BLE OTA 固件升级（服务 UUID `0x8018`）；`esp_ble_htp` 提供健康体温计 profile（服务 UUID `0x1809`）。profile 内部注册服务和特征值，应用只需 init + 注册回调。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/ble_profiles_ota.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "BLE OTA 固件升级"

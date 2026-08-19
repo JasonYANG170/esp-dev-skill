@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 ESP32-S3 上使用外部 USB PHY（SP5301/TUSB1106/STUSB03E），让 USB-OTG 与 USB-Serial-JTAG 同时工作。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-usb/resources/`, source/examples in `repos/esp-usb/`, and this recipe path `repos/esp-usb/recipes/device_external_phy.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "外部 PHY"

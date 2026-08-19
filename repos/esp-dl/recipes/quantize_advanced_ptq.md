@@ -2,6 +2,10 @@
 
 > **适用摘要**: 当默认 8-bit per-tensor PTQ（尤其 ESP32-S3）掉点严重，又不想上 TQT/QAT 时，用两种**确定性、可定向**的 PTQ 技巧：① 把量化误差最大的几层派发到 int16（混合精度）；② 对带 ReLU/ReLU6 的模型做逐层权重均衡（layerwise equalization）。两者都不需要标签、不需要训练。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/quantize_advanced_ptq.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "S3 上 PTQ 精度太低（~60%）"

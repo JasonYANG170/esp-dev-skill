@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 ESP 芯片做成 USB 大容量存储（U 盘）设备，存储介质为 SPI-Flash 或 SD 卡，处理挂载/卸载事件。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-usb/resources/`, source/examples in `repos/esp-usb/`, and this recipe path `repos/esp-usb/recipes/device_msc_storage.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB U 盘"

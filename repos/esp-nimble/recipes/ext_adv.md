@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 NimBLE 扩展广播 API（`ble_gap_ext_adv_*`）配置多个 advertising instance，支持大广播数据、coded/2M PHY、周期广播（Periodic Advertising）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-nimble/resources/`, source/examples in `repos/esp-nimble/`, and this recipe path `repos/esp-nimble/recipes/ext_adv.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "扩展广播 / extended advertising"

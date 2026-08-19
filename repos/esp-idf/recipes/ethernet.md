@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用内部以太网 MAC（EMAC）+ 外部 PHY 跑有线网络：`esp_eth_mac_new_esp32` 建 MAC、`esp_eth_phy_new_generic` 建 PHY（通用 802.3 驱动）、`esp_eth_driver_install` 装驱动、`esp_eth_new_netif_glue` 挂到 netif、`esp_eth_start` 启动、事件处理（`ETHERNET_EVENT_*` / `IP_EVENT_ETH_GOT_IP`）。适配自 `examples/ethernet/basic`。
 
+> Version: ESP-IDF version used by the project.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "以太网"

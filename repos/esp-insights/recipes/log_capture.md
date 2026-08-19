@@ -2,6 +2,10 @@
 
 > **适用摘要**: 配置 ESP-Insights 采集 error/warning 日志与自定义事件，包括 `log_type` 位掩码、按 tag 调级别、`ESP_DIAG_EVENT` 宏，以及“日志不显示”的诊断思路。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-insights/resources/`, source/examples in `repos/esp-insights/`, and this recipe path `repos/esp-insights/recipes/log_capture.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "采集 ESP_LOGE / ESP_LOGW"

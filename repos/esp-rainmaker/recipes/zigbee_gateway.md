@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把一个 RainMaker 节点变成 **Zigbee 网关**，运行时把每个加入的 Zigbee 终端设备**动态映射**为一个 RainMaker 设备（数据驱动，非静态 `esp_rmaker_device_create`）。覆盖两种加设备方式（预共享 key `ZigBeeAlliance09` 与 install code JSON）、ESP32 + ESP32-H2 RCP 分体、`Add_zigbee_device` 参数、NVS 持久化与重启恢复。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-rainmaker/resources/`, source/examples in `repos/esp-rainmaker/`, and this recipe path `repos/esp-rainmaker/recipes/zigbee_gateway.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RainMaker Zigbee 网关 / gateway"

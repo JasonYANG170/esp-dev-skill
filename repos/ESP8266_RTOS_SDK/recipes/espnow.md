@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 ESPNOW 在 ESP8266 之间做免连接的低延迟通信，支持广播/单播、PMK/LMK 加密、对端列表管理；回调在 WiFi 任务中触发，应用通过队列转交任务处理。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/espnow.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESPNOW"

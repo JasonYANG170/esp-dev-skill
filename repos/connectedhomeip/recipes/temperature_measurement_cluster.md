@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把一个传感器读数（温度）发布到 Matter `TemperatureMeasurement` 集群（`ZCL_TEMP_MEASUREMENT_CLUSTER_ID = 0x0402`）。核心调用是 `emberAfTemperatureMeasurementClusterSetMeasuredValueCallback(endpoint, int16_t)`，其中 `int16_t` 值为摄氏度 × 100。这是 sensor 类设备类型的规范上报模式（与 actuator-only 的 OnOff → GPIO 模式相对）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/connectedhomeip/resources/`, source/examples in `repos/connectedhomeip/`, and this recipe path `repos/connectedhomeip/recipes/temperature_measurement_cluster.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "温度上报"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 SDIO 作为 Host 与 Co-processor 之间的高性能传输介质。SDIO 4-Bit 是 ESP-Hosted 吞吐最高的传输方式（shield-box 实测 UDP ~79.5 / TCP ~53.4 Mbits/s），但信号完整性要求严格，必须用 PCB 并加外部上拉。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/bringup_sdio.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "用 SDIO 连接 host 和 slave"

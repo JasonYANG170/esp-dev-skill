@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `led_indicator` 组件的 GPIO 后端创建指示灯，定义 `blink_step_t` 灯效表（双闪、三闪、慢闪、快闪），按优先级启停灯效。GPIO 后端只支持开关（LED_DUTY_1_BIT），不支持亮度调节。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/led_indicator_gpio.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "LED 指示灯"

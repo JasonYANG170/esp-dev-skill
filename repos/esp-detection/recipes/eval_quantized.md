@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 `deploy/eval_quantized_model.py` 在 PC 上对量化后的 ppq 计算图做 mAP 评估，验证 INT8 量化带来的精度损失。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-detection/resources/`, source/examples in `repos/esp-detection/`, and this recipe path `repos/esp-detection/recipes/eval_quantized.md`.
+
 ## 触发意图
 
 - "评估量化模型 mAP"

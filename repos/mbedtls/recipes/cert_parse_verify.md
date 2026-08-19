@@ -2,6 +2,10 @@
 
 > **适用摘要**: 从内存或文件加载 PEM/DER 证书，输出证书信息，并用受信任 CA 链校验端实体证书（含吊销列表 CRL）。适用于自建 PKI 校验、证书检查工具等。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/cert_parse_verify.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "解析 X.509 证书"

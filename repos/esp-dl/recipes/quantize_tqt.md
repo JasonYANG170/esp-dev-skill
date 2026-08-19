@@ -2,6 +2,10 @@
 
 > **适用摘要**: 当默认 8-bit PTQ 精度不足时，启用 ESP-PPQ 的 TQT：在 log 域优化 `scale = 2^k` 并联合微调权重（**无需标签**，loss 是浮点输出与量化输出的 MSE），导出仍满足 ESP-DL 的 Power-of-2 约束。介于 PTQ 与 QAT 之间，是精度不足时最直接的下一步。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/quantize_tqt.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "PTQ 精度不够，又不想做 QAT"

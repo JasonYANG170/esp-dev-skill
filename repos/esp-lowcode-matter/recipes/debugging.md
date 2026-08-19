@@ -2,6 +2,10 @@
 
 > **适用摘要**: 识别 LP Core 的 Breakpoint panic（空指针）与 Illegal Instruction panic（缓冲/栈溢出），用 `addr2line` + MEPC 定位代码行，依靠 `printf` 日志与编码实践排查。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/debugging.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "lowcode panic"

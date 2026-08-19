@@ -2,6 +2,10 @@
 
 > **适用摘要**: 调整 ESP-Insights 诊断数据存储（默认 RTC memory）的容量与水位线，监听低内存事件以应对 RTC 满载丢日志。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-insights/resources/`, source/examples in `repos/esp-insights/`, and this recipe path `repos/esp-insights/recipes/data_store_tuning.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RTC 存储满了怎么办"

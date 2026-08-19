@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 ESP32-S3（Wi-Fi）与 ESP32-H2（802.15.4 RCP）双芯片 BR 上启用外部 RF 共存，用 3 线或 4 线握手信号降低同频段干扰；重点说明何时有用、3/4 线差异、以及两端 Kconfig 必须同时开启。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/rf_coexistence.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "RF 共存"
 - "Wi-Fi 与 802.15.4 干扰"

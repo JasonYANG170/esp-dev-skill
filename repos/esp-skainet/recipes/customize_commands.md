@@ -2,6 +2,10 @@
 
 > **适用摘要**: 不依赖 menuconfig 默认命令表，在运行时用 `esp_mn_commands_*` API 动态增删改命令词，并刷新 MultiNet 语言模型。适用于 mn6/mn7（推荐）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-skainet/resources/`, source/examples in `repos/esp-skainet/`, and this recipe path `repos/esp-skainet/recipes/customize_commands.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "动态添加命令词"

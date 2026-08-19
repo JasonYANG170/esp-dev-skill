@@ -2,6 +2,10 @@
 
 > **适用摘要**: 自 ESP-Hosted-MCU v2.5.2 起，协处理器上的蓝牙控制器默认关闭，以便在使能前设置 BT MAC。本配方演示如何在 host 上经 `esp_hosted_bt_controller_init/enable` 启用协处理器控制器、读写 BT MAC，以及与 NimBLE / BlueDroid host 栈的衔接（Hosted HCI 与标准 HCI 两种路径）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/host_bt_controller.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-Hosted 蓝牙不工作"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在已联网的 ESP8266 上用 esp-mqtt 组件连接 MQTT broker，支持 6 种传输（`mqtt://`、`mqtts://`、双向认证、PSK、`ws://`、`wss://`），基于事件回调处理连接/订阅/发布/数据；客户端在独立内部任务中运行，应用只通过 `esp_mqtt_client_register_event` 注册回调。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/mqtt.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "MQTT"

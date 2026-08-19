@@ -2,6 +2,10 @@
 
 > **适用摘要**: 从零拉取 esp-thread-br、构建 RCP 镜像、配置并烧录 `basic_thread_border_router`，使设备连上 Wi-Fi 并形成 Thread 网络。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/build_and_run.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "怎么构建 esp-thread-br"
 - "如何烧录 Thread Border Router"

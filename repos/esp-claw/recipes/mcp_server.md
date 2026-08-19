@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用仓库内置的 `application/mcp_server_point` 把 ESP32 变成一台 **MCP 服务端**，对外（桌面 IDE / 其它 ESP-Claw 设备）通过 SSE + mDNS 暴露 `lua.run_script` / `lua.run_script_async` / async 作业管理等工具，是唯一不依赖完整 `edge_agent` 栈的 ESP-Claw 运行形态——无 `claw_core`、无 `event_router`、无 IM、无 CLI、无记忆，仅 `cap_lua` + `cap_mcp_server`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-claw/resources/`, source/examples in `repos/esp-claw/`, and this recipe path `repos/esp-claw/recipes/mcp_server.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "把设备当 MCP 服务端 / 工具提供方"

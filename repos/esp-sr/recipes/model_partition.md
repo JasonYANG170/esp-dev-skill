@@ -2,6 +2,10 @@
 
 > **适用摘要**: 通过 menuconfig 选择 ESP-SR 模型（NS / VAD / WakeNet / MultiNet），配置 `partitions.csv` 的 `model` 分区，生成并烧录 `srmodels.bin`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-sr/resources/`, source/examples in `repos/esp-sr/`, and this recipe path `repos/esp-sr/recipes/model_partition.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么选模型"

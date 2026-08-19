@@ -2,6 +2,10 @@
 
 > **适用摘要**: 理解 `components/audio` 与 `app_audio` 封装，配置上下行采样率/帧长/AEC/音量，把 Agent 下行语音送入扬声器。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-agents-firmware/resources/`, source/examples in `repos/esp-agents-firmware/`, and this recipe path `repos/esp-agents-firmware/recipes/audio_pipeline.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "音频管线"

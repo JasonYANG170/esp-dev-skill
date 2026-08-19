@@ -8,22 +8,7 @@ description: >-
   Trigger words: "mbedTLS", "Mbed TLS", "mbedtls", "TLS", "DTLS", "SSL", "X.509", "证书",
   "PSK", "session ticket", "PSA Crypto", "psa_crypto_init", "加密套件", "ciphersuite",
   "HTTPS", "CSR", "CRL"
-tags:
-  - embedded
-  - TLS
-  - SSL
-  - DTLS
-  - cryptography
-  - X.509
-  - PSA
-  - mbedtls
-  - network-security
-  - Espressif
 license: Apache-2.0 OR GPL-2.0-or-later
-compatibility: >-
-  C library, C99 toolchain (GCC/Clang/MSVC/Armclang), CMake ≥ 3.20.2 build only (4.x removed
-  Make/VS). Cross-platform (POSIX hosts, embedded via platform.h port). Cryptography provided
-  by the bundled TF-PSA-Crypto submodule (PSA Crypto API).
 metadata:
   author: Community
   version: "1.1.0"

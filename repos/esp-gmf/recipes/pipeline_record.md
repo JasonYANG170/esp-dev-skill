@@ -2,6 +2,10 @@
 
 > **适用摘要**: 构建「io_codec_dev → aud_enc → io_file」录音流水线，从麦克风采集 PCM 并编码为 AAC/AMR/OPUS 等格式写入 SD 卡，含编码器 reconfig、主动上报格式信息与录音栈配置。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/pipeline_record.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "录音到 SD 卡"

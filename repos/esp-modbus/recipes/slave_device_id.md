@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 ESP32 Modbus 从站上设置厂商自定义的设备识别信息（短 UID、运行状态字节、厂商扩展数据），供主站通过标准命令 0x11 Report Slave ID 读回。覆盖 `mbc_set_slave_id` / `mbc_get_slave_id` 的调用时机、`INIT_DEV_ID` 结构体的构造方式，以及配套的 Kconfig 三元组。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-modbus/resources/`, source/examples in `repos/esp-modbus/`, and this recipe path `repos/esp-modbus/recipes/slave_device_id.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "设置从站设备 ID"

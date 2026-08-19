@@ -2,6 +2,10 @@
 
 > **适用摘要**：用 `api_publish_event` / `api_subscribe_event` 在 WASM 应用之间通过事件 URL 异步通信，负载使用 `attr_container_t` 结构化容器。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wdf/resources/`, source/examples in `repos/esp-wdf/`, and this recipe path `repos/esp-wdf/recipes/event_pub_sub.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "应用间通信"

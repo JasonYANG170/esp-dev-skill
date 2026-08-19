@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 esp-matter 标准 device type 创建暖通与白电 endpoint —— Thermostat（带 heating/cooling feature conformance）、Refrigerator + TemperatureControlledCabinet（父子 endpoint）、Room Air Conditioner（OnOff + Thermostat 组合）。涉及 cluster 级 feature flag 设置、父子 endpoint 关联、以及需要 delegate 的 cluster（TemperatureControl）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-matter/resources/`, source/examples in `repos/esp-matter/`, and this recipe path `repos/esp-matter/recipes/hvac_appliances.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做 Matter 空调 / 冰箱 / 温控器"

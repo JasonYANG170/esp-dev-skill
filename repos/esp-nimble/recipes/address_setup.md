@@ -2,6 +2,10 @@
 
 > **适用摘要**: 为 NimBLE 设备配置本机 BLE 地址（public / 静态随机 / NRPA / RPA 隐私），并通过 `ble_hs_id_infer_auto` 推断 own_addr_type。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-nimble/resources/`, source/examples in `repos/esp-nimble/`, and this recipe path `repos/esp-nimble/recipes/address_setup.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "设置 BLE 地址"

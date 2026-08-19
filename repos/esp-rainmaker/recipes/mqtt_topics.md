@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `esp_rmaker_mqtt_*` 与 `esp_rmaker_publish_direct()` 进行 MQTT 直发，理解 MQTT 预算（budgeting）与 Basic Ingest 主题机制以降低成本与避免丢消息。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-rainmaker/resources/`, source/examples in `repos/esp-rainmaker/`, and this recipe path `repos/esp-rainmaker/recipes/mqtt_topics.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RainMaker MQTT 直发"

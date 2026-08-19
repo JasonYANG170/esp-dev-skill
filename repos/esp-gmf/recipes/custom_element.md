@@ -2,6 +2,10 @@
 
 > **适用摘要**: 实现一个自定义 audio element（含 open/process/close 生命周期、输入输出端口属性、acquire/release 数据协议），并注册进 pool 参与 pipeline。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/custom_element.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "写自己的 GMF element"

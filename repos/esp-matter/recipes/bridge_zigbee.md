@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 Aggregator + 动态 bridged_node endpoint 把非 Matter 设备（Zigbee、BLE Mesh、ESP-NOW、RainMaker）桥接进 Matter 网络。说明 aggregator 创建、动态 endpoint 恢复、以及 `app_bridge_initialize` 回调机制。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-matter/resources/`, source/examples in `repos/esp-matter/`, and this recipe path `repos/esp-matter/recipes/bridge_zigbee.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "把 Zigbee 设备桥接进 Matter"

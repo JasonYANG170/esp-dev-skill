@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用高级包 `esp_audio_simple_player` 以 URI 驱动播放音频（file/http/embed/raw），自动按 scheme 选 IO、按扩展名选解码器，支持同步/异步、事件回调与运行时 pause/stop。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/simple_player.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "快速做个播放器"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `esp_mqtt_client_publish` / `esp_mqtt_client_subscribe` / `unsubscribe`，理解三种 QoS、retain、多主题订阅与 publish/enqueue 返回值。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-mqtt/resources/`, source/examples in `repos/esp-mqtt/`, and this recipe path `repos/esp-mqtt/recipes/publish_subscribe.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "MQTT 发布订阅"

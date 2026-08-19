@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 UAC 主机驱动连接 USB 音频设备（扬声器、麦克风、耳机），完成 12 步生命周期：安装 → 连接回调 → 打开 → 查格式（alt 参数）→ start/stop 流 → suspend/resume → 音量/静音控制 → RX/TX_DONE 回调 → close → uninstall。当前支持 UAC 1.0。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-usb/resources/`, source/examples in `repos/esp-usb/`, and this recipe path `repos/esp-usb/recipes/host_uac.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 音频"

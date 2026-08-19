@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 CHIP 自带的 python `chip-device-ctrl` 完成 BLE 扫描、配对、网络下发、DNS-SD 解析及 ZCL 集群命令下发。适合脚本化测试与自动化配网验证。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/connectedhomeip/resources/`, source/examples in `repos/connectedhomeip/`, and this recipe path `repos/connectedhomeip/recipes/python_controller.md`.
+
 ## 触发意图
 
 - "python 控制器"

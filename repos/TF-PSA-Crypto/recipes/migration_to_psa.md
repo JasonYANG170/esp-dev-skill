@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把基于 Mbed TLS 3.x `mbedtls_*`（AES/SHA/HMAC/CMAC/RSA/ECDSA/ECDH/HKDF/PBKDF2 等）的密码代码迁移到 TF-PSA-Crypto 的 `psa_*` API。涵盖 per-algorithm 旧→新函数对照、RNG 回调移除、配置文件拆分（`MBEDTLS_xxx_C` → `PSA_WANT_*` + `MBEDTLS_PSA_ACCEL_*`）、错误码合并、PK 模块变化与 PAKE 接口更新。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/TF-PSA-Crypto/resources/`, source/examples in `repos/TF-PSA-Crypto/`, and this recipe path `repos/TF-PSA-Crypto/recipes/migration_to_psa.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "把 mbedtls_aes_crypt / mbedtls_md_hmac / mbedtls_pk_sign 迁移到 PSA"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 构建「io_http → aud_dec → 效果链 → io_codec_dev」流水线播放网络音频，处理 HTTPS 的 TLS 握手栈、异步 IO 预取与控制超时。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/pipeline_play_http.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "播放网络音乐"

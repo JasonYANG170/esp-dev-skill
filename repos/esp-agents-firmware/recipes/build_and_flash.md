@@ -2,6 +2,9 @@
 
 > **适用摘要**: 基于 `esp-agents-firmware` 构建并烧录 voice_chat 或 matter_controller 示例到支持的板子，查看串口日志。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "编译 voice_chat 示例"

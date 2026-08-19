@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 Audio Front-End (AFE) 在 ESP32-S3 上实时检测唤醒词（WakeNet），包含 feed/detect 双任务、模型加载、唤醒阈值调节与多模型加载。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-skainet/resources/`, source/examples in `repos/esp-skainet/`, and this recipe path `repos/esp-skainet/recipes/wake_word_afe.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "wake word detection" / "唤醒词检测"

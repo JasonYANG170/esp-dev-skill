@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 make 或 cmake/`idf.py` 配置（menuconfig）、构建、烧录、擦除、监视 ESP8266_RTOS_SDK 项目。
 
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/build_and_flash.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么编译"

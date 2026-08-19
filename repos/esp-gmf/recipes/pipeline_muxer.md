@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在录音/转码流水线末尾加 `aud_muxer`，把编码后的音频封装为 TS/MP4/FLV/WAV/CAF/OGG/AVI 容器，支持流式输出或分片文件写入。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/pipeline_muxer.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "录音封装成 mp4/ts"

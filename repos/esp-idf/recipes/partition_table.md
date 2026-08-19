@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 CSV 自定义 Flash 分区表，运行时用 `esp_partition_find_first` / `esp_partition_find` 查询分区（适配自 storage/partition_api/partition_find）。
 
+> Version: ESP-IDF version used by the project.
+> Evidence: `repos/esp-idf/resources/`, source/examples in `repos/esp-idf/`, and this recipe path `repos/esp-idf/recipes/partition_table.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "分区表"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 `espdet_run.py` 生成的 ESP-IDF 工程中，配置模型加载位置（flash/partition/sdcard）、编译、烧录，并在串口观察检测结果。
 
+> Evidence: `repos/esp-detection/resources/`, source/examples in `repos/esp-detection/`, and this recipe path `repos/esp-detection/recipes/firmware_deploy.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "部署到芯片"

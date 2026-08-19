@@ -2,6 +2,9 @@
 
 > **适用摘要**: 集成 `Level Control` 集群（`ZCL_LEVEL_CONTROL_CLUSTER_ID = 0x0008`）服务端，实现亮度/级别控制。涵盖 `CurrentLevel` 属性初始化（`ZCL_CURRENT_LEVEL_ATTRIBUTE_ID = 0x0000`，`uint8_t` 0–255）、启动时硬件状态同步钩子 `emberAfPluginLevelControlClusterServerPostInitCallback`，以及 chip-tool 的完整调光命令集。本仓库无 `lighting-app/esp32`，因此 `all-clusters-app` 是唯一的 ESP32 参考实现。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "调光"

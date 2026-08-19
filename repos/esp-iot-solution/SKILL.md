@@ -10,20 +10,7 @@ description: >-
   Trigger words: "ESP-IoT-Solution", "esp-iot-solution", "iot_button", "led_indicator", "i2c_bus",
   "spi_bus", "iot_knob", "sensor_hub", "usb_stream", "iot_usbh_cdc", "iot_servo", "BLE", "蓝牙",
   "IoT 组件", "乐鑫", "Espressif", "ESP32", "ESP-IDF", "传感器", "按键", "灯效"
-tags:
-  - embedded
-  - esp32
-  - esp-idf
-  - espressif
-  - iot
-  - bluetooth
-  - ble
-  - usb
-  - sensors
-  - display
-  - firmware
 license: Apache-2.0
-compatibility: Build requires ESP-IDF v5.3+ (master branch) or v4.4-v5.3 (release/v2.0 branch); targets ESP32 family SoCs (ESP32, ESP32-S2, ESP32-S3, ESP32-C2, ESP32-C3, ESP32-C6, ESP32-H2, ESP32-P4); components are obtained via the ESP Component Registry (`idf.py add-dependency`)
 metadata:
   author: Community
   version: "1.1.0"

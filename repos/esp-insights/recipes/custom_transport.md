@@ -2,6 +2,10 @@
 
 > **适用摘要**: 当默认 HTTPS/MQTT transport 不满足需求（例如想复用应用已有的 TLS/MQTT 连接以节省一次握手内存），通过 `esp_insights_transport_register()` + `esp_insights_enable()` 注入自定义 transport 回调。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-insights/resources/`, source/examples in `repos/esp-insights/`, and this recipe path `repos/esp-insights/recipes/custom_transport.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "自定义 insights transport"

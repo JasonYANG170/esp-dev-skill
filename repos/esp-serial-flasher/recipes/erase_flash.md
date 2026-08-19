@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_loader_flash_erase()` 擦除目标整片 flash，或用 `esp_loader_flash_erase_region()` 擦除指定 4KB 对齐区间。常用于烧录前清场、安全擦除。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/erase_flash.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "擦除 ESP flash"

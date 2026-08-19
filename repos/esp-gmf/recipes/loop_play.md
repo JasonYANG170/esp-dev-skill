@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_gmf_task_set_strategy_func` 注册策略函数，在播放结束（FINISH/ABORT）时返回 `GMF_TASK_STRATEGY_ACTION_RESET` 自动续播下一曲，配合 IO reload 实现「不重建 pipeline 的无缝切歌」。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/loop_play.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "无缝循环播放"

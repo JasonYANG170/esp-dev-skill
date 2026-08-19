@@ -2,6 +2,9 @@
 
 > **适用摘要**: 从 `examples/wasmachine` 拷贝并配置一个新的 ESP-WASMachine（WebAssembly 虚拟机）固件工程，确定目标芯片、分区表与启用的组件。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "新建 WASMachine 项目"

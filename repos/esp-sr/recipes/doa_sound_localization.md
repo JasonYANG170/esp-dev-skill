@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 ESP-SR 的 SRP-PHAT 声源定位（DOA）从双麦克风估计语音方向角（0~180°）。覆盖独立 `esp_doa_*`（左右声道分开）与 AFE-aware 的 `afe_doa_*`（按 `input_format` 自动从交错多通道数据里抽取左右声道）两条路径。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-sr/resources/`, source/examples in `repos/esp-sr/`, and this recipe path `repos/esp-sr/recipes/doa_sound_localization.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "声源定位"

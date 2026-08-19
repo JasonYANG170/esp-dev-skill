@@ -2,6 +2,9 @@
 
 > **适用摘要**: 以太网作为 RainMaker **主传输**（无 BT/SoftAP 配网），通过 **on-network challenge-response** 完成用户-节点映射；可选 `EXAMPLE_ENABLE_WIFI` 开启双网络（"先连上的胜出"）。覆盖 PHY GPIO 配置、`app_ethernet_init/start`、与 `app_network` 的并存。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RainMaker 以太网连接"

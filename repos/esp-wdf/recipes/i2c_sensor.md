@@ -2,6 +2,10 @@
 
 > **适用摘要**：WASM 应用通过 `/dev/i2c/0` 设备节点作 I2C 主机，`ioctl(I2CIOCSCFG)` 配置，用 `I2CIOCRDWR`（两步）或 `I2CIOCEXCHANGE`（一步收发）读取 BH1750 光照传感器。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wdf/resources/`, source/examples in `repos/esp-wdf/`, and this recipe path `repos/esp-wdf/recipes/i2c_sensor.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "读 I2C 传感器"

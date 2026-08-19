@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 `av_stream_init` 建一条带 AEC 的双向音频管线（mic→算法流→G.711 编码→RTP；RTP→G.711 解码→算法流→喇叭），再用 SIP 服务（基于 `esp_rtc`）注册到 PBX（FreeSWITCH/Asterisk），实现接/打电话。`wifi_service` 管联网，`input_key_service` 把按键映射到 call/answer/hangup/volume。数据流参考 `examples/protocols/voip`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "VoIP / 网络电话 / SIP 通话"

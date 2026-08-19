@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 PSA Crypto API 计算消息摘要。涵盖一次性(one-shot) `psa_hash_compute` 和分段(multi-part) `psa_hash_setup/update/finish`，以及 `psa_hash_clone` 克隆与 `psa_hash_verify` 比对。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/TF-PSA-Crypto/resources/`, source/examples in `repos/TF-PSA-Crypto/`, and this recipe path `repos/TF-PSA-Crypto/recipes/hashing.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "计算 SHA-256"

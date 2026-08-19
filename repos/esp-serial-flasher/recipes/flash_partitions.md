@@ -2,6 +2,9 @@
 
 > **适用摘要**: 不依赖 `example_common` helper，手写 `esp_loader_flash_start` → 循环 `esp_loader_flash_write` → `esp_loader_flash_finish` 的标准烧录流程，明确控制 block_size、进度与 MD5 校验。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "手写 flash 烧录循环"

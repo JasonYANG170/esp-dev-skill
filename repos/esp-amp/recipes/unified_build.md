@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 ESP-AMP unified build 模式，通过一条 `idf.py build` 同时构建 maincore 与 subcore 固件，支持将 subcore 固件嵌入 maincore 或烧入 flash 分区。适合 ESP-AMP 入门与协作开发场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-amp/resources/`, source/examples in `repos/esp-amp/`, and this recipe path `repos/esp-amp/recipes/unified_build.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "构建 ESP-AMP 工程"

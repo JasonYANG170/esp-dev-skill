@@ -2,6 +2,10 @@
 
 > **适用摘要**: 集成真正的 `DoorLock` 集群（`ZCL_DOOR_LOCK_CLUSTER_ID = 0x0101`）服务端，而不是把锁逻辑挂到 OnOff→GPIO。涵盖 `LockState` 属性写入（`EMBER_ZCL_DOOR_LOCK_STATE_LOCKED/UNLOCKED`）、`emberAfPluginDoorLockServerActivateDoorLockCallback` 动作回调、PIN/RFID 校验（`ApplyPin/ApplyRfid`）、用户表与日志。这是真实 Matter 门锁设备类型的入口；lock-app/esp32 里的 OnOff→继电器映射只是简化版。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/connectedhomeip/resources/`, source/examples in `repos/connectedhomeip/`, and this recipe path `repos/connectedhomeip/recipes/door_lock_cluster.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "门锁集群"

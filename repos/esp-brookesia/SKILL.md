@@ -6,19 +6,7 @@ description: >-
   NVS, SNTP, Device, Video, Custom), the AI Agent framework (XiaoZhi, Coze, OpenAI), the HAL
   adaptor/boards layer, and the expression (emote) module.
   Trigger words: "ESP-Brookesia", "Brookesia", "esp-brookesia", "brookesia_service_*", "brookesia_agent_*", "brookesia_hal_*", "brookesia_expression_emote", "ServiceManager", "service_helper", "agent_helper", "HMI", "AIoT", "XiaoZhi", "小智", "人机交互", "乐鑫", "Espressif", "MCP"
-tags:
-  - embedded
-  - esp-idf
-  - espressif
-  - esp32
-  - HMI
-  - AIoT
-  - lvgl
-  - brookesia
-  - ai-agent
-  - framework
 license: Apache-2.0
-compatibility: Built on ESP-IDF (>= v5.5 for master/v0.7); target chips ESP32-S3 / ESP32-P4 / ESP32-C5 / ESP32-S31 and other ESP SoCs; requires Flash >= 8MB and PSRAM >= 4MB (16MB/8MB for agent examples); toolchain is the ESP-IDF Component Manager (idf.py)
 metadata:
   author: Community
   version: "1.1.0"

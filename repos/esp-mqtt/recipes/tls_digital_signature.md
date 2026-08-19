@@ -2,6 +2,9 @@
 
 > **适用摘要**: 使用 ESP32-S2/S3/C3/C5/C6/H2/P4 内置的 Digital Signature（DS）硬件外设完成 mqtts:// 双向 TLS 认证，私钥永不出硬件；对应 `examples/ssl_ds/`。与 `tls_mutual_auth.md`（PEM 嵌入 cert + key）是两条不同的工作流。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "MQTT 数字签名认证"

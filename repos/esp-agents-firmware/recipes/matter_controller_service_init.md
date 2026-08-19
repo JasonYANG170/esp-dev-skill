@@ -2,6 +2,10 @@
 
 > **适用摘要**: `esp.service.matter-controller`（MatterCTL）RainMaker 服务的 6 个参数、7 位 MTCtlStatus 状态位图、控制器 NOC 签发与设备列表更新的手机 App 触发流程，以及固件侧 `matter_controller_enable` / `IP_EVENT_STA_GOT_IP` / Thread Border Router / `matter_controller_client` 的初始化链。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-agents-firmware/resources/`, source/examples in `repos/esp-agents-firmware/`, and this recipe path `repos/esp-agents-firmware/recipes/matter_controller_service_init.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Matter Controller 服务"

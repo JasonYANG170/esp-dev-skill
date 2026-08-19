@@ -8,24 +8,7 @@ description: >-
   Trigger words: "ESP32", "arduino-esp32", "Arduino Core ESP32", "ESP32-C3", "ESP32-S3", "乐鑫", "安信可", "安信可ESP32",
   "Wi-Fi STA", "SoftAP", "BLE", "GATT", "iBeacon", "Eddystone", "Zigbee", "Matter", "HomeKit", "WebServer",
   "ArduinoOTA", "LEDC", "ESP-NOW", "Preferences", "NVS", "乐鑫 Arduino", "ESP-IDF component"
-tags:
-  - embedded
-  - arduino
-  - esp32
-  - esp-idf
-  - wifi
-  - bluetooth
-  - ble
-  - zigbee
-  - matter
-  - ota
-  - webserver
-  - iot
-  - firmware
-  - microcontroller
-  - espressif
 license: LGPL-2.1
-compatibility: ESP32 / ESP32-S2 / ESP32-S3 / ESP32-C3 / ESP32-C5 / ESP32-C6 / ESP32-H2 / ESP32-P4 (+ C2/C61 as ESP-IDF component) ; toolchain Arduino IDE / Arduino CLI (3.x core on ESP-IDF >=5.3,<6.2) or Arduino-as-IDF-component
 metadata:
   author: Community
   version: "1.1.0"

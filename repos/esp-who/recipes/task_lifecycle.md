@@ -2,6 +2,10 @@
 
 > **适用摘要**: 演示 `WhoTask` 的 `run`/`pause`/`resume`/`stop`（同步与异步）用法、事件位机制，以及如何继承 `WhoTask` 写自定义节点/任务挂到流水线或 App 上。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-who/resources/`, source/examples in `repos/esp-who/`, and this recipe path `repos/esp-who/recipes/task_lifecycle.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "暂停 / 恢复检测"

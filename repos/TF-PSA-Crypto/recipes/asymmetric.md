@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 PSA Crypto API 进行非对称签名/验签（ECDSA、确定性 ECDSA、RSA-PSS/PKCS1v15）和密钥协商（ECDH/FFDH 原始协商），以及用 `psa_export_public_key` 导出公钥。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/TF-PSA-Crypto/resources/`, source/examples in `repos/TF-PSA-Crypto/`, and this recipe path `repos/TF-PSA-Crypto/recipes/asymmetric.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ECDSA 签名 / 验签"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 按 `samples/zephyr/` 的范式，用 `west build ... --sysbuild` 在 ESP32-C6 上同时构建 HP（主）核 Zephyr 应用与 LP（辅）核 BIST 自检固件，通过 mbox IPC 在两核之间收发 ping/pong，并在 LP 核上用 `ulp_lp_core_intr_disable()/enable()` 包裹 `bist_cpu_regs_test()` / `bist_cpu_csr_regs_test()` / `bist_ram_test_march_x()`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-bist/resources/`, source/examples in `repos/esp-bist/`, and this recipe path `repos/esp-bist/recipes/zephyr_integration.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Zephyr + BIST"

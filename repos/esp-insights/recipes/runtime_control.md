@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在运行时控制 ESP-Insights 的上报行为（暂停/恢复/立即发送），以及启用 RainMaker MQTT 节点的 command-response 远程控制能力。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-insights/resources/`, source/examples in `repos/esp-insights/`, and this recipe path `repos/esp-insights/recipes/runtime_control.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "运行时暂停 insights 上报"

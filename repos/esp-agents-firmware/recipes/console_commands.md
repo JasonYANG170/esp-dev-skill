@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `agent_console` 组件注册与管理串口命令，复用默认命令（set-token/set-agent/set-wifi/cpu-dump/mem-dump/reboot/reset-to-factory 等）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-agents-firmware/resources/`, source/examples in `repos/esp-agents-firmware/`, and this recipe path `repos/esp-agents-firmware/recipes/console_commands.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "串口命令"

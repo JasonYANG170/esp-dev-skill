@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 ESP32 主机的 SDIO host（`esp32_sdio_port`）+ `esp_loader_init_sdio()` 烧录目标。SDIO 连接时自动上传 `esp-flasher-stub`，支持完整 stub 命令（含 deflate）。目前仅 ESP32-C5 / C6 作目标。SDIO 不支持改速率。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/sdio_flash.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "SDIO 烧录"

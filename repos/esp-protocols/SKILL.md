@@ -6,19 +6,7 @@ description: >-
   client, PPP link (eppp_link), DNS over TLS/HTTPS (esp_dns), and other protocol components.
   Trigger words: "esp_modem", "esp-protocols", "mDNS", "WebSocket", "PPPoS", "CMUX", "蜂窝模组",
   "SIM7600", "SIM800", "BG96", "esp_dns", "DoT", "DoH", "eppp_link", "协议组件"
-tags:
-  - embedded
-  - esp-idf
-  - espressif
-  - esp32
-  - networking
-  - cellular-modem
-  - ppp
-  - mdns
-  - websocket
-  - protocol
 license: Apache-2.0
-compatibility: Build requires ESP-IDF v5.x (CMake); target chips ESP32 / ESP32-S2 / ESP32-S3 / ESP32-C3 / ESP32-C6 / ESP32-P4 (per-component). Components are managed-component (idf_component.yml) and also buildable from this repo.
 metadata:
   author: Community
   version: "1.1.0"

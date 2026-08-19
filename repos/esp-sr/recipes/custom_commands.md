@@ -2,6 +2,10 @@
 
 > **适用摘要**: 为 MultiNet5/6/7 自定义中文与英文命令词：通过 `commands_cn.txt`/`commands_en.txt` 文件、`esp_mn_commands_add` API、以及 `tool/multinet_g2p.py` Grapheme-to-Phoneme 工具。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-sr/resources/`, source/examples in `repos/esp-sr/`, and this recipe path `repos/esp-sr/recipes/custom_commands.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "加自己的命令词"

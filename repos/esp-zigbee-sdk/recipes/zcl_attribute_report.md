@@ -2,6 +2,10 @@
 
 > **适用摘要**: 讲解两类属性操作——服务端用 `ezb_zcl_set_attr_value` 更新本地属性值（如温度传感器刷新读数），以及已绑定的客户端用 `ezb_zcl_report_attr_cmd_req` 主动上报当前属性给绑定目的端。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-zigbee-sdk/resources/`, source/examples in `repos/esp-zigbee-sdk/`, and this recipe path `repos/esp-zigbee-sdk/recipes/zcl_attribute_report.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "更新 Zigbee 属性值"

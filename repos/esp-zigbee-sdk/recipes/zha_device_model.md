@@ -2,6 +2,9 @@
 
 > **适用摘要**: 讲解 ESP Zigbee SDK v2.x 的 ZHA 数据模型构建流程——device descriptor → endpoint descriptor（由 `ezb_zha_create_*` 一次性创建含 cluster）→ 补充 Basic 厂商/型号属性 → 注册到协议栈。这是所有 ZHA 设备共用的骨架。
 
+> Evidence: `repos/esp-zigbee-sdk/resources/`, source/examples in `repos/esp-zigbee-sdk/`, and this recipe path `repos/esp-zigbee-sdk/recipes/zha_device_model.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么创建一个 Zigbee 设备"

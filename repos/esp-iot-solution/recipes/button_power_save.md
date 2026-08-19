@@ -2,6 +2,9 @@
 
 > **适用摘要**: 使用 `button` 组件的 power-save 模式，配合 ESP-IDF PM 框架与 light sleep，实现按键唤醒。创建设备时 `enable_power_save=true`，并注册 `iot_button_register_power_save_cb`，在所有按键空闲时进入 light sleep。
 
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/button_power_save.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "按键低功耗"

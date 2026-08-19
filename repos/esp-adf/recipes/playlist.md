@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `sdcard_scan()` 扫描 SD 卡音频文件并经回调存入 playlist，再用 `playlist_operator_handle_t` 句柄做 next / prev / choose(id) / current，由 `playlist_handle_t` 管理多个列表。四种存储后端：SD 卡（`sdcard_list`）、DRAM（`dram_list`）、NVS Flash（`flash_list`）、DATA_UNDEFINED 分区（`partition_list`）。播放时用 `audio_element_set_uri()` 把列表给出的 URL 喂给 fatfs_stream 并 reset pipeline 切歌。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-adf/resources/`, source/examples in `repos/esp-adf/`, and this recipe path `repos/esp-adf/recipes/playlist.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "播放列表 / playlist / 下一首 / 上一首"

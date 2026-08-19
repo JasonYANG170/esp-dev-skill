@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `power_measure` 组件通过工厂模式创建功率计量设备（BL0937 脉冲型、BL0942 UART/SPI 型、INA236 I2C 型），读取电压、电流、有功功率、功率因数、电能。三种芯片各有独立 config 结构体与 `power_measure_new_xxx_device` 工厂函数。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/power_measure.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "功率 / 电参数测量"

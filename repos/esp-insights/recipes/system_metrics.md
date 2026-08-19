@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用 ESP-Insights 内置的系统 metrics（free/最大块/历史最小空闲堆，内部 RAM 与 PSRAM；Wi-Fi RSSI 与历史最小 RSSI）与 network variables，并按需主动 dump。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-insights/resources/`, source/examples in `repos/esp-insights/`, and this recipe path `repos/esp-insights/recipes/system_metrics.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "采集 free heap 指标"

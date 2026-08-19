@@ -2,6 +2,10 @@
 
 > **适用摘要**: 选择并实现 ESP-AT 的三种 OTA 方案之一（`AT+USEROTA` 自有服务器、`AT+CIUPDATE` iot.espressif.cn、`AT+WEBSERVER` 浏览器/小程序），完成固件或用户分区升级。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-at/resources/`, source/examples in `repos/esp-at/`, and this recipe path `repos/esp-at/recipes/ota_upgrade.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "OTA 升级"

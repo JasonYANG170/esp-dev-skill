@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在已建立的 BLE 连接上切换 LE PHY——1 Mbps 兼容、2 Mbps 高吞吐、Coded PHY（S=2 / S=8）远距离；包含设置默认偏好、按连接设置偏好、读取当前 PHY，以及处理 `BLE_GAP_EVENT_PHY_UPDATE_COMPLETE` 结果事件。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-nimble/resources/`, source/examples in `repos/esp-nimble/`, and this recipe path `repos/esp-nimble/recipes/phy_update.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "PHY / 物理通道 / physical channel"

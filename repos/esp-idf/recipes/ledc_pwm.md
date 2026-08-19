@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 LEDC 外设输出 PWM、改变频率与占空比，含基础初始化与运行时调光（适配自 ledc_basic）。
 
+> Version: ESP-IDF version used by the project.
+> Evidence: `repos/esp-idf/resources/`, source/examples in `repos/esp-idf/`, and this recipe path `repos/esp-idf/recipes/ledc_pwm.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "输出 PWM"

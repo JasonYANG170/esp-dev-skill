@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 ESP-Insights 切换为 MQTT(TLS) 传输，通过 ESP RainMaker Claiming 获取证书并复用 RainMaker 的 MQTT 连接上报诊断数据，节省独立 TLS 会话的内存。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-insights/resources/`, source/examples in `repos/esp-insights/`, and this recipe path `repos/esp-insights/recipes/mqtt_transport.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "用 MQTT 上报诊断"

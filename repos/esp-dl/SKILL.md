@@ -7,19 +7,7 @@ description: >-
   streaming models, and per-tensor / per-channel quantization.
   Trigger words: "ESP-DL", "espdl", "ESP-PPQ", "model quantization", "模型量化", "模型部署", "神经网络推理",
   "深度学习", "ESP32", "ESP32-S3", "ESP32-P4", "inference", "deployment"
-tags:
-  - embedded
-  - esp32
-  - esp-dl
-  - deep-learning
-  - neural-network
-  - quantization
-  - inference
-  - esp-ppq
-  - edge-ai
-  - flatbuffers
 license: MIT
-compatibility: Targets ESP32, ESP32-C2/C3/C5/C6, ESP32-S2, ESP32-S3, ESP32-P4, ESP32-S31 ; requires ESP-IDF >= 5.3 (>= 5.5 for C5, >= 6.0 for S31) ; C++ component ; quantization needs Python with esp-ppq
 metadata:
   author: Community
   version: "1.1.0"

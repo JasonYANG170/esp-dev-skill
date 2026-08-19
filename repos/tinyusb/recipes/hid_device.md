@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 TinyUSB HID 类实现 USB HID 设备，包括 report descriptor、键盘/鼠标/游戏手柄 report 上报、多 report 链式续发与 `tud_hid_set_report_cb`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/tinyusb/resources/`, source/examples in `repos/tinyusb/`, and this recipe path `repos/tinyusb/recipes/hid_device.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB HID 设备"

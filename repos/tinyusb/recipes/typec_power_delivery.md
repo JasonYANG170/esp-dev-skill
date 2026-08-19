@@ -4,6 +4,9 @@
 
 > **⚠️ WIP 限制**：`README.rst` 明确标注 PD 栈为 "WIP / Super early stage / Only for testing purpose / **Only support STM32 G4**"。`examples/typec/power_delivery/only.txt` 也限定 `mcu:STM32G4`。本配方基于当前可用 API 编写，PD 栈尚未稳定，跨平台移植需等待上游。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB PD / Power Delivery / PD 3.0"

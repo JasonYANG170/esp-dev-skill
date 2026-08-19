@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 v3.x LEDC Peripheral Manager API（`ledcAttach`/`ledcWrite`）输出 PWM、呼吸灯、播放音符（`ledcWriteNote`）。⚠️ 2.x 的 `ledcSetup`/`ledcAttachPin` 已删除。
 
+> Version: Arduino-ESP32 core version and selected board package.
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/ledc_pwm.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "输出 PWM / 调光"

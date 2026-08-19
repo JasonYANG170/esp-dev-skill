@@ -2,6 +2,10 @@
 
 > **适用摘要**: 实现 BLE 安全管理：响应 `BLE_GAP_EVENT_PASSKEY_ACTION`、通过 `ble_sm_inject_io` 提供输入、发起配对、读取加密状态。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-nimble/resources/`, source/examples in `repos/esp-nimble/`, and this recipe path `repos/esp-nimble/recipes/security_pairing.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "配对 / pairing / 绑定 / bonding"

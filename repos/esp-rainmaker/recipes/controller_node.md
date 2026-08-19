@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把一个 ESP32 设备变成 RainMaker **控制器节点**，通过云端 User API（`CONFIG_ENABLE_RM_USER_HELPER_API`）枚举、查询、设置**其它**节点的参数 / 配置 / 调度 / 在线状态，并可移除用户-节点映射；支持子节点数据下行回调。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-rainmaker/resources/`, source/examples in `repos/esp-rainmaker/`, and this recipe path `repos/esp-rainmaker/recipes/controller_node.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RainMaker 控制器 / controller node"

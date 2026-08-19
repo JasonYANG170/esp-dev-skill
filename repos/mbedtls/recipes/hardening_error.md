@@ -2,6 +2,9 @@
 
 > **适用摘要**: 收紧协议版本、加密套件、椭圆曲线、签名算法与证书 profile 以满足安全要求；用 `mbedtls_strerror` / `ssl_get_verify_result` 诊断错误。适用于生产环境加固与排障。
 
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/hardening_error.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "限制 TLS 版本"

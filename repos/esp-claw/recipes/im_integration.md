@@ -2,6 +2,10 @@
 
 > **适用摘要**: 打通「IM 入站消息 → Event Router → claw_core → out_message 回送 IM」的完整闭环，理解 `cap_im_platform` 统一源组件、各平台 chat_id 格式与差异、附件异步落盘后的 `attachment_saved` 事件，以及 `router_rules.json` 里真实存在的 7 条 IM 相关规则。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-claw/resources/`, source/examples in `repos/esp-claw/`, and this recipe path `repos/esp-claw/recipes/im_integration.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Telegram / 飞书 / QQ / 微信 收消息没反应"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_player` 单实例串联解封装、解码、渲染，支持本地文件、HTTP(S)、HLS、外部帧（fill/block）输入，含 A/V 同步、seek、变速、多轨道选择。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/esp_player.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "音视频播放器"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `dsps_dct_f32`（DCT-II）、`dsps_dct_inv_f32`（逆 DCT）、`dsps_dctiv_f32`（DCT-IV）、`dsps_dstiv_f32`（DST-IV）做离散余弦/正弦变换。这些函数基于 FFT，使用前需 init FFT 表。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/dct.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "DCT"

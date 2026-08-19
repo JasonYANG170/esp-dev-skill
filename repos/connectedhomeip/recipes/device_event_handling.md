@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 `CHIPDeviceManagerCallbacks::DeviceEventCallback` 中处理 `ChipDeviceEvent`：网络连接变化、IP 地址变化（需重启 mDNS）、安全会话建立等关键事件，确保设备配网后可被 commissioner 发现与控制。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/connectedhomeip/resources/`, source/examples in `repos/connectedhomeip/`, and this recipe path `repos/connectedhomeip/recipes/device_event_handling.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "处理 CHIP 设备事件"

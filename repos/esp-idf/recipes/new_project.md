@@ -1,6 +1,9 @@
 # 新建 ESP-IDF 工程
 
 > **适用摘要**: 从零创建一个可编译/烧录/监控的 ESP-IDF 工程，含目录结构、顶层与组件 CMakeLists、目标设置与构建流程。
+> Excludes: Arduino-only sketches, ESP8266 RTOS SDK projects, and non-IDF component-only library work.
+> ESP-IDF: Verify the user's installed version first; examples are based on standard ESP-IDF `hello_world` / `blink` layout.
+> Validation: example-derived.
 
 ## 触发意图
 

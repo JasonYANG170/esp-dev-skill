@@ -2,6 +2,10 @@
 
 > **适用摘要**: 初始化 Agent、注册事件回调、处理文本/语音/思考/错误事件，理解 `app_agent_*` 封装与底层 `esp_agent_*` 的关系。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-agents-firmware/resources/`, source/examples in `repos/esp-agents-firmware/`, and this recipe path `repos/esp-agents-firmware/recipes/agent_init_and_events.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "初始化 Agent"

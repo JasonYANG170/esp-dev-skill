@@ -2,6 +2,10 @@
 
 > **适用摘要**: 汇总 `image.Image` 的 `draw_*` 方法（line / rectangle / circle / ellipse / cross / arrow / string / image），覆盖颜色与线宽约定、RGB565 与 GRAYSCALE 的颜色传参差异，以及 `fill` 实心填充。所有方法**原地修改**并返回 `self`，可链式调用。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/image_drawing.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "在图像上画框 / 画圆 / 画线"

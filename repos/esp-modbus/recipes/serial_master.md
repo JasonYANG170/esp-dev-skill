@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 ESP32 系列芯片上构建 Modbus 串行主站，覆盖 UART/RS485 初始化、数据字典（Data Dictionary）注册、按 CID 轮询从站参数、自定义命令、销毁。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-modbus/resources/`, source/examples in `repos/esp-modbus/`, and this recipe path `repos/esp-modbus/recipes/serial_master.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做一个 Modbus 串行主机"

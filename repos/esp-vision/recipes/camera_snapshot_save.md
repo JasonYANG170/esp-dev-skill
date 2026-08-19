@@ -2,6 +2,10 @@
 
 > **适用摘要**: 采集一帧画面并以多种格式（jpg / bmp / ppm）保存到 SD 卡，用 `os.stat` 校验文件大小。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/camera_snapshot_save.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "保存照片"

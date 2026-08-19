@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 TinyUSB DFU 类实现 USB 固件升级，区分 **DFU Runtime**（应用运行时通过 DETACH 跳转到 bootloader）与 **DFU 模式**（ bootloader 内实际收发固件），含 download/upload/manifest 回调、多分区（alt）、bwPollTimeout 与 `tud_dfu_finish_flashing` 异步完成。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/tinyusb/resources/`, source/examples in `repos/tinyusb/`, and this recipe path `repos/tinyusb/recipes/dfu_device.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 固件升级 / firmware update over USB"

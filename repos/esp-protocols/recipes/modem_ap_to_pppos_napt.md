@@ -2,6 +2,9 @@
 
 > **适用摘要**: 把 ESP32 变成一个蜂窝路由器 —— 创建 WiFi soft-AP，用 lwip NAPT 将 AP 侧流量转发到蜂窝模组的 PPP 网络接口，使接入 AP 的客户端共享蜂窝上网。支持用标准 C-API `esp_modem_new`，或启用 `EXAMPLE_USE_MINIMAL_DCE` 走自定义 `NetDCE_Factory` + `NetModule`（仅实现建网所需的极简命令）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP32 当蜂窝路由器"

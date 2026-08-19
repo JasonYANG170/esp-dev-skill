@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 Bluedroid 实现经典蓝牙 SPP（Serial Port Profile，基于 RFCOMM）：`esp_spp_enhanced_init` + `esp_spp_cfg_t` 选 CB/VFS 模式、`esp_spp_start_srv` 开服务、`esp_spp_write` 发数据、事件回调处理。**经典蓝牙需 `CONFIG_BT_CLASSIC_ENABLED=y` 且仅 esp32（双模）支持**，并需释放 BLE 控制器内存。适配自 `examples/bluetooth/bluedroid/classic_bt/bt_spp_acceptor`。
 
+> Version: ESP-IDF version used by the project.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "经典蓝牙"

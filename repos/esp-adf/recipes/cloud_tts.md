@@ -2,6 +2,10 @@
 
 > **适用摘要**: 调云端 TTS 接口把文本转成 MP3，再走 `http_stream → mp3_decoder → i2s_stream` 播放。百度用 API Key/Secret Key 换 access_token 后 POST 表单（`http://tsn.baidu.com/text2audio`）；AWS Polly 需 SNTP 校时 + AWS4-HMAC-SHA256 签名（`https://polly.<region>.amazonaws.com/v1/speech`）。两者都用 `http_stream` 的 `event_handle` 回调在 `HTTP_STREAM_PRE_REQUEST` 阶段注入鉴权头/请求体。数据流：`[cloud TTS] → http_stream(reader) → mp3_decoder → i2s_stream(writer) → codec`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-adf/resources/`, source/examples in `repos/esp-adf/`, and this recipe path `repos/esp-adf/recipes/cloud_tts.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "TTS / 文字转语音 / 语音合成"

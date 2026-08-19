@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 `dsps_wind_*_f32` 生成 Hann / Blackman / Blackman-Harris / Blackman-Nuttall / Nuttall / flat-top 窗，并将其与信号相乘（可用 `dsps_mul_f32` 完成基本运算版本）。
 
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/windows.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "加窗 / 窗函数"

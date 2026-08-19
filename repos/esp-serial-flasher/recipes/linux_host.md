@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 Linux 主机（PC、树莓派 4/5、BeagleBone 等）上用 `linux_port` 经 `/dev/ttyUSB*` 或 `/dev/ttyACM*` 烧录 ESP 目标。复位/BOOT 可经 USB-UART 桥的 DTR/RTS 自动复位，或经 libgpiod 控制 GPIO。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/linux_host.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Linux 烧录 ESP"

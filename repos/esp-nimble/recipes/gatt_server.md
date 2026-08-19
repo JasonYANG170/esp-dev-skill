@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 NimBLE 的静态服务表 `struct ble_gatt_svc_def` 定义自定义 GATT 服务与特征，实现 access_cb 读写回调，并通过 count + add 注册。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-nimble/resources/`, source/examples in `repos/esp-nimble/`, and this recipe path `repos/esp-nimble/recipes/gatt_server.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "自定义 GATT 服务"

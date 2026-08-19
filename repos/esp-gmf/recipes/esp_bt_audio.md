@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_bt_audio` 统一管理经典蓝牙（A2DP Sink/Source 扬声器耳机、HFP HF/AG 免提通话、AVRCP、PBAP 通讯录）与 LE Audio（TMAP/BAP 单播与广播、VCP/MCP/CSIP 等）。一次 `esp_bt_audio_init` 自动初始化对应协议栈，profile 差异收敛到单一事件回调；音频数据可经 `esp_bt_audio_stream_*` 直读直写，或用 `esp_gmf_io_bt` 接入 GMF 流水线解码/编码后送喇叭/麦克风。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/esp_bt_audio.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "蓝牙音箱/耳机"

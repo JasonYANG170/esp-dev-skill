@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 `.espdl` 存到独立的 SPIFFS 数据分区，用 `MODEL_LOCATION_IN_FLASH_PARTITION` 加载。模型可独立于 app 更新，开发期可用 `idf.py app-flash` 跳过模型分区。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/load_model_partition.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "模型放分区"

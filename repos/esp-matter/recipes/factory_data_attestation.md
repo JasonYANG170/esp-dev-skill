@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp-matter-mfg-tool` 生成含 VID/PID/CD/DAC/passcode/discriminator 的工厂分区二进制，烧录到 fctry 分区，并在 menuconfig 选择对应的 Factory/Secure Cert Provider，让设备用真实（或测试）凭据入网。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-matter/resources/`, source/examples in `repos/esp-matter/`, and this recipe path `repos/esp-matter/recipes/factory_data_attestation.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "生成工厂分区"

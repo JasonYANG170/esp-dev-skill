@@ -2,6 +2,10 @@
 
 > **适用摘要**: 修改 ESP-AT 的 BLE GATT 服务定义文件 `gatts_data.csv`，自定义服务/特征/描述符的 UUID、权限与值，无需改源码。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-at/resources/`, source/examples in `repos/esp-at/`, and this recipe path `repos/esp-at/recipes/customize_ble_service.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "自定义 BLE 服务"

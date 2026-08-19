@@ -2,6 +2,10 @@
 
 > **适用摘要**: 不依赖 menuconfig 静态选择，而是在代码里通过 `esp_hosted_<transport>_set_config()` 自定义 SDIO / SPI / SPI-HD / UART 的引脚、时钟、队列大小等参数，再调用 `esp_hosted_init()`。适用于引脚重映射、运行期切换、或在非 ESP host 上移植。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/transport_config_code.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "运行时改 ESP-Hosted 引脚"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `brookesia_service_audio` 播放本地/网络音频、多 URL 队列、播放控制（暂停/恢复/停止）、编解码（PCM/OPUS/G711A）回环，以及 AFE（VAD + 唤醒词）。Audio 服务依赖 HAL 设备，需先初始化存储与音频设备。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-brookesia/resources/`, source/examples in `repos/esp-brookesia/`, and this recipe path `repos/esp-brookesia/recipes/audio_service.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "用 Brookesia 播放音频"

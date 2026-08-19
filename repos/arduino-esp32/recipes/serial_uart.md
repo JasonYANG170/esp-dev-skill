@@ -2,6 +2,10 @@
 
 > **适用摘要**: 配置 ESP32 硬件 UART（`Serial`/`Serial1`/`Serial2`），包括自定义引脚、波特率、RX 缓冲区、`onReceive` 回调与 RS485 半双工模式。
 
+> Version: Arduino-ESP32 core version and selected board package.
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/serial_uart.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "串口初始化 / printf 调试"

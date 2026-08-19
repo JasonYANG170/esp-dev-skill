@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `dspi_conv_f32` 对 2D 图像（`image2d_t` 结构）做卷积，复现 Matlab `conv2(A,B,'same')`；通过 `stride_x`/`stride_y`/`step_x`/`step_y` 字段表达行宽与子采样，适用于相机/传感器阵列的边缘检测、模糊、锐化等核卷积。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/conv2d_image.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "2D 卷积"

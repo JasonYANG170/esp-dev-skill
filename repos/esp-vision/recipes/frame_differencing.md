@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `image.Image.difference()` 做背景差分检测运动，配合 `binary()` 阈值化与形态学清理得到运动掩码；演示内存 `image.ImageIO` 流做短帧历史缓存。对应 SKILL.md 避坑 #2（`snapshot()` 返回可复用缓冲，跨帧使用必须 `.copy()`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/frame_differencing.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "运动检测 / 移动检测"

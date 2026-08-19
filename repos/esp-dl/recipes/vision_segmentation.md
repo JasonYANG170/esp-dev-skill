@@ -4,6 +4,9 @@
 
 > 注：分割在 `docs/en/tutorials/` 下没有独立 `.rst`，但仓库提供了完整可编译示例 `examples/yolo11_seg`、量化脚本 `quantize_yolo11n_seg`、后处理器头 `dl_seg_yolo11_postprocessor.hpp`，本 recipe 即基于这三者。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "跑 yolo11 实例分割"

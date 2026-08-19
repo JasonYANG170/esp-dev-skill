@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `bist_pc_test()` 覆盖 PC 寄存器位（IRAM/Flash/RTC 放置），用 `bist_cpu_stack_overflow_init/check/test` 做 0xDEADBEEF 哨兵式栈溢出检测（IEC 60730 组件 1.3 与 4.2）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-bist/resources/`, source/examples in `repos/esp-bist/`, and this recipe path `repos/esp-bist/recipes/pc_and_stack_test.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "PC 自检 / 程序计数器"

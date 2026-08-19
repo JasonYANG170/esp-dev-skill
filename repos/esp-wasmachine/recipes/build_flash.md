@@ -2,6 +2,9 @@
 
 > **适用摘要**: 完成 ESP-WASMachine 固件的 `set-target`、`build`、`storage-flash`、`flash monitor` 全流程，并验证启动日志。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wasmachine/resources/`, source/examples in `repos/esp-wasmachine/`, and this recipe path `repos/esp-wasmachine/recipes/build_flash.md`.
+
 ## 触发意图
 
 - "怎么编译 wasmachine"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 将 MP3 数据以二进制嵌入 Flash，通过自定义 read 回调喂给 mp3_decoder，再经 i2s_stream 写到 codec 芯片播放。是 ESP-ADF 最经典的入门 pipeline（Flash → mp3_decoder → i2s）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-adf/resources/`, source/examples in `repos/esp-adf/`, and this recipe path `repos/esp-adf/recipes/play_mp3_flash.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "播放 Flash 里的 MP3"

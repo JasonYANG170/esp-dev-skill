@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 Mbed TLS 建立 DTLS（基于 UDP 的 TLS）客户端，完成握手并收发数据报。适用于物联网设备、低功耗 UDP 加密通信等场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/dtls_client.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "DTLS 客户端"

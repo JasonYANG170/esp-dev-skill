@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 PSA Crypto API 进行带认证的加密/解密(AEAD)。涵盖一次性 `psa_aead_encrypt`/`psa_aead_decrypt` 与分段 `psa_aead_*_setup/set_nonce/update_ad/update/finish/verify`，附加数据(AD)处理、短标签。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/TF-PSA-Crypto/resources/`, source/examples in `repos/TF-PSA-Crypto/`, and this recipe path `repos/TF-PSA-Crypto/recipes/aead.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "AES-GCM 加密"

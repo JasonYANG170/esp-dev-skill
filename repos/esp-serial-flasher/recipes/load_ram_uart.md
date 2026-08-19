@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 `esp_loader_mem_start/write/finish` 把可执行镜像直接下载到目标 RAM 并跳转执行（不烧 flash）。常用于临时调试、RAM-only 测试程序。复用 `example_common.c` 的 `load_ram_binary()` helper。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "下载到 RAM 运行"

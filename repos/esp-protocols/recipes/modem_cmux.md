@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 CMUX（GSM 07.10 多路复用）在模组上建立两条虚拟通道，一条跑 PPP 数据，一条发 AT 命令，从而在拨号上网的同时查询信号、发短信等。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-protocols/resources/`, source/examples in `repos/esp-protocols/`, and this recipe path `repos/esp-protocols/recipes/modem_cmux.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "CMUX 模式"

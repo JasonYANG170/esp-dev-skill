@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_audio_render` 把多路 PCM 输入（如「音乐 + TTS + 提示音」或 4 轨钢琴合成）混音为统一输出格式后由 writer 回调送出（I2S/BT sink/网络皆可）。每路可独立挂 per-stream 处理链（ALC/EQ/Sonic/Fade），混音后还可挂 post-mix 处理（ALC/limiter）。区别于单流的 `simple_player.md`/`esp_player.md`，本包面向「多轨合成 + 统一输出」。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/esp_audio_render.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "多路混音"

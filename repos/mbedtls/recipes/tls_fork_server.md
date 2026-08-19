@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 POSIX `fork()` 实现"每客户端一进程"的并发 TLS 服务器。与 `tls_server.md` 的单连接模型、`ssl_pthread_server.c` 的每客户端一线程模型不同，进程级隔离让单个客户端的崩溃不会污染监听上下文或其他客户端。需要在 accept 后 `fork()`，父进程关 client_fd 继续监听，子进程关 listen_fd 专属服务该客户端。仅限 Unix/POSIX 环境（不支持 Windows）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/tls_fork_server.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "fork 并发 TLS 服务器"

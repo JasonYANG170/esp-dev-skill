@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 host 上经 ESP-Hosted 协商 iTWT（802.11ax 个别目标唤醒时间），让 STA 与 AP 协商自己的唤醒/睡眠周期以降低 Wi-Fi 空口功耗。仅支持 Wi-Fi 6 协处理器（ESP32-C5 / C6），STA 模式，工作在 modem-sleep（默认）或 light-sleep（规划中）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/wifi_itwt.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-Hosted iTWT"

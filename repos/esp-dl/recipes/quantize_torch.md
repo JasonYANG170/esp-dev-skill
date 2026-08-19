@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `espdl_quantize_torch` 直接对 `torch.nn.Module` 做量化并导出 `.espdl`，无需先导 ONNX。支持普通模型和流式模型（`auto_streaming`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/quantize_torch.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "量化 pytorch 模型"

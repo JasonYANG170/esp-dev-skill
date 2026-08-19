@@ -7,19 +7,7 @@ description: >-
   filters, resamplers, matrix math, the C++ dspm::Mat class, and the Extended Kalman Filter.
   Trigger words: "ESP-DSP", "esp-dsp", "FFT", "FIR", "IIR", "biquad", "dspm::Mat", "dotprod",
   "Kalman", "EKF", "resampler", "数字信号处理", "DSP库", "快速傅里叶", "滤波器", "矩阵运算", "ESP32-S3", "ESP32"
-tags:
-  - embedded
-  - esp32
-  - esp-idf
-  - dsp
-  - fft
-  - fir
-  - iir
-  - filter
-  - matrix
-  - kalman
 license: Apache-2.0
-compatibility: ESP32 / ESP32-S3 / ESP32-P4 (optimized) and any ESP-IDF target in ANSI mode; requires ESP-IDF >= 4.2 and the xtensa/riscv toolchain; built as an ESP-IDF component
 metadata:
   author: Community
   version: "1.1.0"

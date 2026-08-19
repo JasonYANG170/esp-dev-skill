@@ -2,6 +2,9 @@
 
 > **适用摘要**: 通过 USB 外设把 ESP32 实现成标准 UVC 摄像头设备，主机（PC/手机）免驱识别为 webcam。`uvc` 示例采集摄像头帧 → JPEG/H.264 编码 → UVC 上报。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "把 ESP32 做成 USB 摄像头"

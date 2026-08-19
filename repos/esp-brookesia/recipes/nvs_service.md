@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `brookesia_service_nvs` 做基于命名空间的键值存储。提供两套 API：类型安全的 `save_key_value`/`get_key_value`（推荐）与通用 JSON 的 `Set`/`Get`/`List`/`Erase`（细粒度控制）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-brookesia/resources/`, source/examples in `repos/esp-brookesia/`, and this recipe path `repos/esp-brookesia/recipes/nvs_service.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "用 Brookesia 存配置到 NVS"

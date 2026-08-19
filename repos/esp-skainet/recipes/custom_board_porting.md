@@ -2,6 +2,10 @@
 
 > **适用摘要**: 当 PCB 不在 `hardware_driver` 已支持板列表时，新建 `esp_custom_board.h`（引脚表）与 `bsp_board.c`（I2S/codec/feed 实现），让 `esp_board_init` / `esp_get_input_format` / `esp_get_feed_data` 跑在新硬件上。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-skainet/resources/`, source/examples in `repos/esp-skainet/`, and this recipe path `repos/esp-skainet/recipes/custom_board_porting.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "我的板子不在支持列表"

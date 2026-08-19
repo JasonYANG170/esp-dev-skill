@@ -2,6 +2,9 @@
 
 > **适用摘要**: 以 `examples/lock-app/esp32` 为模板，派生一个自定义 CHIP 设备应用：复制目录、调整 `app_main` 初始化顺序、注册回调、设置 GPIO 与 Kconfig，最小改动获得可编译可配网的固件。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "创建新的 ESP32 Matter 应用"

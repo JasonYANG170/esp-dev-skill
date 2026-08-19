@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 ESP-AMP Event（基于 32-bit 原子整数的位图同步机制）实现轻量跨核事件通知。创建事件、绑定 FreeRTOS EventGroup、通知、等待/轮询。适合需要双向或多任务广播同步的场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-amp/resources/`, source/examples in `repos/esp-amp/`, and this recipe path `repos/esp-amp/recipes/event.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "跨核事件通知"

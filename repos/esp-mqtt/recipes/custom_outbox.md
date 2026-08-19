@@ -2,6 +2,9 @@
 
 > **适用摘要**: 通过 `CONFIG_MQTT_CUSTOM_OUTBOX` 替换默认 outbox 实现（如持久化到 NVM、用 C++ 内存资源等），对应 `examples/custom_outbox/`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "自定义 outbox"

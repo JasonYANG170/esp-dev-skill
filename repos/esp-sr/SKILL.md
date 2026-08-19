@@ -8,20 +8,7 @@ description: >-
   ESP32-C6 built with ESP-IDF.
   Trigger words: "ESP-SR", "WakeNet", "MultiNet", "AFE", "VADNet", "AEC", "esp-tts",
   "wake word", "speech command", "语音识别", "唤醒词", "命令词", "乐鑫语音", "嗨乐鑫", "Hi ESP"
-tags:
-  - embedded
-  - esp32
-  - esp-idf
-  - speech-recognition
-  - wake-word
-  - wakenet
-  - multinet
-  - audio-front-end
-  - vad
-  - tts
-  - espressif
 license: ESPRESSIF MIT
-compatibility: ESP32 / ESP32-S2 / ESP32-S3 / ESP32-S31 / ESP32-P4 / ESP32-C3 / ESP32-C5 / ESP32-C6 ; ESP-IDF >= 5.0 (component also depends on espressif/esp-dsp, espressif/dl_fft, espressif/cjson)
 metadata:
   author: Community
   version: "1.1.0"

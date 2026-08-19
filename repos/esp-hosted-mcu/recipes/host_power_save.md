@@ -2,6 +2,10 @@
 
 > **适用摘要**: 让 host MCU 进入低功耗状态（当前支持 deep sleep），由协处理器在需要时通过 GPIO 唤醒 host，同时保持网络在线。需要 host 与 slave 双方在 menuconfig 开启"Allow host to power save"。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/host_power_save.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-Hosted host 省电"

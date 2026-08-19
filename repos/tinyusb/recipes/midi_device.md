@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 TinyUSB MIDI 类实现 USB MIDI 设备（MIDI 输入/输出），包括 4 字节 USB-MIDI 事件包格式、cable number、Note On/Off 收发、`tud_midi_packet_read/write` 与流式 `tud_midi_stream_write`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/tinyusb/resources/`, source/examples in `repos/tinyusb/`, and this recipe path `repos/tinyusb/recipes/midi_device.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB MIDI 设备"

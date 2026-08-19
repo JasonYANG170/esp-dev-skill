@@ -2,6 +2,10 @@
 
 > **适用摘要**: 通过 `esp_agent_register_local_tool` 注册设备端本地工具，实现 `esp_agent_tool_handler_t` 回调，并同步 Agent 配置。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-agents-firmware/resources/`, source/examples in `repos/esp-agents-firmware/`, and this recipe path `repos/esp-agents-firmware/recipes/local_tool_register.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "添加本地工具"

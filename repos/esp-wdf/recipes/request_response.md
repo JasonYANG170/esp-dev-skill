@@ -2,6 +2,10 @@
 
 > **适用摘要**：用 `api_register_resource_handler` 注册资源处理者，用 `init_request` + `api_send_request` 异步发起请求并接收响应，构造 `response_t` 回送结果。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wdf/resources/`, source/examples in `repos/esp-wdf/`, and this recipe path `repos/esp-wdf/recipes/request_response.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "应用间请求响应"

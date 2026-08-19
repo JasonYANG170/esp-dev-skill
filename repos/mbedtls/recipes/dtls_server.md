@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 Mbed TLS 实现 DTLS 服务器，绑定 UDP 端口，启用 HelloVerifyRequest cookie 防 DoS、接受客户端、握手并回显数据。DTLS 服务器在 UDP 上易受放大攻击，必须启用 cookie 校验。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/dtls_server.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "DTLS 服务器"

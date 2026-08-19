@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用多速率重采样器 `dsps_resampler_mr_init/exec/free` 做基于多速率 FIR 的采样率变换，或用多项式（Farrow）重采样器 `dsps_resampler_ph_init/exec` 做轻量的相位可调重采样。支持 float 与 int16 定点。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/resampler.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "重采样 / 采样率变换"

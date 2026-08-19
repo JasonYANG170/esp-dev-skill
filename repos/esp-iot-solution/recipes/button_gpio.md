@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `button` 组件创建 GPIO 按键、注册各类事件回调（按下、释放、单击、双击、长按、多击），并动态修改长短按阈值。button 组件 v3.x 采用 `iot_button_new_gpio_device` 工厂函数 + `button_handle_t` 句柄模式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/button_gpio.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "创建按键"

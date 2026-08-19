@@ -2,6 +2,10 @@
 
 > **适用摘要**: 汇总 ESP-ADF 各类 stream 的初始化宏、类型与典型用法，方便按数据源/输出口快速选型。所有 stream ���是 `audio_element_handle_t`，用统一的 register/link 模式接入 pipeline。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-adf/resources/`, source/examples in `repos/esp-adf/`, and this recipe path `repos/esp-adf/recipes/pipeline_streams.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "用哪个 stream"

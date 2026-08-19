@@ -2,6 +2,8 @@
 
 > **适用摘要**: 从零搭建 ESP-WHO 任一示例（human_face_recognition / object_detect / qrcode_recognition），配置 ESP-IDF 环境、选定 BSP 与目标芯片、编译烧录并查看串口。
 
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "编译 esp-who"

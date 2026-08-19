@@ -2,6 +2,10 @@
 
 > **适用摘要**: 以 SoftAP 模式创建 Wi-Fi 热点，配置 SSID/密码/认证/最大连接数，处理 STA 接入事件（适配自 getting_started/softAP）。
 
+> Version: ESP-IDF version used by the project.
+> Evidence: `repos/esp-idf/resources/`, source/examples in `repos/esp-idf/`, and this recipe path `repos/esp-idf/recipes/softap.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "WiFi 热点"

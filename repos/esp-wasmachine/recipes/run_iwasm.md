@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 `WASMachine>` 控制台用 `iwasm` 从文件系统加载并一次性运行 WASM 应用，设置栈/堆与 WASI 环境变量、目录、地址池。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wasmachine/resources/`, source/examples in `repos/esp-wasmachine/`, and this recipe path `repos/esp-wasmachine/recipes/run_iwasm.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "iwasm 怎么用"

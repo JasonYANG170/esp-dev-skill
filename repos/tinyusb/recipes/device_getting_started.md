@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在自定义固件中集成 TinyUSB 设备栈，完成 board_init → tusb_init → tud_task 主循环与必需的描述符回调，使设备可被主机枚举。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/tinyusb/resources/`, source/examples in `repos/tinyusb/`, and this recipe path `repos/tinyusb/recipes/device_getting_started.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "TinyUSB 设备初始化"

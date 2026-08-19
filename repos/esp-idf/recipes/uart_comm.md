@@ -2,6 +2,10 @@
 
 > **适用摘要**: 配置 UART 端口、安装驱动、阻塞/事件驱动收发，含引脚设置。
 
+> Version: ESP-IDF version used by the project.
+> Evidence: `repos/esp-idf/resources/`, source/examples in `repos/esp-idf/`, and this recipe path `repos/esp-idf/recipes/uart_comm.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "配置 UART"

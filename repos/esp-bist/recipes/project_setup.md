@@ -2,6 +2,10 @@
 
 > **适用摘要**: 从零创建一个 ESP-BIST 应用工程，配置 CMake/Ninja 构建、MCUboot 引导、`bist.conf`，并在 QEMU 或真机上运行。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-bist/resources/`, source/examples in `repos/esp-bist/`, and this recipe path `repos/esp-bist/recipes/project_setup.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "新建 BIST 工程"

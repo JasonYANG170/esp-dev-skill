@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用并理解 WASM libc native API（`open`/`read`/`write`/`ioctl`/`close`/`sleep`/`time`/`rand` 等），WASM 应用通过它访问 VFS 文件与外设。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wasmachine/resources/`, source/examples in `repos/esp-wasmachine/`, and this recipe path `repos/esp-wasmachine/recipes/native_libc.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "WASM 应用怎么读写文件"

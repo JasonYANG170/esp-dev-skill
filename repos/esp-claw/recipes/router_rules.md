@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `router_rules.json` 把事件（IM 消息、启动、按钮、定时、附件）路由到 `call_cap` / `run_agent` / `run_script` / `send_message` / `emit_event` / `drop`，并打通 Agent 回复到 IM 的 `out_message` 回路。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-claw/resources/`, source/examples in `repos/esp-claw/`, and this recipe path `repos/esp-claw/recipes/router_rules.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "加自动化规则"

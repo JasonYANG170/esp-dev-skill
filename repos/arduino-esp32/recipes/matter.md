@@ -2,6 +2,9 @@
 
 > **适用摘要**: 使用 `Matter` 库（基于 ESP Matter SDK）创建 Apple HomeKit/Google Home/Amazon Alexa 兼容的 Matter 设备，注册 `MatterEndPoint`（灯/传感器/插座/开关/窗帘），含 QR 码配网、事件回调、解绑出厂。⚠️ 必须选 `Huge APP (3 MB No OTA / 1 MB SPIFFS)` 分区方案并擦除全 flash 后上传。
 
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/matter.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Matter 设备 / 智能家居 / HomeKit / Google Home"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 ESP-AMP RPC（基于 RPMsg 的简单远程过程调用框架）在一核定义 RPC 服务、另一核调用。支持阻塞/非阻塞、有/无响应命令。适合需要"调用对端函数并取回结果"的场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-amp/resources/`, source/examples in `repos/esp-amp/`, and this recipe path `repos/esp-amp/recipes/rpc.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RPC"

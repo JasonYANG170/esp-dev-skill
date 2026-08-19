@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 CMake 构建 TF-PSA-Crypto（静态/共享库、子项目、`find_package`），通过 `include/psa/crypto_config.h` 或 `configs/` 预设选择启用的加密机制，以及用 `scripts/config.py` 编程式编辑配置。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/TF-PSA-Crypto/resources/`, source/examples in `repos/TF-PSA-Crypto/`, and this recipe path `repos/TF-PSA-Crypto/recipes/build_and_config.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么编译 TF-PSA-Crypto"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 PSA Crypto API 进行对称加密/解密。涵盖一次性 `psa_cipher_encrypt`/`psa_cipher_decrypt` 与分段 `psa_cipher_*_setup/generate_iv/set_iv/update/finish`，AES-CBC/PKCS7、CTR、ChaCha20 等模式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/TF-PSA-Crypto/resources/`, source/examples in `repos/TF-PSA-Crypto/`, and this recipe path `repos/TF-PSA-Crypto/recipes/cipher.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "AES 加密 / 解密"

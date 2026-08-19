@@ -2,6 +2,10 @@
 
 > **适用摘要**: 实现中心角色：扫描到目标后取消扫描、`ble_gap_connect` 发起连接、进行服务发现、对特征执行读 / 写 / 订阅。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-nimble/resources/`, source/examples in `repos/esp-nimble/`, and this recipe path `repos/esp-nimble/recipes/central_connect.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "BLE 中心 / 主机 / central"

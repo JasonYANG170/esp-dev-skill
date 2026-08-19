@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在带 LCD 的开发板上跑目标检测（人脸/行人/猫/狗），实时画框并显示。基于 `WhoDetectAppLCD`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-who/resources/`, source/examples in `repos/esp-who/`, and this recipe path `repos/esp-who/recipes/object_detect_lcd.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "目标检测 LCD"

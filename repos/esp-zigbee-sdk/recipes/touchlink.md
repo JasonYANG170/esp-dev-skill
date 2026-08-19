@@ -2,6 +2,10 @@
 
 > **适用摘要**: 讲解 BDB Touchlink commissioning——initiator 主动扫描并拉起 target 入网，target 等待被发起。两者均通过 `ezb_bdb_start_top_level_commissioning` 配合对应模式与信号完成。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-zigbee-sdk/resources/`, source/examples in `repos/esp-zigbee-sdk/`, and this recipe path `repos/esp-zigbee-sdk/recipes/touchlink.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Touchlink"

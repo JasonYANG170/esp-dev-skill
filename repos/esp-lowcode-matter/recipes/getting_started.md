@@ -2,6 +2,8 @@
 
 > **适用摘要**: 在本地终端用 ESP-IDF v5.3 + ESP-AMP + esp-lowcode-matter 搭建开发环境，完成 Prepare Device、Upload Configuration、Upload Code 全流程，把一个示例产品跑起来。
 
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "lowcode 怎么开始"

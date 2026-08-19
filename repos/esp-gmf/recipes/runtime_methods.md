@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `AMETHOD(MODULE, METHOD)` 拼装方法名字符串、经 `esp_gmf_element_exe_method` 调用 element，使应用层只依赖方法名而非具体 element 类型，便于在 pool 中替换实现（如 aud_rate_cvt ↔ aud_asrc）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/runtime_methods.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "运行时方法"

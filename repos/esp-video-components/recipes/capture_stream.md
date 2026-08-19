@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用标准 V4L2 POSIX API（open/ioctl/mmap）从 `/dev/videoN` 采集图像流，包含设置格式、申请/映射缓冲、启动流、出队入队循环、停止流的全过程。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-video-components/resources/`, source/examples in `repos/esp-video-components/`, and this recipe path `repos/esp-video-components/recipes/capture_stream.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "采集摄像头数据"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: 已联网的 responder 广播配网 beacon 并在回调校验 initiator 后下发 Wi-Fi 配置；未联网的 initiator 扫描 beacon、发送身份请求并应用收到的 SSID/密码（参考 `examples/provisioning`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-NOW 配网"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在没有 LCD 的板子（如裸 ESP-VoCat 不带屏）上运行 voice_chat / matter_controller 固件，按 `docs/example_customisation.md` 注释掉 `app_display_init()` 与设备回调里的 `app_display_*` 调用，配网二维码改由产品包装提供。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "无屏设备"

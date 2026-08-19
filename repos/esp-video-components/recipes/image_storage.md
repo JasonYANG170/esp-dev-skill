@@ -2,6 +2,9 @@
 
 > **适用摘要**: 将摄像头采集的帧经 JPEG/H.264 编码后，存储到 SD 卡、SPI Flash，或通过 USB MSC 暴露给主机。`image_storage` 示例分 `sd_card` 与 `usb_msc` 两个子目录。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "存图片到 SD 卡"

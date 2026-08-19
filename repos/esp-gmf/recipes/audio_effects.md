@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在播放流水线运行过程中，通过 element 命名 setter 或运行时方法（AMETHOD）实时调整均衡、自动增益、变速变调、淡入淡出、动态范围控制等效果。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/audio_effects.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "调 EQ"

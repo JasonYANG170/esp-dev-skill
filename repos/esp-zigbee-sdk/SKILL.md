@@ -7,19 +7,7 @@ description: >-
   commissioning (formation / steering / touchlink / finding & binding), gateway/RCP, sleepy
   end devices, OTA upgrade, and custom clusters.
   Trigger words: "esp-zigbee-sdk", "ESP Zigbee", "ezbee", "ezb_", "Zigbee", "紫蜂", "ZC", "ZR", "ZED", "ZHA", "ZCL", "BDB", "touchlink", "ESP32-H2", "ESP32-C6", "RCP gateway", "OTA upgrade"
-tags:
-  - embedded
-  - zigbee
-  - esp32
-  - esp32-h2
-  - esp32-c6
-  - esp-idf
-  - zcl
-  - iot
-  - firmware
-  - espressif
 license: Apache-2.0
-compatibility: "Target: ESP32-H2 / ESP32-C6 (native 802.15.4 SoC) or ESP32-C3/S3/P4 + ESP32-H2/C6 RCP. Build: ESP-IDF v5.2+ (examples target v5.5.4), idf.py, esp-zigbee-lib >= 2.0.0 from ESP Registry"
 metadata:
   author: Community
   version: "1.1.0"

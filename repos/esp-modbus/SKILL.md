@@ -8,20 +8,7 @@ description: >-
   Trigger words: "Modbus", "RTU", "ASCII", "Modbus TCP", "RS485", "esp-modbus", "freemodbus",
   "Modbus 主站", "Modbus 从站", "保持寄存器", "输入寄存器", "线圈", "离散输入", "Holding", "Coil",
   "mbc_master", "mbc_slave", "Data Dictionary", "数据字典"
-tags:
-  - embedded
-  - esp-idf
-  - espressif
-  - esp32
-  - modbus
-  - rtu
-  - ascii
-  - tcp
-  - rs485
-  - industrial
-  - firmware
 license: Apache-2.0
-compatibility: Requires ESP-IDF v5.0 or later (idf >= "5.0"); targets ESP32 / ESP32-S2 / ESP32-S3 / ESP32-C3 / ESP32-C2 / ESP32-C5 / ESP32-C6 / ESP32-C61 / ESP32-H2 / ESP32-P4; build via idf.py (CMake). On ESP-IDF releases that still ship the built-in freemodbus component, exclude it with `set(EXCLUDE_COMPONENTS freemodbus)` in the project CMakeLists.txt.
 metadata:
   author: Community
   version: "1.1.0"

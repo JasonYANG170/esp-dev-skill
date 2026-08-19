@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 ESP32 作为 USB Host，接入标准 UVC（USB Video Class）USB 摄像头/webcam，通过 `/dev/video40`~`/dev/video49` 采集。需要 USB-OTG（ESP32-P4/S3/S31）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-video-components/resources/`, source/examples in `repos/esp-video-components/`, and this recipe path `repos/esp-video-components/recipes/usb_uvc_host.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 摄像头"

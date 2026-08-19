@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 `.wasm` 文件放进 `main/fs_image/`，编译生成并烧录 `storage` 分区的 littleFS 镜像，让 `iwasm`/`install` 能读到。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wasmachine/resources/`, source/examples in `repos/esp-wasmachine/`, and this recipe path `repos/esp-wasmachine/recipes/filesystem.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么往板子放 wasm 文件"

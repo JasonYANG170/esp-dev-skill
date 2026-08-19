@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 CMake（首选）或 Make 构建 TinyUSB 示例/项目，包括拉取 MCU 依赖、选 `BOARD`、生成固件、jlink/openocd/uf2 烧录。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "TinyUSB 怎么编译"

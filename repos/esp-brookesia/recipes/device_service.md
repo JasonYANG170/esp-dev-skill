@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `brookesia_service_device` 查询板级能力（capabilities）、读取板信息、控制显示背光与音频播放器（音量/静音）、查询存储文件系统与电池、订阅状态变化事件。Device 服务依赖 HAL，且常与 NVS 服务一起 bind（用于 `ResetData` 持久化）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-brookesia/resources/`, source/examples in `repos/esp-brookesia/`, and this recipe path `repos/esp-brookesia/recipes/device_service.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "查询板子支持哪些外设"

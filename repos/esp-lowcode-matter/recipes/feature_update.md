@@ -2,6 +2,10 @@
 
 > **适用摘要**: 实现 `feature_update_from_system()` 接收系统下发的特性更新，并用 `low_code_feature_update_to_system()` 把设备状态（按键/传感器）主动上报，支持 `feature_id` 与 matter 低层标识两种路由方式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/feature_update.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "处理 matter 下发的开关/亮度"

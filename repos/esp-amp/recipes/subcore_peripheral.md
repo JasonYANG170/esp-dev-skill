@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 subcore 上开发外设驱动。HP subcore 使用 ESP-IDF hal 组件的 `_ll.h` 低层驱动；LP subcore 使用 IDF ulp 组件已实现的 LP 外设驱动。强调避免双核并发访问同一外设。
 
+> Evidence: `repos/esp-amp/resources/`, source/examples in `repos/esp-amp/`, and this recipe path `repos/esp-amp/recipes/subcore_peripheral.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "subcore 控制 GPIO/UART/I2C"

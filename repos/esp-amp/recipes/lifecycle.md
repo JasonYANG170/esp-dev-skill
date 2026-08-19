@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 maincore 管理 subcore 的完整生命周期：加载固件、启动、停止、检测 panic、自定义 panic 处理、路由 subcore printf 到 maincore 控制台。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-amp/resources/`, source/examples in `repos/esp-amp/`, and this recipe path `repos/esp-amp/recipes/lifecycle.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "启动/停止 subcore"

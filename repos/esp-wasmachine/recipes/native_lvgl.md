@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 ESP32-S3-BOX 或 ESP32-P4-Function-EV-Board 上启用 LVGL native，注册 BSP 显示回调，让 WASM 应用调用 LVGL 绘制 UI。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wasmachine/resources/`, source/examples in `repos/esp-wasmachine/`, and this recipe path `repos/esp-wasmachine/recipes/native_lvgl.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "WASM 应用画 UI"

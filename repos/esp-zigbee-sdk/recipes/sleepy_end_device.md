@@ -2,6 +2,10 @@
 
 > **适用摘要**: 实现 Zigbee End Device 的 light sleep 低功耗模式：关闭 RxOnWhenIdle、配置 `esp_pm`、用 EXT1 唤醒，按键触发 ZCL 命令并保持与父节点的 keep-alive。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-zigbee-sdk/resources/`, source/examples in `repos/esp-zigbee-sdk/`, and this recipe path `repos/esp-zigbee-sdk/recipes/sleepy_end_device.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Zigbee 低功耗 / 省电"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 通过 `brookesia_hal_boards` 选择开发板、用 `brookesia_hal_adaptor` 初始化 HAL 设备，并按接口名查询硬件能力（音频/显示/触摸/存储/电源/背光）。依赖外设的服务（Audio/Device/Agent）必须先完成 HAL 初始化。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-brookesia/resources/`, source/examples in `repos/esp-brookesia/`, and this recipe path `repos/esp-brookesia/recipes/hal_boards.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么选开发板 / gen-bmgr-config"

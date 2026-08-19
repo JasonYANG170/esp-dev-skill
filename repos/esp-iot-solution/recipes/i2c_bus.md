@@ -2,6 +2,9 @@
 
 > **适用摘要**: 使用 `i2c_bus` 组件初始化 I2C 主机总线、创建总线上的设��句柄、进行字节/多字节/位级寄存器读写与总线扫描。`i2c_bus` 在 ESP-IDF >= 5.3 默认走新 `i2c_master` 驱动，旧版本走 `driver/i2c.h`，由 `CONFIG_I2C_BUS_BACKWARD_CONFIG` 控制。
 
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/i2c_bus.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "初始化 I2C 总线"

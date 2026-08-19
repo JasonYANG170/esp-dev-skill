@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `bluetooth_service` 创建蓝牙音频流元素与外设，接入 pipeline 实现蓝牙音箱（A2DP Sink）、蓝牙音源（A2DP Source）或免提通话（HFP）。`bluetooth_service_create_stream()` 返回可直接 link 的 audio element。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-adf/resources/`, source/examples in `repos/esp-adf/`, and this recipe path `repos/esp-adf/recipes/bt_a2dp_hfp.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "蓝牙音箱 / A2DP Sink"

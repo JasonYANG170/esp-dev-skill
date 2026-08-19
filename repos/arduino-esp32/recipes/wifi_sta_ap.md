@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `WiFi` 库以 Station 模式连接 AP、SoftAP 开热点、扫描周边网络、`onEvent` 接收连接事件，含 `setHostname` 时机与重连。
 
+> Version: Arduino-ESP32 core version and selected board package.
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/wifi_sta_ap.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "连 Wi-Fi / WiFi 连接"

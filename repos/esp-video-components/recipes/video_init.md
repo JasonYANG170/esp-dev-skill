@@ -2,6 +2,10 @@
 
 > **适用摘要**: 配置并初始化 esp-video-components 视频子系统，包括 SCCB（I2C）、复位/掉电引脚、MIPI-CSI/DVP/SPI/USB 接口子设备注册，是所有采集操作的前置步骤。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-video-components/resources/`, source/examples in `repos/esp-video-components/`, and this recipe path `repos/esp-video-components/recipes/video_init.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "初始化摄像头"

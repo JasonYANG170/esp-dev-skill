@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用新 HAL 的 GPTimer（`gptimer_new_timer`）创建高分辨率定时器、配置告警回调，实现周期任务（适配自 gptimer 示例）。
 
+> Version: ESP-IDF version used by the project.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "定时器中断"

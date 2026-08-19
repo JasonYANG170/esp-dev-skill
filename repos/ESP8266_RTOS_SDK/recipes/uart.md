@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 UART 驱动（`uart_param_config` + `uart_driver_install`）配置串口，通过事件队列处理接收/溢出/错误，用 `uart_write_bytes` / `uart_read_bytes` 收发数据。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/uart.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "串口收发"

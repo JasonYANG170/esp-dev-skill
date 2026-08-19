@@ -2,6 +2,9 @@
 
 > **适用摘要**: 为 ESP-Claw `edge_agent` 新增一块开发板：编写 board YAML、`setup_device.c`、板级 sdkconfig 默认与可选 FATFS overlay，并用 `idf.py bmgr` 选中构建。
 
+> Evidence: `repos/esp-claw/resources/`, source/examples in `repos/esp-claw/`, and this recipe path `repos/esp-claw/recipes/board_adaptation.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "适配新板子"

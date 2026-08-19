@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 Matter 设备上加一个厂商自定义 cluster —— 编写 cluster XML 模板、用 `zap_regen_all.py` 生成 app-common 代码、实现属性/命令回调、用 esp-matter 低层 API 把它挂到 endpoint。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-matter/resources/`, source/examples in `repos/esp-matter/`, and this recipe path `repos/esp-matter/recipes/custom_cluster.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "加一个自定义 cluster"

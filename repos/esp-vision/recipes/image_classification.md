@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `espdl.ImageNetCls` 对图像做分类，返回最多 `topk` 个 `(label, score)`；以文件图像分类为例，必要时先 `to_rgb565(copy=True)` 转换格式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/image_classification.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "图像分类"

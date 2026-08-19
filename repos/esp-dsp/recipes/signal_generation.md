@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 esp-dsp 生成测试信号（正弦、delta、复数 LUT 信号），并通过 `dsps_view` / `dsps_view_spectrum` 在串口打印文本波形与频谱图。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/signal_generation.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "生成正弦信号 / 测试信号"

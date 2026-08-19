@@ -2,6 +2,10 @@
 
 > **适用摘要**: 基于 `products/thermostat` 实现温控器（MA-thermostat，device_type_id 769）——在**单个 endpoint** 上同时处理三个 feature_id：温度（`LOW_CODE_FEATURE_ID_TEMPERATURE`）、制冷设定点（`LOW_CODE_FEATURE_ID_COOLING_SETPOINT`）、制热设定点（`LOW_CODE_FEATURE_ID_HEATING_SETPOINT`），均使用带符号 `int16_t`（°C×100）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/thermostat.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "温控器"

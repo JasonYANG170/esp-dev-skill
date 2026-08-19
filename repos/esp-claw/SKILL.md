@@ -9,19 +9,7 @@ description: >-
   Trigger words: "ESP-Claw", "esp-claw", "Edge Agent", "edge_agent", "Chat Coding",
   "聊天造物", "Agent 框架", "乐鑫 Agent", "ESP32 Agent", "claw_core", "claw_event_router",
   "cap_lua", "claw_skill", "lua_module", "Board Manager", "idf.py bmgr"
-tags:
-  - embedded
-  - esp32
-  - esp-idf
-  - edge-ai
-  - agent
-  - llm
-  - lua
-  - iot
-  - espressif
-  - esp-claw
 license: Apache-2.0
-compatibility: ESP32-S3 / ESP32-P4 / ESP32-C5 / ESP32-S31; build with ESP-IDF v5.5.4 + ESP Board Manager (esp-bmgr-assist)
 metadata:
   author: Community
   version: "1.1.0"

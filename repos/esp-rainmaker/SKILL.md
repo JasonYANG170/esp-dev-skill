@@ -6,18 +6,7 @@ description: >-
   modeling, claiming, OTA, scheduling, scenes, local control, timezones, and MQTT connectivity.
   Trigger words: "ESP RainMaker", "RainMaker", "esp-rainmaker", "ESP32", "esp_rmaker", "claiming",
   "self claim", "assisted claim", "RainMaker OTA", "esp.device", "esp.param", "节点", "乐鑫云", "远程控制"
-tags:
-  - embedded
-  - esp32
-  - cloud-iot
-  - mqtt
-  - ota
-  - rainmaker
-  - espressif
-  - firmware
-  - provisioning
 license: Apache-2.0
-compatibility: Targets ESP32 / ESP32-S2 / ESP32-S3 / ESP32-C2 / ESP32-C3 / ESP32-C5 / ESP32-C6 / ESP32-H2 ; build requires ESP-IDF v5.1+ (idf.py) and the esp_rainmaker component
 metadata:
   author: Community
   version: "1.1.0"

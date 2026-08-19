@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在硬币电池供电的开关上，利用 light sleep 给电容充电、power lock 保持供电、状态持久化，并按需发送控制/绑定/解绑帧（参考 `examples/coin_cell_demo/switch`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "硬币电池 ESP-NOW"

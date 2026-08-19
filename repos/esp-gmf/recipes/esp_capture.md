@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用高级包 `esp_capture` 按「source → path → sink」模型从麦克风/摄像头采集音视频，自动按 source/target 格式协商编码与转码链，支持 AEC 采集、多 sink 并行（一路流式拉帧 + 一路 MP4 本地存储）、overlay 文字叠加、单帧抓拍与自定义处理流水线。与 `pipeline_record.md`（GMF-Core 手写的 `codec_dev→aud_enc→io_file` 单链）不同，`esp_capture` 封装了整套协商与多路分发逻辑。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/esp_capture.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "音视频采集录制"

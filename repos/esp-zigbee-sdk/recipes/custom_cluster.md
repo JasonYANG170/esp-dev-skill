@@ -2,6 +2,9 @@
 
 > **适用摘要**: 讲解如何创建厂商/私有 cluster——注册自定义命令处理回调（`ezb_zcl_custom_cluster_handlers_t`）、定义私有 cluster ID / 命令 ID / 属性、发送与接收自定义命令。基于 `examples/customized_devices/` 的 data stream（producer/consumer）模式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "自定义 cluster"

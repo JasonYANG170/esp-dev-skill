@@ -2,6 +2,10 @@
 
 > **适用摘要**: 通过继承 `WhoDetectAppLCD` / `WhoDetectAppTerm`，override `detect_result_cb` / `lcd_disp_cb` / `cleanup`，实现自定义的检测结果处理（上报、存盘、自定义画框）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-who/resources/`, source/examples in `repos/esp-who/`, and this recipe path `repos/esp-who/recipes/custom_detect_app.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "自定义检测结果处理"

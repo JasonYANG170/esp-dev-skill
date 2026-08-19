@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `Wire` 库进行 I2C 主机读写和从机应答，含 `setPins`、`beginTransmission`、`requestFrom`、`onReceive`/`onRequest` 回调。
 
+> Version: Arduino-ESP32 core version and selected board package.
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/i2c_master_slave.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "I2C 读取传感器 / OLED"

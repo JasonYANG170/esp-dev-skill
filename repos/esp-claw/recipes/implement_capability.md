@@ -2,6 +2,10 @@
 
 > **适用摘要**: 从零写一个 `cap_*` 能力组件——定义 descriptor / group、实现 `execute`、在 app 注册、可选附带 Skill，最终成为 LLM/Console/自动化可调用的工具。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-claw/resources/`, source/examples in `repos/esp-claw/`, and this recipe path `repos/esp-claw/recipes/implement_capability.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "加一个能力"

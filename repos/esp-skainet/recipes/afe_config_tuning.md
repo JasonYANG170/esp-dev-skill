@@ -2,6 +2,10 @@
 
 > **适用摘要**: 理解并调整 `afe_config_t` 各字段，按场景开启/关闭 AEC、SE(BSS)、NS、VAD、AGC，选择 AFE type/mode 与内存分配策略。所有字段取自 `esp_afe_config.h`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-skainet/resources/`, source/examples in `repos/esp-skainet/`, and this recipe path `repos/esp-skainet/recipes/afe_config_tuning.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "AFE 配置"

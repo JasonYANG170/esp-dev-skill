@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 TinyUSB Audio 类实现 USB 音频 2.0（UAC2）设备，包括麦克风（IN 端点）、扬声器（OUT 端点 + 反馈端点）、耳机（双向）、异步反馈端点（feedback endpoint）、采样率协商与音量/静音控制。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/tinyusb/resources/`, source/examples in `repos/tinyusb/`, and this recipe path `repos/tinyusb/recipes/audio_uac2_device.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 音频设备"

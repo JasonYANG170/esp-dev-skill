@@ -2,6 +2,10 @@
 
 > **适用摘要**: 注册并上报自定义 variables（如当前关联的 station 数、���备状态机当前态），区别于 metrics：variables 强调“当前值”而非“随时间序列”。覆盖 1.0 与 2.0 API 及各数据类型。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-insights/resources/`, source/examples in `repos/esp-insights/`, and this recipe path `repos/esp-insights/recipes/custom_variables.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "上报当前状态变量"

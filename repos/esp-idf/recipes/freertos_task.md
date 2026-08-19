@@ -2,6 +2,10 @@
 
 > **适用摘要**: 创建 FreeRTOS 任务、用队列在任务/ISR 间传递数据，含任务通知与延时用法。
 
+> Version: ESP-IDF version used by the project.
+> Evidence: `repos/esp-idf/resources/`, source/examples in `repos/esp-idf/`, and this recipe path `repos/esp-idf/recipes/freertos_task.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "创建任务"

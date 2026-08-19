@@ -2,6 +2,10 @@
 
 > **适用摘要**: 创建一个 On/Off Light Switch（client 端 OnOff），用 Binding cluster 把它绑定到远端灯，绑定后通过按键发送 OnOff 命令控制远端灯，并可选订阅灯的状态以同步本机指示灯。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-matter/resources/`, source/examples in `repos/esp-matter/`, and this recipe path `repos/esp-matter/recipes/switches_binding.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做一个 Matter 开关"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 `examples/common/boards/` 下新增一块自定义板的配置，使其能被 `idf.py select-board` 识别并参与构建。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "添加自定义板"

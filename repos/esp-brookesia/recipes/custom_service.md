@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `brookesia_service_custom` 提供的 `CustomService`，在运行期动态注册自定义 function 与 event，把 LED/PWM/传感器等轻量逻辑封装为统一可本地/远程调用的服务能力，无需单独开发 Brookesia 组件。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-brookesia/resources/`, source/examples in `repos/esp-brookesia/`, and this recipe path `repos/esp-brookesia/recipes/custom_service.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "把我的 GPIO/LED 逻辑暴露成服务"

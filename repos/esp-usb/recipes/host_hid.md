@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 HID 主机驱动与 USB HID 设备（键盘、鼠标等）通信，处理驱动级与接口级事件、获取输入报告。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-usb/resources/`, source/examples in `repos/esp-usb/`, and this recipe path `repos/esp-usb/recipes/host_hid.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 读键盘/鼠标"

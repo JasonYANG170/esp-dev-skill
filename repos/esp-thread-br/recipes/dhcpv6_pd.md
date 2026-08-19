@@ -2,6 +2,10 @@
 
 > **适用摘要**: 让 BR 作为 DHCPv6 PD 客户端，从网络中的 DHCPv6 服务器（如 Kea）申请一段 IPv6 前缀，并下发给 Thread 设备，使其获得可全局路由的 IPv6 地址。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/dhcpv6_pd.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "DHCPv6 Prefix Delegation"
 - "DHCPv6 PD"

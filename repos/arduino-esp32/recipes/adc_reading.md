@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `analogRead` / `analogReadMilliVolts` 单次转换，以及 `analogContinuous` 连续模式对多通道后台采样并回调。含衰减（attenuation）与电压范围选择。
 
+> Version: Arduino-ESP32 core version and selected board package.
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/adc_reading.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "读取模拟电压 / 传感器"

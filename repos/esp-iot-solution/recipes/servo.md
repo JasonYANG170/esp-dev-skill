@@ -2,6 +2,9 @@
 
 > **适用摘要**: 使用 `iot_servo` 组件基于 ESP-IDF LEDC 生成 PWM 控制舵机（如 SG90/MG996R），初始化通道、写入目标角度并读取当前角度。组件用 `servo_config_t` 配置最大角度、脉宽范围（典型 500~2500µs）与 PWM 频率（典型 50Hz）。
 
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/servo.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "舵机控制"

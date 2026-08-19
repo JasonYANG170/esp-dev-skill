@@ -2,6 +2,10 @@
 
 > **适用摘要**: 让主控 SoC 自动/手动更新 RCP（ESP32-H2/C6）固件；理解序列号、verified flag 与自动回滚。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/rcp_update.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "更新 RCP 固件"
 - "otrcp update"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 创建一个 `lua_module_*` / `lua_driver_*` 组件，把硬件或服务以 Lua API 暴露给设备脚本，并在 app 里注册（必须在 `cap_lua_register_group` 之前）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-claw/resources/`, source/examples in `repos/esp-claw/`, and this recipe path `repos/esp-claw/recipes/lua_module.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "加一个 Lua 模块"

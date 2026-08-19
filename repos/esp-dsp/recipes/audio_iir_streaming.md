@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用三缓冲（triple buffer）+ `dsps_biquad_f32` 做实时音效链：从文件/I2S 读 int16 → 转 float → 串联 lowShelf（bass）与 highShelf（treble）biquad → `dsps_mulc_f32` 调音量 → 数字限幅器 → 回 int16 送 codec；运行时通过按钮重新生成 biquad 系数，而滤波器延迟线跨块保持。区别于一次性的 `iir_biquad.md` 静态测试。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/audio_iir_streaming.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "实时音频 IIR"

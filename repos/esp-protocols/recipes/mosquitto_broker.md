@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `mosquitto` 组件在 ESP32 上运行一个本地 MQTT broker —— 通过 `mosq_broker_run(&config)` 在调用线程阻塞运行；配置 `host`/`port`/`tls_cfg`（ESP-TLS 服务器配置）/`handle_connect_cb`（basic auth 校验）/`handle_message_cb`（消息回调）。可叠加本地 MQTT 客户端走 loopback 自测，或结合 serverless_mqtt 跨私有网络同步。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-protocols/resources/`, source/examples in `repos/esp-protocols/`, and this recipe path `repos/esp-protocols/recipes/mosquitto_broker.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP32 上跑 MQTT broker"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 `bist_ram_test_march_a()` / `bist_ram_test_march_x()` 做非破坏式 RAM 完整性测试（IEC 60730 4.2）；用 `bist_flash_test()` 比对运行时 CRC32 与后处理注入的参考值（IEC 60730 4.1）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RAM 自检 / March A / March X"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 编写 TinyUSB 设备侧描述符回调：设备/配置/字符串描述符，使用 `TUD_*_DESCRIPTOR` 宏组装配置描述符，正确分配接口号与端点号。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/tinyusb/resources/`, source/examples in `repos/tinyusb/`, and this recipe path `repos/tinyusb/recipes/descriptors_config.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "usb_descriptors.c 怎么写"

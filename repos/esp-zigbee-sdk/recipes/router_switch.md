@@ -2,6 +2,10 @@
 
 > **适用摘要**: 实现一个 HA on/off switch（ZR 或 ZED），通过 STEERING 加入协调器网络，用 ZDO `Match_Desc_req` 发现远端灯，再用 `Bind_req` 绑定，绑定后用 `ezb_zcl_on_off_toggle_cmd_req` 一键控制（无需指定目的地址）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-zigbee-sdk/resources/`, source/examples in `repos/esp-zigbee-sdk/`, and this recipe path `repos/esp-zigbee-sdk/recipes/router_switch.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做一个 Zigbee 开关"

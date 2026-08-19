@@ -2,6 +2,9 @@
 
 > **适用摘要**：WASM 应用通过 ESP-WDF 扩展适配层使用 ESP-IDF 风格 API：ESP HTTP Client 发起请求、ESP-MQTT 收发消息、ESP-RainMaker 上报设备、Wi-Fi Provisioning 配网。各模块由对应 Kconfig 开关启用（默认均为 `y`）。
 
+> Evidence: `repos/esp-wdf/resources/`, source/examples in `repos/esp-wdf/`, and this recipe path `repos/esp-wdf/recipes/cloud_protocols.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "WASM HTTP 请求"

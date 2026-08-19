@@ -2,6 +2,9 @@
 
 > **适用摘要**: 通过 ESP-IDF Component Registry 把 `esp-dl` 加入新工程，配置 `idf_component.yml` 与 `CMakeLists.txt`，准备加载 `.espdl` 模型。
 
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/project_setup.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "在工程里加入 esp-dl"

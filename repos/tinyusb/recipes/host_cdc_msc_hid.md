@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 TinyUSB 主机栈枚举并通信外接 USB 设备，包括 `tuh_task` 主循环、挂载/卸载回调、CDC-ACM/HID/MSC host API 与异步传输回调。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/tinyusb/resources/`, source/examples in `repos/tinyusb/`, and this recipe path `repos/tinyusb/recipes/host_cdc_msc_hid.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "TinyUSB 主机"

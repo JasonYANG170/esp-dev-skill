@@ -2,6 +2,10 @@
 
 > **适用摘要**: 通过 SysInfo 在 maincore 分配共享内存块并分配 ID，subcore 按 ID 查询获取，实现跨核数据共享。这是所有 ESP-AMP IPC 组件的基础。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-amp/resources/`, source/examples in `repos/esp-amp/`, and this recipe path `repos/esp-amp/recipes/shared_memory.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "跨核共享数据"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `deploy/quantize.py::quant_espdet()` 基于 esp-ppq 把 ONNX 后训练量化（PTQ）为 INT8 ESP-DL `.espdl`，需提供校准数据集。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-detection/resources/`, source/examples in `repos/esp-detection/`, and this recipe path `repos/esp-detection/recipes/quantize_espdl.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "量化模型"

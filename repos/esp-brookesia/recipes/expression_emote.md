@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `brookesia_expression_emote`（Helper 类 `service::helper::ExpressionEmote`）为 AI 交互提供拟人化视觉反馈——加载表情/动画资源、设置 emoji、显示/隐藏事件消息文本、显示二维码、插入动画。Emote 通常与 Agent 状态事件联动。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-brookesia/resources/`, source/examples in `repos/esp-brookesia/`, and this recipe path `repos/esp-brookesia/recipes/expression_emote.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "显示表情 emoji"

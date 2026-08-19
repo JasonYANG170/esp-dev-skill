@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 C++ 类 `ekf_imu13states`（继承自 `ekf`）做 IMU 姿态估计：初始化 → 标定阶段 → 每周期 `Process(gyro, dt)` → `UpdateRefMeasurement(accel, magn, R)` 修正陀螺仪偏差与姿态四元数。配合 `dspm::Mat` 与 `ekf` 静态方法（`eul2rotm`/`rotm2quat`/`quat2eul`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/kalman_ekf.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "卡尔曼滤波"

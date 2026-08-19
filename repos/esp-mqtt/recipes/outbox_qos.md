@@ -2,6 +2,10 @@
 
 > **适用摘要**: 理解 ESP-MQTT 的内存 outbox 机制，处理不稳定网络下的消息堆积、限流、重传与过期，避免 `-2` 与丢消息。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-mqtt/resources/`, source/examples in `repos/esp-mqtt/`, and this recipe path `repos/esp-mqtt/recipes/outbox_qos.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "outbox 太大"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 按 ESP-Claw Skill 规范创建 `skills/<skill_id>/SKILL.md`（JSON frontmatter + 正文 + 可选 scripts/references/assets），让 LLM 按需激活并获得工具与使用指南。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-claw/resources/`, source/examples in `repos/esp-claw/`, and this recipe path `repos/esp-claw/recipes/write_skill.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "写一个 Skill"

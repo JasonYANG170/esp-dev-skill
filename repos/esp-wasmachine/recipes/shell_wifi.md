@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `WASMachine> sta` 命令让设备以 Station 模式连接 AP，为远程 App 管理（`host_tool`）与联网 native（HTTP/MQTT/RainMaker）准备网络。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wasmachine/resources/`, source/examples in `repos/esp-wasmachine/`, and this recipe path `repos/esp-wasmachine/recipes/shell_wifi.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "连 Wi-Fi"

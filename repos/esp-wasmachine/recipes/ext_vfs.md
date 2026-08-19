@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用 Extended VFS，让 WASM 应用通过 `/dev/uart/x` 与 `ioctl` 访问 UART、GPIO、I2C、SPI、LEDC 外设。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wasmachine/resources/`, source/examples in `repos/esp-wasmachine/`, and this recipe path `repos/esp-wasmachine/recipes/ext_vfs.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "WASM 应用操作 GPIO"

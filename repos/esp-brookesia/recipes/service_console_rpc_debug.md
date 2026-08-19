@@ -2,6 +2,9 @@
 
 > **适用摘要**: 使用 ESP-Brookesia 自带的 `examples/service/console` 串口交互 CLI，在运行期驱动任意服务/Agent（`svc_call`/`svc_subscribe` 等）、跨设备经 Wi-Fi 进行 RPC 远程调用与事件订阅（`svc_rpc_server`/`svc_rpc_call`/`svc_rpc_subscribe`），并用 `debug_mem`/`debug_thread`/`debug_time_report` 三类剖析器诊断内存、CPU 与耗时。本配方不写应用层 C++，而是教你编译烧录该控制台示例、用命令在线编排设备——这是框架对外宣称的 "Agent CLI" 与 "RPC-based remote communication" 能力的唯一官方入口。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么在串口里直接调用服务函数"

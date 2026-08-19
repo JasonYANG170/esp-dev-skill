@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `esp_deep_sleep_*` 与定时器 / 外部(GPIO) / 触摸唤醒源让 ESP32 进入低功耗深睡眠，并在唤醒后重启运行。
 
+> Version: Arduino-ESP32 core version and selected board package.
+> Evidence: `repos/arduino-esp32/resources/`, source/examples in `repos/arduino-esp32/`, and this recipe path `repos/arduino-esp32/recipes/deep_sleep.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "低功耗 / 省电"

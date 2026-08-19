@@ -2,6 +2,10 @@
 
 > **适用摘要**: 演示 Thread 1.4 Credential Sharing：在 BR 上生成临时密钥 ePSKc，通告 `meshcop-e` 服务，使一个 Thread Commissioner 经 DTLS 安全会话从 BR 检索或配置 Thread 网络凭据（Network Key / PSKd）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/credential_sharing.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "Credential Sharing"
 - "ePSKc / ephemeral key"

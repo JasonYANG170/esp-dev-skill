@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 GMF-Core 的 pool/pipeline 构建「embed_flash → aud_dec → 音频效果链 → codec_dev」最小播放流水线，覆盖 pool 注册、pipeline 构建、task 绑定与事件等待。是理解 ESP-GMF 工作流的入门模板。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/pipeline_play_embed.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "播放 flash 内嵌的音频"

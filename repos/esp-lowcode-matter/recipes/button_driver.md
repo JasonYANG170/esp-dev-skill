@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `button_driver_create` 创建按键，`button_driver_register_cb` 注册单击/长按回调，实现单击切换设备状态、长按触发工厂复位。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/button_driver.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "加一个按键"

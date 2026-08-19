@@ -2,6 +2,10 @@
 
 > **适用摘要**: 两种真实 OTA 路线 —— (A) native OTA：用 socket 从 HTTP 服务器拉取镜像，经 `esp_ota_begin/write/end/set_boot_partition` 写入备用 OTA 分区并重启；(B) esp_https_ota 简易接口：一行调用基于 HTTPS 拉取升级。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/http_ota.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "OTA 升级"

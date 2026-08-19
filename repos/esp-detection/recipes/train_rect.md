@@ -2,6 +2,10 @@
 
 > **适用摘要**: 对非方形输入（如 160×288）启用 `rect=True` 训练，含可选的方形预训练阶段，以在不增加模型复杂度/推理时间的前提下提升精度与速度。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-detection/resources/`, source/examples in `repos/esp-detection/`, and this recipe path `repos/esp-detection/recipes/train_rect.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "rect 训练"

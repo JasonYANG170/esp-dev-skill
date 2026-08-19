@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_loader_connect_with_stub()` 连接目标，把 ROM bootloader 替换为功能更强的 `esp-flasher-stub`，从而支持更高波特率、>2MB flash、deflate 压缩写、快速 flash 读。仅 serial(SLIP) 接口支持。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/connect_with_stub.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "需要更高烧录速度"

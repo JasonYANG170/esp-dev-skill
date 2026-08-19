@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `brookesia_service_wifi` 完成 AP 扫描、STA 连接/断开、SoftAP 配网、状态/历史查询与事件订阅。Wi-Fi 服务为纯芯片工程，无需 HAL 设备初始化。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-brookesia/resources/`, source/examples in `repos/esp-brookesia/`, and this recipe path `repos/esp-brookesia/recipes/wifi_service.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "用 Brookesia 连 Wi-Fi"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 采集一帧，JPEG 编码后 base64，通过 HTTPS POST 到 OpenAI 兼容 vision API（如 `gpt-4o-mini`），打印返回的图像描述。补足端侧 ESP-DL 之外的"云大脑"路径。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/cloud_ai_vision.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "云 AI 图像识别"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `bthome_v2` 组件实现 BTHome V2 协议，对接 Home Assistant。支持加密/非加密、传感器/二元传感器/事件数据上报与解析：广播端用 `bthome_make_adv_data` + `bthome_payload_adv_add_*` 拼广播包；接收端用 `bthome_create` + `bthome_set_encrypt_key` + `bthome_parse_adv_data` 解出 `bthome_reports_t`。配合 `ble_hci` 组件做底层 BLE 收发。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/bthome.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "BTHome"

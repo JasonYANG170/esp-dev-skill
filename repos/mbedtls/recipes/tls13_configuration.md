@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用并裁剪 TLS 1.3——选择四种密钥交换模式（pure-PSK / pure-Ephemeral / PSK-Ephemeral 组合）、开关中间箱兼容模式、满足 TLS 1.3 的硬性前置依赖（`MBEDTLS_PSA_CRYPTO_C`、`MBEDTLS_SSL_KEEP_PEER_CERTIFICATE` 必须保持启用），以及运行时用 `mbedtls_ssl_conf_tls13_key_exchange_modes()` 收窄密钥交换集合。这些是独立于 TLS 1.2 配置的 TLS 1.3 专属配置面。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/tls13_configuration.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "启用 TLS 1.3"

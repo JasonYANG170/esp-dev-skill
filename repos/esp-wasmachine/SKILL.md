@@ -7,19 +7,7 @@ description: >-
   RainMaker/Wi-Fi provisioning), exposing hardware through Extended VFS, and managing applications
   through the shell or the host_tool.
   Trigger words: "ESP-WASMachine", "WASMachine", "WASM", "WebAssembly", "WAMR", "iwasm", "wasm-micro-runtime", "虚拟机", "ESP32", "Espressif", "host_tool", "install wasm", "esp32s3", "esp32c6", "esp32p4"
-tags:
-  - embedded
-  - esp32
-  - espressif
-  - webassembly
-  - wasm
-  - wamr
-  - virtual-machine
-  - iot
-  - firmware
-  - esp-idf
 license: Apache-2.0
-compatibility: ESP32 / ESP32-S3 / ESP32-C6 / ESP32-P4 ; build with ESP-IDF v5.1.x–v5.5.x/master and wasm-micro-runtime 2.x
 metadata:
   author: Community
   version: "1.0.0"

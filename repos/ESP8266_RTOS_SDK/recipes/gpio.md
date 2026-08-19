@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `gpio_config` 统一配置 ESP8266 GPIO 输入/输出/上下拉与中断类型，安装 per-pin ISR 服务、通过队列把中断转交任务处理。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/gpio.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "GPIO 配置"

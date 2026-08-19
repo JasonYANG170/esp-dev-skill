@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 Mbed TLS 建立 TLS 1.2/1.3 客户端连接，完成握手、读写应用数据并校验服务器证书。适用于 HTTPS、MQTT over TLS 等需要加密通道的客户端场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/tls_client.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "写一个 TLS 客户端"

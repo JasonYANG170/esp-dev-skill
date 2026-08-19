@@ -2,6 +2,10 @@
 
 > **适用摘要**: initiator 广播权威时间，responder 接收并调整本地时间；适合从 deep sleep 唤醒的节点同步时间（基于 `espnow_time.h`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-now/resources/`, source/examples in `repos/esp-now/`, and this recipe path `repos/esp-now/recipes/time_sync.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-NOW 时间同步"

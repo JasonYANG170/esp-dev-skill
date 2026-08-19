@@ -2,6 +2,10 @@
 
 > **适用摘要**: 设备首次配网（Wi-Fi、agent_id、refresh_token）、Agent 启动条件、恢复出厂，覆盖 voice_chat 与 matter_controller 两种 App 路径。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-agents-firmware/resources/`, source/examples in `repos/esp-agents-firmware/`, and this recipe path `repos/esp-agents-firmware/recipes/device_setup_provisioning.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "配网"

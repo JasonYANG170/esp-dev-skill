@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 ESP32-S3 本身做成 Matter 控制器 / commissioner，在固件里发起 pairing、`invoke-cmd`、`read-attr` / `read-event`、`write-attr`、`subs-attr` / `subs-event` 与 group-settings 操作。与 `commissioning_chiptool.md`（host 端 chip-tool 做 commissioner）互补：本 recipe 适用于"没有外部 chip-tool、由 ESP32 直接入网并控制其它 Matter 设备"的场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-matter/resources/`, source/examples in `repos/esp-matter/`, and this recipe path `repos/esp-matter/recipes/controller_ondevice.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "用 ESP32 commission 别的 Matter 设备"

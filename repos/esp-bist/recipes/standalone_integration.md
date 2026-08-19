@@ -2,6 +2,10 @@
 
 > **适用摘要**: 按 `samples/standalone/main.c` 的范式，把 BIST 库完整集成进一个安全关键应用：启动自检、运行时周期自检、窗口看门狗、fail-safe 退出。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-bist/resources/`, source/examples in `repos/esp-bist/`, and this recipe path `repos/esp-bist/recipes/standalone_integration.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "IEC 60730 Class B 集成"

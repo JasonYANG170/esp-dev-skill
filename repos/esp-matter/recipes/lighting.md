@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 esp-matter 标准 device type 创建各类灯具 endpoint，绑定 LED 驱动，在 `app_attribute_update_cb` 里做 Matter 单位到 LED 单位的���映射，并用 `attribute::update()` 让按键反向写回数据模型。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-matter/resources/`, source/examples in `repos/esp-matter/`, and this recipe path `repos/esp-matter/recipes/lighting.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做一个 Matter 灯"

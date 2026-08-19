@@ -7,20 +7,7 @@ description: >-
   update, HTTP OTA, Web GUI, and OpenThread CLI extensions.
   Trigger words: "esp-thread-br", "Thread Border Router", "OpenThread", "border router", "RCP", "ESP32-H2",
   "ESP32-S3", "802.15.4", "NAT64", "TREL", "SRP", "Thread", "线程边界路由器", "Thread 边界路由器", "嘉立创", "乐鑫"
-tags:
-  - embedded
-  - esp-idf
-  - openthread
-  - thread
-  - 802.15.4
-  - border-router
-  - esp32
-  - esp32-s3
-  - esp32-h2
-  - ipv6
-  - firmware
 license: Apache-2.0
-compatibility: ESP-IDF (>=5.1.0, recommended v5.5.4); host SoC ESP32-S3 / ESP32-P4 / ESP32-C5 / ESP32-C61, RCP ESP32-H2 or ESP32-C6
 metadata:
   author: Community
   version: "1.1.0"

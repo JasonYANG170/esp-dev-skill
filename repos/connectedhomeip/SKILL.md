@@ -8,22 +8,8 @@ description: >-
   BLE/Wi-Fi/Bypass, and control devices with chip-tool or the python controller.
   Trigger words: "Matter", "CHIP", "connectedhomeip", "project-chip", "chip-tool",
   "CHIPDeviceManager", "ZCL", "cluster", "commissioning", "Rendezvous",
- "OnOff", "Matter", "智能家居", "连接家庭", "Matter协议", "CHIP协议", "集群", "配网"
-tags:
-  - embedded
-  - matter
-  - chip
-  - connectedhomeip
-  - esp32
-  - esp32-c3
-  - zigbee-cluster
-  - commissioning
-  - ble
-  - wifi
-  - smart-home
-  - firmware
+  "OnOff", "Matter", "智能家居", "连接家庭", "Matter协议", "CHIP协议", "集群", "配网"
 license: Apache-2.0
-compatibility: Build requires ESP-IDF v4.3 + xtensa-esp32-elf (ESP32) or riscv-esp32-elf (ESP32-C3) toolchain; targets ESP32-DevKitC, ESP32-WROVER-KIT, M5Stack, ESP32C3-DevKitM
 metadata:
   author: Community
   version: "1.1.0"

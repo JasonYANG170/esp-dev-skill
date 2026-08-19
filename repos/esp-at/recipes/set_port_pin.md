@@ -2,6 +2,10 @@
 
 > **适用摘要**: 修改 AT 命令端口（默认 UART1）与日志端口（默认 UART0）的 TX/RX/CTS/RTS 引脚，适配自定义硬件布局。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-at/resources/`, source/examples in `repos/esp-at/`, and this recipe path `repos/esp-at/recipes/set_port_pin.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "改 AT 串口引脚"

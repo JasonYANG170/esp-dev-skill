@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 esp-tts 把中文文本合成为 16k/16bit PCM 并通过 `esp_audio_play` 播放，支持从 UART 接收文本实时合成。发音集从 `voice_data` 分区 mmap 加载。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-skainet/resources/`, source/examples in `repos/esp-skainet/`, and this recipe path `repos/esp-skainet/recipes/chinese_tts.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Chinese TTS"

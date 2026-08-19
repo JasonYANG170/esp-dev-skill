@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 Modbus 从站中使用 `mbc_slave_check_event` 阻塞等待主机访问，用 `mbc_slave_get_param_info` 取出被访问寄存器的详细信息（时间戳、偏移、类型、地址、大小），按事件掩码分类处理 Holding/Input/Coil/Discrete 访问。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-modbus/resources/`, source/examples in `repos/esp-modbus/`, and this recipe path `repos/esp-modbus/recipes/slave_events.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "从站怎么知道主机读了寄存器"

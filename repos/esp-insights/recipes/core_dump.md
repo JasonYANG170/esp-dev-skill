@@ -2,6 +2,10 @@
 
 > **适用摘要**: 让设备在崩溃时把 core dump 写入 flash，并在下次启动时把“摘要”（PC、异常 cause/vaddr、通用寄存器、backtrace）上报到云端。涉及 Kconfig、分区表与 ELF 固件包上传。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-insights/resources/`, source/examples in `repos/esp-insights/`, and this recipe path `repos/esp-insights/recipes/core_dump.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "崩溃日志上报"

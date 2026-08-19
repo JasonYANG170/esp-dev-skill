@@ -2,6 +2,10 @@
 
 > **适用摘要**: 连接目标后读取芯片型号、MAC 地址、flash 容量、安全信息（secure boot / flash encryption / JTAG / USB 等）。常用于烧录前校验目标身份、安全状态盘点。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/get_target_info.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "读 ESP MAC 地址"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 LP Core 上用 `system_set_pin_mode` / `system_digital_write` / `system_digital_read` 操作 GPIO，并提供 Arduino→LowCode 函数映射。
 
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/gpio_system.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "lowcode 怎么控制 GPIO"

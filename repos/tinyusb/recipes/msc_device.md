@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 TinyUSB MSC 类实现 USB U 盘，包括 RAM/Flash 后端、必需的 SCSI 回调（read10/write10/capacity/inquiry）、多 LUN 与可写控制。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/tinyusb/resources/`, source/examples in `repos/tinyusb/`, and this recipe path `repos/tinyusb/recipes/msc_device.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB U 盘"

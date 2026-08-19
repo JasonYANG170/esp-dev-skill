@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `AFE_TYPE_VC` 对通信语音做实时增强（降噪/AGC），从 `fetch` 取增强后的单声道 PCM，用于上行通话或录制。结构与深度降噪几乎相同，重点在"取数据、不强求落盘"。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-skainet/resources/`, source/examples in `repos/esp-skainet/`, and this recipe path `repos/esp-skainet/recipes/voice_communication.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "voice communication"

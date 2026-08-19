@@ -2,6 +2,10 @@
 
 > **适用摘要**：WASM 应用使用 `pthread_create/join` 创建线程，配合 `pthread_mutex_t` 互斥锁与 `pthread_cond_t` 条件变量做同步。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wdf/resources/`, source/examples in `repos/esp-wdf/`, and this recipe path `repos/esp-wdf/recipes/multithread.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "WASM 多线程"

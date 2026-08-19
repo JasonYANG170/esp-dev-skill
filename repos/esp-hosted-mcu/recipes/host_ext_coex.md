@@ -2,6 +2,10 @@
 
 > **适用摘要**: 通过 ESP-Hosted 链路远程配置协处理器（slave）的硬件 PTA（Packet Traffic Arbitrator），让 slave 的 Wi-Fi 与 host 上的另一颗外部射频（BLE/Zigbee/Thread 等）共享 2.4 GHz 频段。支持 1/2/3/4-wire 模式与 leader/follower 角色。host 侧平台无关，亦适用于非 ESP host（STM32/nRF）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/host_ext_coex.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-Hosted 外部共存"

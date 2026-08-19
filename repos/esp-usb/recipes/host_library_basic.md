@@ -2,6 +2,10 @@
 
 > **适用摘要**: USB Host Library 的安装、Daemon Task、client 注册、设备打开/接口 claim/裸传输，以及完整的卸载流程。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-usb/resources/`, source/examples in `repos/esp-usb/`, and this recipe path `repos/esp-usb/recipes/host_library_basic.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB host library"

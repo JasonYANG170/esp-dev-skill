@@ -2,6 +2,9 @@
 
 > **适用摘要**：从零创建 ESP-WDF WebAssembly 应用工程，配置 `sdkconfig.defaults`、`main/CMakeLists.txt`，编译出 `.wasm`/`.aot` 固件，并通过 `host_tool.py` 安装运行。
 
+> Evidence: `repos/esp-wdf/resources/`, source/examples in `repos/esp-wdf/`, and this recipe path `repos/esp-wdf/recipes/new_wasm_app.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "新建 WASM 应用"

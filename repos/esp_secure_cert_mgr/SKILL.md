@@ -1,5 +1,5 @@
 ---
-name: esp_secure_cert_mgr-skill
+name: esp-secure-cert-mgr-skill
 description: >-
   AI Skill for developing ESP-IDF firmware with the Espressif esp_secure_cert_mgr component,
   used to read, write, and verify PKI credentials (device cert, CA cert, private key, DS context)
@@ -7,21 +7,7 @@ description: >-
   Trigger words: "esp_secure_cert", "esp_secure_cert_mgr", "secure cert", "pre-provisioning",
   "预置证书", "安全证书", "数字签名 DS", "Digital Signature", "PKI", "TLS 凭据", "esp_secure_cert partition",
   "ECDSA peripheral", "HMAC ECDSA", "secure boot v2"
-tags:
-  - embedded
-  - esp-idf
-  - espressif
-  - esp32
-  - security
-  - PKI
-  - TLS
-  - certificates
-  - pre-provisioning
-  - secure-boot
-  - flash-encryption
-  - digital-signature
 license: Apache-2.0
-compatibility: ESP-IDF >= 4.3 (write APIs require >= 5.3); targets ESP32, ESP32-S2, ESP32-S3, ESP32-C3/C5/C6, ESP32-H2 etc. with per-chip DS/HMAC/ECDSA peripheral support
 metadata:
   author: Community
   version: "1.0.0"

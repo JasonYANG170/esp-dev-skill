@@ -2,6 +2,10 @@
 
 > **适用摘要**: 配置 GPIO 为输入/输出，读取/设置电平，安装 ISR 服务并处理下降沿等中断。
 
+> Version: ESP-IDF version used by the project.
+> Evidence: `repos/esp-idf/resources/`, source/examples in `repos/esp-idf/`, and this recipe path `repos/esp-idf/recipes/gpio_control.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "配置 GPIO"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 ESP-WIFI-MESH 协议栈组建自组织 Wi-Fi 网状网络：`esp_mesh_init`、`esp_mesh_set_config`（mesh ID / 路由器 / SoftAP 凭据）、`esp_mesh_start`、收发（`esp_mesh_send` / `esp_mesh_recv`）、路由表查询、事件处理（`MESH_EVENT_*`）。适配自 `examples/mesh/internal_communication`。
 
+> Version: ESP-IDF version used by the project.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Wi-Fi Mesh"

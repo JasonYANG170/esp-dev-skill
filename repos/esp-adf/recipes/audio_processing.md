@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 pipeline 中插入音频处理 element 实现均衡器（EQ）、混音（Downmix）、变速变调（Sonic）、重采样（Resample Filter）、自动电平控制（ALC）。这些 element 通常位于解码器与输出 stream 之间。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-adf/resources/`, source/examples in `repos/esp-adf/`, and this recipe path `repos/esp-adf/recipes/audio_processing.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "加均衡器 / EQ"

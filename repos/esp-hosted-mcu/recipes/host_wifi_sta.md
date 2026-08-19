@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 host 上运行一个标准的 ESP-IDF Wi-Fi Station 应用，底层经 ESP-Hosted RPC 透明转发到协处理器。应用代码与原生 ESP-IDF Wi-Fi 几乎一致——区别只在初始化阶段需要先 `esp_hosted_init()` / `esp_hosted_connect_to_slave()` 并等待传输就绪。
 
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/host_wifi_sta.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "host 上跑 Wi-Fi 连 AP"

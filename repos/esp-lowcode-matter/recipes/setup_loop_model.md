@@ -2,6 +2,10 @@
 
 > **适用摘要**: 理解并实现 LowCode 在 LP Core 上的 `system_setup()` → `setup()` → `while{system_loop();loop();}` 骨架与回调注册。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/setup_loop_model.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "lowcode 主循环怎么写"

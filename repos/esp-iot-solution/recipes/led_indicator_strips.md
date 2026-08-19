@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `led_indicator` 的 RGB 后端（三通道 PWM LED）与 Strips 后端（WS2812 等 RMT/SPI 寻址灯带）做彩色灯效：`LED_BLINK_RGB` / `LED_BLINK_HSV` 设颜色，`LED_BLINK_RGB_RING` / `LED_BLINK_HSV_RING` 做颜色渐变，`SET_IHSV` / `SET_IRGB` / `INSERT_INDEX` 控制灯带单颗或全部灯。颜色宏 `SET_RGB(r,g,b)`、`SET_HSV(h,s,v)` 在 `led_convert.h`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/led_indicator_strips.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RGB LED 彩色灯效"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 讲解 Zigbee OTA 升级流程——ota_server 作为升级文件提供方（ZC 侧），ota_client 作为接收方接收分块镜像并刷写到 OTA 分区，支持整包与 delta OTA。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-zigbee-sdk/resources/`, source/examples in `repos/esp-zigbee-sdk/`, and this recipe path `repos/esp-zigbee-sdk/recipes/ota_upgrade.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Zigbee OTA 升级"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_loader_flash_verify_known_md5()` 比对目标的明文 MD5 与已知 MD5，只对不匹配的分区重新烧录，避免每次全量烧录。适合 OTA 旁路、量产复核、固件去重。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/fast_reflash_md5.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "只烧录变化的分区"

@@ -2,6 +2,8 @@
 
 > **适用摘要**: 按 `docs/en/software_validation.rst` 的范式，用 QEMU（`qemu-system-riscv32 -icount 3`）+ GDB（`:1234`）对 BIST 测试做确定性故障注入，用 pytest 驱动断言 PASS/FAIL，产出 JUnit XML；再把结果串进 `test_traceability_matrix.rst` → `coverage_analysis.rst` → `tool_qualification.rst` → `safety_case_summary.rst` 的 IEC 60730 Class B 证据链。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+
 ## 触发意图
 
 - "IEC 60730 证据包"

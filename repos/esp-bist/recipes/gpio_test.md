@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 `bist_gpio_output_test()` 验证引脚能被可靠拉高/拉低并回读；用 `bist_gpio_input_test()` 验证输入引脚能读到预期外部电平（IEC 60730 组件 7.1）。包含无效 GPIO 号与各 SoC 引脚映射。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-bist/resources/`, source/examples in `repos/esp-bist/`, and this recipe path `repos/esp-bist/recipes/gpio_test.md`.
+
 ## 触发意图
 
 - "GPIO 自检 / IO 测试"

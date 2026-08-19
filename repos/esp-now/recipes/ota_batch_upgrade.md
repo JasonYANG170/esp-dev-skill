@@ -2,6 +2,9 @@
 
 > **适用摘要**: initiator 从 HTTP 下载固件并写入本地升级分区，再扫描 responder、分发包并支持断点续传；responder 启动升级接收并写 flash（参考 `examples/ota`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-NOW OTA"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 `mbc_set_handler` / `mbc_get_handler` / `mbc_delete_handler` / `mbc_get_handler_count` 注册新的厂商自定义功能码（如 0x41），或覆盖标准功能码（如 0x04 读输入寄存器）。覆盖主站和从站两种用法，并附 FC 0x41 回显示例。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "自定义 Modbus 功能码"

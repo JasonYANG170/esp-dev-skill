@@ -9,23 +9,7 @@ description: >-
   Trigger words: "ESP Serial Flasher", "esp-serial-flasher", "esp_serial_flasher", "esp_loader",
   "flash ESP from MCU", "cross-MCU flashing", "serial flasher", "ESP 串口烧录", "跨 MCU 烧录",
   "烧录 ESP", "从 MCU 烧录", "RAM 下载", "loader stub", "flasher stub"
-tags:
-  - embedded
-  - espressif
-  - esp32
-  - esp8266
-  - flashing
-  - bootloader
-  - serial
-  - UART
-  - SDIO
-  - SPI
-  - USB-CDC
-  - firmware-update
 license: Apache-2.0
-compatibility: >-
-  Host builds: ESP-IDF v5.5+ (managed component), STM32 HAL, Zephyr v4.4.0, Raspberry Pi Pico SDK v2.2.0,
-  Linux (libgpiod 2.0), or any CMake ≥3.22 host. Target: ESP8266, ESP32, ESP32-S2/S3, ESP32-C2/C3/C5/C6/H2, ESP32-P4, ESP32-C61.
 metadata:
   author: Community
   version: "1.1.0"

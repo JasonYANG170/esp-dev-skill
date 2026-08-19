@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 host 端 chip-tool 作为 commissioner，通过 BLE-Wi-Fi 或 BLE-Thread 把 Matter 设备加入 fabric，并用 cluster 命令读写属性。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-matter/resources/`, source/examples in `repos/esp-matter/`, and this recipe path `repos/esp-matter/recipes/commissioning_chiptool.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么 commission Matter 设备"

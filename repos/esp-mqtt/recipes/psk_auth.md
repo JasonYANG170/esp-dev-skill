@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在不支持证书或资源受限时，使用 TLS-PSK 预共享密钥认证 broker，对应 `examples/ssl_psk/`。PSK 仅在无其它校验方式时启用。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "MQTT PSK 认证"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `WhoQRCodeAppLCD`（或 `WhoQRCodeAppTerm`）实时识别摄像头画面中的二维码，把解码文本显示到 LCD / 打印到串口。底层是 `quirc` 库。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-who/resources/`, source/examples in `repos/esp-who/`, and this recipe path `repos/esp-who/recipes/qrcode_recognition.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "二维码识别"

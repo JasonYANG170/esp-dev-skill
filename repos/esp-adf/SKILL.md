@@ -8,19 +8,7 @@ description: >-
   pipelines, peripherals, services (Wi-Fi/BT/OTA), and speech recognition integration.
   Trigger words: "ESP-ADF", "esp-adf", "audio_pipeline", "i2s_stream", "mp3_decoder", "http_stream",
   "音频", "音频流水线", "录音", "播放", "Espressif Audio", "ESP32 音频", "LyraT", "Korvo", "audio_board"
-tags:
-  - embedded
-  - audio
-  - espressif
-  - esp32
-  - esp-adf
-  - codec
-  - i2s
-  - pipeline
-  - streaming
-  - firmware
 license: ESPRESSIF MIT
-compatibility: Requires ESP-IDF (release/v5.1 - v5.5) + ESP-ADF master; CMake build via idf.py; targets ESP32 / ESP32-S2 / ESP32-S3 / ESP32-C3 / ESP32-C5 / ESP32-C6 / ESP32-P4
 metadata:
   author: Community
   version: "1.1.0"

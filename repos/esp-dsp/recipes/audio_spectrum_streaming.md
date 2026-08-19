@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用定点 `dsps_fft2r_init_sc16` / `dsps_fft2r_sc16` 对 I2S 麦克风的双声道音频块做实时流式 FFT，配 `dsps_wind_blackman_harris_f32` 加窗、`dsps_cplx2reC_sc16` 拆分两路实信号频谱、转 dB 与滑动平均，最后送显示任务。区别于一次性的 `fft_complex.md` / `fft_real.md` 测试信号链路。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/audio_spectrum_streaming.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "实时频谱"

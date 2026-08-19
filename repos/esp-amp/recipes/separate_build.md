@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 ESP-AMP separate build 模式，maincore 与 subcore 各自独立工程、独立构建。适合 subcore 固件需独立开发或由第三方提供的场景。subcore 固件必须手动 esptool 烧入 flash 分区。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-amp/resources/`, source/examples in `repos/esp-amp/`, and this recipe path `repos/esp-amp/recipes/separate_build.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "separate build"

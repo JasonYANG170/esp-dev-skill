@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_rmaker_device_create()` + `esp_rmaker_param_create()` 创建自定义设备，添加自定义参数、UI Type、数值范围（bounds）、有效字符串列表，并编写 write 回调。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-rainmaker/resources/`, source/examples in `repos/esp-rainmaker/`, and this recipe path `repos/esp-rainmaker/recipes/custom_device.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "自定义 RainMaker 设备"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: 把 esp-dsp 作为 ESP-IDF 组件加入新项目或已有项目，选择优化级别与最大 FFT 长度，跑通最小可工作 `app_main`。
 
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/project_setup.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么用 esp-dsp"

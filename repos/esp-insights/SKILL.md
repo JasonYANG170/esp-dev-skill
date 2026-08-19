@@ -6,21 +6,7 @@ description: >-
   variable reporting, core dump capture, RTC data store, HTTPS/MQTT transports, and the dashboard workflow.
   Trigger words: "ESP-Insights", "ESP Insights", "esp_insights", "esp_diagnostics", "diagnostics",
   "遥测", "远程诊断", "可观测性", "日志上报", "指标", "coredump", "core dump", "ESP32", "ESP-IDF", "RainMaker"
-tags:
-  - embedded
-  - espressif
-  - esp32
-  - esp-idf
-  - diagnostics
-  - observability
-  - remote-diagnostics
-  - telemetry
-  - cbor
-  - mqtt
-  - https
-  - firmware
 license: Apache-2.0
-compatibility: ESP-IDF >= v5.1 (recommend release/v5.5+); targets ESP32 SoC family (ESP32, ESP32-S2/S3/C2/C3/C6, etc.); built with idf.py. ESP-IDF 4.x only on the idf_4_x_compat branch.
 metadata:
   author: Community
   version: "1.0.0"

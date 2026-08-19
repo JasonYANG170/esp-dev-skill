@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 matter_controller 示例中获取 Matter 设备列表、控制 OnOff / LevelControl / ColorControl cluster，以及 Thread Border Router 的板子选择与配置。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Matter 控制"

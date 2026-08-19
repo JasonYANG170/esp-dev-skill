@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把固件从公共部署（`api.agents.espressif.com`）切换到自建 AWS 部署，并配置 token 与 agent_id。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-agents-firmware/resources/`, source/examples in `repos/esp-agents-firmware/`, and this recipe path `repos/esp-agents-firmware/recipes/custom_deployment.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "自定义部署"

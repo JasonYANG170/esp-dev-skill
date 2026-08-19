@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用 RainMaker 本地控制服务，让用户在同一 Wi-Fi/Thread 网络内无需互联网即可控制节点，配置 PoP、安全等级（sec0/sec1/sec2），以及 chal_resp 端点。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-rainmaker/resources/`, source/examples in `repos/esp-rainmaker/`, and this recipe path `repos/esp-rainmaker/recipes/local_control.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RainMaker 本地控制"

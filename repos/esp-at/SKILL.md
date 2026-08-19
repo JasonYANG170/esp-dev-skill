@@ -7,20 +7,7 @@ description: >-
   Wi-Fi/BLE/TCP-IP/HTTP/MQTT/WebSocket functionality via AT commands on
   ESP32, ESP32-C2, ESP32-C3, ESP32-C5, ESP32-C6, ESP32-C61, and ESP32-S2.
   Trigger words: "ESP-AT", "AT command", "AT固件", "AT指令", "esp-at", "嘉立创 AT", "Espressif AT", "自定义AT命令", "AT+USEROTA", "AT through UART", "AT via SPI", "AT via SDIO"
-tags:
-  - embedded
-  - esp-at
-  - espressif
-  - ESP32
-  - ESP32-C3
-  - ESP32-C6
-  - AT-commands
-  - wifi
-  - bluetooth
-  - firmware
-  - OTA
 license: Apache-2.0
-compatibility: Build requires ESP-IDF (v5.4 for ESP32/C2/C3/C6/S2, v5.5 for C5/C61); targets ESP32, ESP32-C2, ESP32-C3, ESP32-C5, ESP32-C6, ESP32-C61, ESP32-S2 (ESP32-S3 and ESP32-H2 are NOT supported)
 metadata:
   author: Community
   version: "1.0.0"

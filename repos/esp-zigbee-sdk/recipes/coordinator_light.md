@@ -2,6 +2,10 @@
 
 > **适用摘要**: 实现一个 Zigbee Coordinator（ZC）角色的 HA on/off 灯，完成网络形成（FORMATION）、开放网络（open network）与入网引导（STEERING），并通过 ZCL Core Action 接收 on/off 属性变化驱动 LED。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-zigbee-sdk/resources/`, source/examples in `repos/esp-zigbee-sdk/`, and this recipe path `repos/esp-zigbee-sdk/recipes/coordinator_light.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做一个 Zigbee 协调器"

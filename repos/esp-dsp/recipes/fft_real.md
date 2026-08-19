@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `dsps_fft4r_fc32`（radix-4）对实信号做 FFT，配合 `dsps_bit_rev4r_fc32` 与 `dsps_cplx2real_fc32` 把结果还原为实数频谱；适合单路实信号、点数为 4 的幂的场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/fft_real.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "实数 FFT"

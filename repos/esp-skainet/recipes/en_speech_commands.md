@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 ESP32-S3 上实现"唤醒 → 英文命令词识别"。结构与中文版一致，区别仅在 MultiNet 模型过滤关键字（`ESP_MN_ENGLISH`）与 Kconfig 模型符号。注意：英文命令仅支持 ESP32-S3 系列（不支持 ESP32）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-skainet/resources/`, source/examples in `repos/esp-skainet/`, and this recipe path `repos/esp-skainet/recipes/en_speech_commands.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "English speech commands recognition"

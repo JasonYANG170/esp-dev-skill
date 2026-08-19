@@ -2,6 +2,10 @@
 
 > **适用摘要**: 当内置 port（ESP32/STM32/Zephyr/Pico/Linux）不覆盖你的主机时，实现自己的 `esp_loader_port_ops_t` vtable，把 ESP Serial Flasher 作为 external library（`PORT=USER_DEFINED`）集成。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/custom_port.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "移植到新 MCU"

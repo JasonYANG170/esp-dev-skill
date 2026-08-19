@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在 ESP32 上建立多端口 HTTP 服务器，通过浏览器进行图像抓拍、MJPEG 视频流预览与相机参数配置。`simple_video_server` 示例同时支持多摄像头。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "视频服务器"

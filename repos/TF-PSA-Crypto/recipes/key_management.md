@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `psa_key_attributes_t` 描述密钥，通过 `psa_generate_key` / `psa_import_key` 创建密钥，`psa_export_key` / `psa_export_public_key` 取出密钥，`psa_destroy_key` 释放。涵盖易失(volatile)与持久(persistent)两种生命周期。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/TF-PSA-Crypto/resources/`, source/examples in `repos/TF-PSA-Crypto/`, and this recipe path `repos/TF-PSA-Crypto/recipes/key_management.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "如何创建一个 AES 密钥"

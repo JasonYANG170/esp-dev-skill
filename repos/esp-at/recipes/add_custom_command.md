@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在不修改 esp-at 仓库源码的前提下，通过 `at_custom_cmd` 组件添加用户自定义 AT 指令，包括四种指令类型（Test/Query/Set/Execute）、参数解析、结果输出、可选参数、阻塞执行与接收端口原始数据。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-at/resources/`, source/examples in `repos/esp-at/`, and this recipe path `repos/esp-at/recipes/add_custom_command.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "添加 AT 指令"

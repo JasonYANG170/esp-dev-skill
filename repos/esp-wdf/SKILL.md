@@ -7,18 +7,7 @@ description: >-
   peripheral access (GPIO/UART/I2C/SPI/LEDC), BSD socket networking, pthread concurrency, and
   extended adapters (LVGL/HTTP/MQTT/RainMaker/Wi-Fi Provisioning).
   Trigger words: "ESP-WDF", "WASM", "WebAssembly", "WAMR", "esp-wasmachine", "wasm app", "on_init", "api_register_resource_handler", "esp-wdf", "WASM开发框架", "虚拟机应用", "嘉立创WebAssembly", "ESP32", "Espressif"
-tags:
-  - embedded
-  - wasm
-  - webassembly
-  - wamr
-  - espressif
-  - esp32
-  - iot
-  - firmware
-  - virtual-machine
 license: Apache-2.0
-compatibility: Target ESP32-series chips; build via ESP-WDF (ESP-IDF-like idf.py) producing .wasm/.aot; runs on ESP-WASMachine host runtime
 metadata:
   author: Community
   version: "1.1.0"

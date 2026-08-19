@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 GATT 服务端实现 NOTIFY / INDICATE 特征，通过 `ble_gatts_notify_custom` 发送通知数据，处理客户端的 CCCD 订阅事件。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-nimble/resources/`, source/examples in `repos/esp-nimble/`, and this recipe path `repos/esp-nimble/recipes/notify.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "通知 / notify / indication"

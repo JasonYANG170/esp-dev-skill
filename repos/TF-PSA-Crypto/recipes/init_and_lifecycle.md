@@ -2,6 +2,10 @@
 
 > **适用摘要**: 正确初始化 PSA Crypto 库、在程序结束时释放资源。这是使用任何 `psa_*` API 之前必须完成的第一步。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/TF-PSA-Crypto/resources/`, source/examples in `repos/TF-PSA-Crypto/`, and this recipe path `repos/TF-PSA-Crypto/recipes/init_and_lifecycle.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "如何初始化 PSA Crypto"

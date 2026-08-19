@@ -2,6 +2,9 @@
 
 > **适用摘要**: 加载 MultiNet 模型、通过 API 或 sdkconfig 增删改命令词、运行 detect/get_results，并区分单次与连续识别模式。命令词源数据来自 AFE fetch 的单声道 16k/16bit 音频。
 
+> Evidence: `repos/esp-sr/resources/`, source/examples in `repos/esp-sr/`, and this recipe path `repos/esp-sr/recipes/multinet_commands.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "命令词识别"

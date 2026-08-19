@@ -2,6 +2,10 @@
 
 > **适用摘要**: 加载 `.espdl` 后，获取输入/输出 TensorBase，对 float 输入做量化，调用 `run()`，再把 int 输出反量化为 float。这是 ESP-DL 最核心的推理流程。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/run_inference.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么跑模型推理"

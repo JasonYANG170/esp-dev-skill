@@ -2,6 +2,10 @@
 
 > **适用摘要**: 当官方内置模组枚举（SIM7600/SIM800/BG96 等）不满足时，通过继承 `GenericModule` 自定义模组类，添加私有 AT 命令，并用 `ESP_MODEM_DCE_CUSTOM` 创建 DCE。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-protocols/resources/`, source/examples in `repos/esp-protocols/`, and this recipe path `repos/esp-protocols/recipes/modem_custom_module.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "esp_modem 添加自定义模组"

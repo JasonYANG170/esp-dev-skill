@@ -2,6 +2,9 @@
 
 > **适用摘要**: 通过 `at_override_module_config` 外部目录覆盖默认模块配置（sdkconfig.defaults、补丁、分区表、工厂参数、ble_data 等），无需修改 esp-at 仓库源码，便于在自有 git 仓库轻量托管定制内容。
 
+> Evidence: `repos/esp-at/resources/`, source/examples in `repos/esp-at/`, and this recipe path `repos/esp-at/recipes/override_module_config.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "覆盖模块配置"

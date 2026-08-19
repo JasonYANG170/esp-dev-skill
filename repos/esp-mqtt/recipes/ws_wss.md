@@ -2,6 +2,9 @@
 
 > **适用摘要**: 通过 WebSocket 传输连接 MQTT broker，对应 `examples/ws/`（ws）与 `examples/wss/`（wss）。常用于穿越 80/443 防火墙或走 CDN/反代。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "MQTT over WebSocket"

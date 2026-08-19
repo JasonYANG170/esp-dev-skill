@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `espdl_quantize_onnx` 把 ONNX 模型做训练后量化（PTQ），导出可在 ESP 芯片部署的 `.espdl` 模型。PyTorch/TensorFlow/Paddle 需先转 ONNX。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/quantize_onnx.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "量化 onnx 模型"

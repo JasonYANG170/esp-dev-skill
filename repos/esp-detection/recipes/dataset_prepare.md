@@ -2,6 +2,10 @@
 
 > **适用摘要**: 按 Ultralytics YOLO 检测格式组织数据，编写 `cfg/datasets/*.yaml`，并按需启用 negative sampling（负样本）或 weighted sampling（类别均衡）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-detection/resources/`, source/examples in `repos/esp-detection/`, and this recipe path `repos/esp-detection/recipes/dataset_prepare.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "准备检测数据集"

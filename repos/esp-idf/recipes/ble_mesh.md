@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 ESP-BLE-MESH 协议栈实现一个 Mesh 节点（Generic OnOff Server 模型）：配置 Composition Data（含 Config Server + Generic OnOff Server 模型）、`esp_ble_mesh_init` 启动、开启 PB-ADV/PB-GATT 配网承载（Provisioning）、`esp_ble_mesh_node_prov_enable` 进入待配网状态、处理 Generic Server 的 GET/SET 消息、`esp_ble_mesh_model_publish` 发布状态。适配自 `examples/bluetooth/esp_ble_mesh/onoff_models/onoff_server`。
 
+> Version: ESP-IDF version used by the project.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "BLE Mesh"

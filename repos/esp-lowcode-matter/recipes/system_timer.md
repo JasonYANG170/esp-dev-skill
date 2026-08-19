@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `system_timer_create` / `system_timer_start` 创建周期或单次定时器，在回调里周期读取并上报特性（传感器读数的标准模式）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/system_timer.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "周期上报"

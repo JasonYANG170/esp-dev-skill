@@ -2,6 +2,10 @@
 
 > **适用摘要**: 初始化 mDNS，设置 hostname 与实例名，用 `mdns_service_add()` 发布服务（如 `_http._tcp`），配置 TXT 记录、子类型（subtype）与委托主机（delegated host）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-protocols/resources/`, source/examples in `repos/esp-protocols/`, and this recipe path `repos/esp-protocols/recipes/mdns_advertise.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "mDNS 发布服务"

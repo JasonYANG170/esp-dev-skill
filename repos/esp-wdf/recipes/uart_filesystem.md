@@ -2,6 +2,10 @@
 
 > **适用摘要**：WASM 应用通过 `/dev/uart/0`（或 `/dev/usbserjtag`）`write` 串口数据；通过 `/storage/<file>` 路径用 `open/write/read/lseek/close` 读写 VFS 文件。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wdf/resources/`, source/examples in `repos/esp-wdf/`, and this recipe path `repos/esp-wdf/recipes/uart_filesystem.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "WASM 串口输出"

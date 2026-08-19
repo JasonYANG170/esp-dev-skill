@@ -2,6 +2,10 @@
 
 > **适用摘要**：使用 ESP-WDF 的 WAMR App Framework，以 `on_init()`/`on_destroy()` 为入口，通过 `api_timer_create` 创建周期定时器并在回调中执行逻辑。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wdf/resources/`, source/examples in `repos/esp-wdf/`, and this recipe path `repos/esp-wdf/recipes/app_framework_timer.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "创建定时器"

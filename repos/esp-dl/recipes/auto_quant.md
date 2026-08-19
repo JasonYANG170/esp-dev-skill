@@ -2,6 +2,10 @@
 
 > **适用摘要**: 当默认 8-bit 量化精度不足时，用 `espdl_auto_quantize_onnx` 在多种量化策略与参数间自动搜索，按评估指标保留 Top-K 候选 `.espdl`，减少人工调参。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/auto_quant.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "量化精度不够怎么办"

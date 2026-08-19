@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 `.espdl` 模型嵌入应用的 `.rodata` 段，用 `MODEL_LOCATION_IN_FLASH_RODATA` 加载。最简单的加载方式，缺点是改代码也会重新烧模型。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/load_model_rodata.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "把模型嵌入固件"

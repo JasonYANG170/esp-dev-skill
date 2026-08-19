@@ -7,24 +7,7 @@ description: >-
   BLE, peripherals, NVS storage, OTA updates, partition tables, FreeRTOS tasks,
   and the idf.py / CMake build system.
   Trigger words: "ESP-IDF", "esp-idf", "Espressif", "ESP32", "ESP32-S3", "ESP32-C3", "ESP32-C6", "ESP32-H2", "idf.py", "app_main", "FreeRTOS", "乐鑫", "安信可", "Wi-Fi 配网", "OTA", "NVS", "外设", "分区表"
-tags:
-  - embedded
-  - esp-idf
-  - espressif
-  - esp32
-  - esp32s3
-  - esp32c3
-  - esp32c6
-  - wifi
-  - bluetooth
-  - freertos
-  - firmware
-  - IoT
 license: Apache-2.0
-compatibility: >-
-  Targets ESP32, ESP32-S2, ESP32-S3, ESP32-C2/C3/C5/C6/C61, ESP32-H2/H4/H21,
-  ESP32-P4; build via idf.py (CMake + Ninja) with the ESP-IDF toolchain on
-  Windows/Linux/macOS.
 metadata:
   author: Community
   version: "1.1.0"

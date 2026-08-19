@@ -2,6 +2,10 @@
 
 > **适用摘要**: 讲解服务端如何接收并处理来自远端的属性写入/命令——通过 `ezb_zcl_core_action_handler_register` 注册回调，在 `EZB_ZCL_CORE_SET_ATTR_VALUE_CB_ID` 分支里取 `ezb_zcl_set_attr_value_message_t` 驱动外设（如点灯、关窗帘）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-zigbee-sdk/resources/`, source/examples in `repos/esp-zigbee-sdk/`, and this recipe path `repos/esp-zigbee-sdk/recipes/zcl_core_action.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "灯怎么响应开关命令"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: 通过 HTTPS 下载新固件并切换分区启动，覆盖高层 `esp_https_ota`（推荐）与底层 `esp_ota_begin/write/end` 两种用法（适配自 simple_ota_example���。
 
+> Version: ESP-IDF version used by the project.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "OTA 升级"

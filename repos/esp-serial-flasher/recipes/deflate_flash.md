@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把目标固件预先 zlib 压缩，用 `esp_loader_flash_deflate_start/write/finish` 烧录压缩流，目标端 stub 解压写入，显著减少 UART 传输量。需 stub 连接，且 deflate 路径不内部做 MD5，需单独 verify。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/deflate_flash.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "压缩烧录"

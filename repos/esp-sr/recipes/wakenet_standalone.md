@@ -2,6 +2,10 @@
 
 > **适用摘要**: 不通过 AFE pipeline，直接调用 WakeNet 模型进行唤醒词检测。适用于自建前端处理、单元测试或低延迟独立场景。生产场景推荐用 AFE，本 recipe 对应 `test_apps/esp-sr/main/test_wakenet.cpp`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-sr/resources/`, source/examples in `repos/esp-sr/`, and this recipe path `repos/esp-sr/recipes/wakenet_standalone.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "单独跑 WakeNet"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 实现一个传统可连接 BLE 外设：设置广播数据 / 扫描响应、启动非定向广播、处理连接与断开并在断开后恢复广播。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-nimble/resources/`, source/examples in `repos/esp-nimble/`, and this recipe path `repos/esp-nimble/recipes/peripheral_adv.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "BLE 外设 / 从机"

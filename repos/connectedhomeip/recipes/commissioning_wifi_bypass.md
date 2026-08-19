@@ -2,6 +2,10 @@
 
 > **适用摘要**: 当不使用 BLE 时，将设备配网模式切换为 Wi-Fi 或 Bypass：在 menuconfig 设置 SSID/密码与 Rendezvous 模式，使设备开机即尝试联网（Bypass 跳过安全配对，用于调试）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/connectedhomeip/resources/`, source/examples in `repos/connectedhomeip/`, and this recipe path `repos/connectedhomeip/recipes/commissioning_wifi_bypass.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Bypass 配网"

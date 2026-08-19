@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `audio_recorder` 高层录音器把 AFE（AEC/AGC/NS）、WakeNet 唤醒词、MultiNet 命令词识别、VAD 与编码整合进一个事件驱动的 recorder 管线，通过 `rec_engine_cb` 回调收 `AUDIO_REC_WAKEUP_START` / `AUDIO_REC_VAD_START` / `AUDIO_REC_COMMAND_DECT` 等事件。数据流：mic → i2s(reader) → rsp_filter(16kHz) → raw_stream(reader) → AFE → WakeNet → MultiNet → (可选 encoder) → `audio_recorder_data_read`。底层 VAD（`esp_vad`）也可独立用于纯「是否有人说话」检测。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-adf/resources/`, source/examples in `repos/esp-adf/`, and this recipe path `repos/esp-adf/recipes/speech_recognition.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "语音唤醒 / 唤醒词 / WakeNet / hi le xin"

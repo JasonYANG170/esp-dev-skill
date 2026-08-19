@@ -8,19 +8,7 @@ description: >-
   esp_player, esp_capture.
   Trigger words: "ESP-GMF", "GMF", "gmf_core", "gmf_audio", "gmf_io", "esp_player", "esp_capture",
   "esp_audio_simple_player", "esp_gmf_pipeline", "esp_gmf_element", "esp_gmf_pool", "多媒体框架", "音频流水线", "播放器", "录音"
-tags:
-  - embedded
-  - ESP32
-  - ESP-IDF
-  - multimedia
-  - audio
-  - video
-  - streaming
-  - pipeline
-  - espressif
-  - firmware
 license: LicenseRef-Espressif-Modified-MIT
-compatibility: Built on ESP-IDF (>= v5.4.3 release/v5.4, >= v5.5.2 release/v5.5, or >= v6.0); targets ESP32 family SoCs (ESP32, ESP32-S3, ESP32-P4, ESP32-C3, etc.)
 metadata:
   author: Community
   version: "1.1.0"

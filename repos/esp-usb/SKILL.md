@@ -8,24 +8,7 @@ description: >-
   Trigger words: "esp-usb", "esp_tinyusb", "TinyUSB", "USB device", "USB host", "CDC-ACM",
   "MSC", "HID", "UVC", "UAC", "usb_host", "USB-OTG", "USB serial", "USB", "USB主机", "USB设备",
   "大容量存储", "USB摄像头", "USB串口"
-tags:
-  - embedded
-  - esp-idf
-  - usb
-  - usb-host
-  - usb-device
-  - tinyusb
-  - cdc
-  - msc
-  - hid
-  - espressif
-  - esp32
 license: Apache-2.0
-compatibility: >-
-  Targets ESP-IDF >= 5.5.3 (host) / >= 5.0 (device). Chips with USB-OTG peripheral:
-  ESP32-S2, ESP32-S3, ESP32-S31, ESP32-P4, ESP32-H4. Distributed as IDF managed components
-  (esp_tinyusb, usb, usb_host_cdc_acm, usb_host_msc, usb_host_hid, usb_host_uac, usb_host_uvc).
-  Built with idf.py.
 metadata:
   author: Community
   version: "1.1.0"

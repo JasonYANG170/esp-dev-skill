@@ -2,6 +2,10 @@
 
 > **适用摘要**: 直接使用 ESP-AMP Virtqueue（Packed Virtqueue，单生产者-单消费者无锁环形缓冲）实现单向核间数据传输。是 RPMsg 的底层基础。适合需要精细控制缓冲生命周期、或不需要 RPMsg 端点复用的场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-amp/resources/`, source/examples in `repos/esp-amp/`, and this recipe path `repos/esp-amp/recipes/virtqueue.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "virtqueue"

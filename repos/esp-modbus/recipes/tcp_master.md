@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 ESP32 系列芯片（Wi-Fi 或以太网）上构建 Modbus TCP 主站，覆盖 netif 初始化、从站 IP 地址表（含 MDNS / 静态 IP / IPv6）、`mbc_master_create_tcp`、按 CID 轮询、销毁。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-modbus/resources/`, source/examples in `repos/esp-modbus/`, and this recipe path `repos/esp-modbus/recipes/tcp_master.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Modbus TCP master"

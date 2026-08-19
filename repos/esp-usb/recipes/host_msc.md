@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 MSC 主机驱动读写 USB U 盘/移动存储，支持扇区读写、VFS 注册和设备信息查询。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-usb/resources/`, source/examples in `repos/esp-usb/`, and this recipe path `repos/esp-usb/recipes/host_msc.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 读 U 盘"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 esp_video 的硬件编解码设备（JPEG 编码 `/dev/video10`、JPEG 解码 `/dev/video12`、H.264 编码 `/dev/video11`）进行 memory-to-memory（M2M）压缩。典型用于存图、视频流、UVC gadget。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-video-components/resources/`, source/examples in `repos/esp-video-components/`, and this recipe path `repos/esp-video-components/recipes/jpeg_h264_codec.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "JPEG 编码"

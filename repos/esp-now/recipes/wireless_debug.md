@@ -2,6 +2,9 @@
 
 > **适用摘要**: 通过 ESP-NOW 远程抓取设备日志（按等级 UART/flash/ESPNOW/custom 分流）、下发调试命令、运行 console（参考 `examples/wireless_debug` 与 debug 模块头文件）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "无线调试"

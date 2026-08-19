@@ -2,6 +2,9 @@
 
 > **适用摘要**: 使用 ESP-IDF v5.x 新总线式句柄 API（`i2c_new_master_bus` + `i2c_master_bus_add_device`）创建 I2C 主机并读写传感器寄存器。
 
+> Evidence: `repos/esp-idf/resources/`, source/examples in `repos/esp-idf/`, and this recipe path `repos/esp-idf/recipes/i2c_master.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "配置 I2C"

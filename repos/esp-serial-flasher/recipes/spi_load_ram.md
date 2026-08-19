@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 ESP32 主机的 SPI 外设（`esp32_spi_port`）+ `esp_loader_init_spi()` 把程序下载到目标 RAM 并运行。SPI 接口**只支持 RAM 下载**，不支持 flash 写/读/erase。支持标准 SPI 与 Quad-SPI。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/spi_load_ram.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "SPI 下载 RAM"

@@ -2,6 +2,8 @@
 
 > **适用摘要**: 使用 ESP-IDF v4.3 构建、烧录并监视一个 CHIP（Matter）设备示例（以 lock-app / all-clusters-app 为例），覆盖环境准备、目标设置、menuconfig、烧录与日志确认。
 
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "编译 ESP32 Matter 示例"

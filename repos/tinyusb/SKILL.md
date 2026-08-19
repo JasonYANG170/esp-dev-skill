@@ -6,23 +6,7 @@ description: >-
   Audio/MIDI, DFU, vendor class, descriptors, tusb_config.h, and board bring-up across 50+ MCU
   families (Espressif ESP32-S2/S3/C3/C6/P4, STM32, RP2040, nRF, etc.).
   Trigger words: "TinyUSB", "tinyusb", "tud_task", "tuh_task", "tusb_config", "CDC", "HID", "MSC", "USB device", "USB host", "usb_descriptors", "ESP32", "USB协议栈", "虚拟串口", "U盘"
-tags:
-  - embedded
-  - usb
-  - tinyusb
-  - cdc
-  - hid
-  - msc
-  - firmware
-  - espressif
-  - esp32
-  - stm32
-  - rp2040
 license: MIT
-compatibility: >-
-  Cross-platform USB stack (device + host). C99, no dynamic allocation. Targets 50+ MCU families;
-  Espressif ESP32-S2/S3/P4/C3/C6 (dwc2), STM32, RP2040, nRF, LPC, Kinetis, SAMD, RA, etc. Build via
-  CMake (preferred, with Ninja) or Make. RTOS optional (bare metal, FreeRTOS, RT-Thread, Mynewt).
 metadata:
   author: Community
   version: "1.1.0"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 扩展 `CHIPDeviceManagerCallbacks::PostAttributeChangeCallback`，使其能处理多个集群/属性；并演示如何用 `VerifyOrExit` 安全过滤、用 `EmberAfStatus` 回写服务端属性。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/connectedhomeip/resources/`, source/examples in `repos/connectedhomeip/`, and this recipe path `repos/connectedhomeip/recipes/custom_attribute_callback.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "自定义属性回调"

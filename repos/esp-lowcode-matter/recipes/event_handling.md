@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 `app_driver_event_handler()` 里 switch 处理 `LOW_CODE_EVENT_*` 系统事件（配网/网络/OTA/就绪/识别），并用 `low_code_event_to_system()` 主动上报事件（如工厂复位）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/event_handling.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "处理配网/网络/OTA 事件"

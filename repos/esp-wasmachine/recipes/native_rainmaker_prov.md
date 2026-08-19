@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用 RainMaker 与 Wi-Fi provisioning native API（基于 ESP RainMaker 与 `wifi_provisioning`），供 WASM 应用集成云与 SoftAP/BLE 配网。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wasmachine/resources/`, source/examples in `repos/esp-wasmachine/`, and this recipe path `repos/esp-wasmachine/recipes/native_rainmaker_prov.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "WASM 应用接 RainMaker"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 UART 作为 Host 与 Co-processor 之间的传输介质。UART 只需 2 根数据线（TX/RX）+ Reset + GND，所有 ESP 芯片都支持，适合低吞吐场景。该模式下 Wi-Fi 与蓝牙以 Hosted HCI（复用模式）在同一根 UART 上传输。不要与"仅蓝牙的专用 HCI over UART"混淆。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/bringup_uart.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "用 UART 连接 host 和 slave"

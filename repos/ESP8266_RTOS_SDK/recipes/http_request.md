@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在已联网的 ESP8266 上，用 BSD socket（`getaddrinfo`/`socket`/`connect`/`write`/`read`）发起 HTTP GET 请求并打印响应。适用于明文 HTTP；HTTPS 见 `examples/protocols/https_mbedtls` 或 `esp_http_client`。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "HTTP 请求"

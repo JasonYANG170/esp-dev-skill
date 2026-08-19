@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用系数生成器 `dsps_biquad_gen_*_f32`（LPF/HPF/BPF/notch/shelf/peak/allpass）生成 biquad 系数，再用 `dsps_biquad_f32`（单声道）或 `dsps_biquad_sf32`（立体声）做 IIR 滤波。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/iir_biquad.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "IIR 滤波器"

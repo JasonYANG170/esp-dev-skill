@@ -2,6 +2,9 @@
 
 > **适用摘要**: 使用 esp-matter 设备端 `matter` shell 命令进行 BLE/Wi-Fi 控制、属性读写、factory reset、桥接设备增删。需 `CONFIG_ENABLE_CHIP_SHELL=y`（示例默认开启）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "matter 控制台命令"

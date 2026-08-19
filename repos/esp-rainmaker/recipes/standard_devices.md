@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 RainMaker 标准 helper API（`esp_rmaker_switch_device_create` / `lightbulb` / `fan` / `temp_sensor` 等）快速创建符合规范的设备，以及标准参数 helper（power/brightness/hue/saturation/temperature/speed 等）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-rainmaker/resources/`, source/examples in `repos/esp-rainmaker/`, and this recipe path `repos/esp-rainmaker/recipes/standard_devices.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "标准设备 switch/lightbulb/fan"

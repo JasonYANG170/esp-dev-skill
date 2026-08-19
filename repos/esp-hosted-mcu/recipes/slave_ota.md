@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在首次串口烧录协处理器固件后，后续的 slave 固件升级**复用现有的 ESP-Hosted 传输链路**（SDIO/SPI/UART）完成，无需额外硬件、ESP-Prog 或物理访问。host 通过 RPC 调用 `esp_hosted_slave_ota_begin/write/end/activate` 把固件分块写入协处理器并激活重启。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/slave_ota.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "远程升级 slave 固件"

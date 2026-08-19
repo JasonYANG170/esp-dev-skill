@@ -2,6 +2,10 @@
 
 > **适用摘要**: 基于模板或最接近的现有产品创建一个新 LowCode 产品，正确组织目录结构、声明组件依赖。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/create_product.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "创建新 lowcode 产品"

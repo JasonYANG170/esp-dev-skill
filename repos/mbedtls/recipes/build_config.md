@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 CMake 构建 Mbed TLS（4.x 仅支持 CMake），通过 `mbedtls_config.h` 与 PSA `crypto_config.h` 裁剪库，用 `scripts/config.py` 程序化修改配置，选用 `configs/` 预设。4.x 起不再支持 Make 与 Visual Studio 工程。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/build_config.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么编译 mbedTLS"

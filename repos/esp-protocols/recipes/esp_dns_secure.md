@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 esp_dns 组件建立 DNS over TLS（DoT）、DNS over HTTPS（DoH）或 TCP DNS 解析，绕过明文 UDP DNS、提升隐私与可靠性。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-protocols/resources/`, source/examples in `repos/esp-protocols/`, and this recipe path `repos/esp-protocols/recipes/esp_dns_secure.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "DNS over TLS / DoT"

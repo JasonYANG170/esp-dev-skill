@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用 RainMaker 调度（Scheduling）与场景（Scenes）服务，理解触发源（`ESP_RMAKER_REQ_SRC_SCHEDULE` / `_SCENE_ACTIVATE`），并配置最大数量与日光（日出/日落）支持。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-rainmaker/resources/`, source/examples in `repos/esp-rainmaker/`, and this recipe path `repos/esp-rainmaker/recipes/scheduling_scenes.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RainMaker 定时调度"

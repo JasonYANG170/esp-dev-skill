@@ -7,23 +7,7 @@ description: >-
   and co-processor (slave) projects, transport setup, RPC-based Wi-Fi, BT Hosted HCI / VHCI,
   co-processor OTA, GPIO expander, host power save, and transport recovery.
   Trigger words: "ESP-Hosted", "esp-hosted-mcu", "co-processor", "协处理器", "Hosted", "RPC", "SDIO slave", "SPI Full Duplex", "SPI Half Duplex", "esp_hosted", "esp_wifi_remote", "esp_hosted_init", "transport", "slave firmware", "OpenThread RCP", "Hosted HCI", "ESP32-P4 + C6", "Bluedroid", "NimBLE", "TIWT", "iTWT", "GPIO expander"
-tags:
-  - embedded
-  - esp-hosted
-  - co-processor
-  - wifi
-  - bluetooth
-  - ble
-  - openthread
-  - zigbee
-  - SDIO
-  - SPI
-  - UART
-  - ESP-IDF
-  - RPC
-  - firmware
 license: Apache-2.0
-compatibility: "Host: any ESP chipset (or non-ESP MCU via port layer); Co-processor (slave): ESP32, ESP32-C2/C3/C5/C6/C61, ESP32-S2/S3, ESP32-H2/H4. Build requires ESP-IDF >= 5.3 (idf.py). Transports: SDIO 1/4-bit, SPI Full-Duplex, SPI Half-Duplex (1/2/4-line), UART."
 metadata:
   author: Community
   version: "1.1.0"

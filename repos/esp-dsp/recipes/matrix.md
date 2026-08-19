@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 C 接口 `dspm_mult_f32` / `dspm_mult_ex_f32` / `dspm_add/sub/mulc` 做矩阵运算，或用 C++ `dspm::Mat` 类（运算符重载、`solve`/`roots`/`inverse`/`det`/`t`/`eye`/`ones`）做线性代数求解。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/matrix.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "矩阵乘法"

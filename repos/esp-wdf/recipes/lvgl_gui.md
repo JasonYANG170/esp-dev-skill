@@ -2,6 +2,10 @@
 
 > **适用摘要**：WASM 应用用 ESP-WDF 提供的 LVGL WASM 适配 API 构建界面——用 `lvgl_init`/`lvgl_lock`/`lvgl_unlock` 异步初始化，用 `lv_obj_get_data` 等访问器替代直接解引用结构指针。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wdf/resources/`, source/examples in `repos/esp-wdf/`, and this recipe path `repos/esp-wdf/recipes/lvgl_gui.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "WASM GUI"

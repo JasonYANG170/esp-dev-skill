@@ -2,6 +2,10 @@
 
 > **适用摘要**：WASM 应用通过 `/dev/spi/2` 作 SPI 主机收发（`SPIIOCSCFG` + `SPIIOCEXCHANGE`），或通过 `/dev/ledc/0` 控制 LEDC 通道占空比（`LEDCIOCSCFG` + `LEDCIOCSSETDUTY`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wdf/resources/`, source/examples in `repos/esp-wdf/`, and this recipe path `repos/esp-wdf/recipes/spi_ledc.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "SPI 主机通信"

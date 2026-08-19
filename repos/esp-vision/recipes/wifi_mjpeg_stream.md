@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把采集帧逐帧 JPEG 编码，用板载 HTTP 服务器以 `multipart/x-mixed-replace` 推 MJPEG 流，浏览器打开 `http://<board-ip>/` 即可观看。这是无 H.264 硬件（ESP32-S3 等）时唯一的实时视频推流路径。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/wifi_mjpeg_stream.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Wi-Fi 视频流"

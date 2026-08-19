@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `find_qrcodes` / `find_barcodes`（P4 ZXing）/ `find_apriltags` 检测并解码标记，绘制框与角点。灰度输入通常可降低处理开销。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/qrcode_barcode_apriltag.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "二维码识别"

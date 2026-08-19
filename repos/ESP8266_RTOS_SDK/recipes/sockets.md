@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 lwIP BSD socket API 实现 TCP 服务端（`socket`→`bind`→`listen`→`accept`→`recv/send`）、TCP 客户端（`connect`）、UDP 收发与 IPv4 组播（`setsockopt IP_ADD_MEMBERSHIP/IP_MULTICAST_TTL`）。本 recipe 补充 `http_request.md` 没覆盖的服务端/组播场景。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/sockets.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "TCP 服务端 / TCP server"

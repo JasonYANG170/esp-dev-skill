@@ -2,6 +2,10 @@
 
 > **适用摘要**: 为 Modbus 主站编写 `mb_parameter_descriptor_t` 数据字典表，把物理量（CID）映射到从站的 Modbus 寄存器。覆盖 CID 枚举、`STR`/`OPTS`/`HOLD_OFFSET` 宏、寄存器类型与数据类型的搭配、`param_offset` 的含义、自定义命令权限。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-modbus/resources/`, source/examples in `repos/esp-modbus/`, and this recipe path `repos/esp-modbus/recipes/data_dictionary.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么定义 Modbus 数据字典"

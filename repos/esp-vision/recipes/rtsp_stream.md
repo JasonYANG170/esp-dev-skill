@@ -2,6 +2,10 @@
 
 > **适用摘要**: 起以太网（P4-Function-EV-Board 的 IP101 RMII PHY），用 `h264.H264Encoder` 编码、`rtsp.RTSPServer` 通过 RTSP 推送 H.264，VLC/ffplay 在 `rtsp://<board-ip>:8554/` 观看。`rtsp` 仅 ESP32-P4 构建。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/rtsp_stream.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "RTSP 推流"

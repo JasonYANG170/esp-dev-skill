@@ -2,6 +2,9 @@
 
 > **适用摘要**: 仅用服务端 CA 证书校验 broker 身份（不提供客户端证书），对应 `examples/ssl/`，是最常见的 TLS 用法。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "MQTT SSL 连接"

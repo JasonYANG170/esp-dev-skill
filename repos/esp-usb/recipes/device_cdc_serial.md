@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 ESP 芯片做成一个 USB CDC-ACM 串口设备（虚拟串口），支持发送、接收、回调与双串口。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-usb/resources/`, source/examples in `repos/esp-usb/`, and this recipe path `repos/esp-usb/recipes/device_cdc_serial.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 串口"

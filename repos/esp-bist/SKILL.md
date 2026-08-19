@@ -6,20 +6,7 @@ description: >-
   RISC-V SoCs, including CPU/CSR/PC integrity tests, RAM March A/X, Flash CRC, clock monitoring,
   stack overflow detection, and watchdog/windowed-WDT integration.
   Trigger words: "ESP-BIST", "BIST", "IEC 60730", "Class B", "自检", "内置自测", "安全关键", "safety-critical", "March A", "March X", "windowed watchdog", "CRC32", "ESP32-C3", "ESP32-C6", "ESP32-H2", "ESP32-C5"
-tags:
-  - embedded
-  - esp-bist
-  - BIST
-  - safety-critical
-  - IEC-60730
-  - Class-B
-  - RISC-V
-  - espressif
-  - self-test
-  - watchdog
-  - CRC32
 license: LGPL-3.0-or-later
-compatibility: Target SoCs ESP32-C3 / ESP32-C5 / ESP32-C6 / ESP32-H2 (and C61/H4/P4 per docs); CMake + Ninja build on top of ESP-IDF + MCUboot 2.2.0; RISC-V toolchain (riscv32-esp-elf)
 metadata:
   author: Community
   version: "1.1.0"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用 WAMR App Manager + TCP 服务，用 shell 的 `install`/`uninstall`/`query` 或 Linux 上的 `host_tool` 远程安装、卸载、查询常驻 WASM applet。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wasmachine/resources/`, source/examples in `repos/esp-wasmachine/`, and this recipe path `repos/esp-wasmachine/recipes/app_manager.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "安装 wasm 应用"

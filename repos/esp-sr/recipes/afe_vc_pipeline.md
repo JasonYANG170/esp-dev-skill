@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 ESP-SR AFE 搭建**语音通信 / 全双工**主线：选 `AFE_TYPE_VC` / `AFE_TYPE_VC_8K` / `AFE_TYPE_FD`，得到与 SR 不同的 pipeline（VC 走 AEC(VOIP)→NS(nsnet2)→VAD；FD 走 AEC(FD)→SE(BSS)→VAD→WakeNet），并把 `fetch` 出来的干净单声道音频送往网络传输或录音。与 SR 主线共用 feed/fetch 双任务骨架。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-sr/resources/`, source/examples in `repos/esp-sr/`, and this recipe path `repos/esp-sr/recipes/afe_vc_pipeline.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "语音通信 / VoIP"

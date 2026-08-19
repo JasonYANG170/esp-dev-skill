@@ -2,6 +2,10 @@
 
 > **适用摘要**: 让 Wi-Fi/Ethernet 主机与 Thread 设备互相用全局 IPv6 地址 ping 通；包含 Linux 主机 RA 接收配置。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/bidirectional_ipv6.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "Thread 设备 ping 不通"
 - "双向 IPv6 连通"

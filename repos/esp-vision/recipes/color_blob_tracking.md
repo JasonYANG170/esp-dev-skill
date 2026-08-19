@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 LAB 阈值配合 `find_blobs` 做 8 连通色块检测，绘制外接框与十字，并用 `pixels_threshold` / `area_threshold` 过滤噪声。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/color_blob_tracking.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "颜色追踪"

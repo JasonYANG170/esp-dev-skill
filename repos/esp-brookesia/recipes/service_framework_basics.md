@@ -2,6 +2,10 @@
 
 > **适用摘要**: 掌握 ESP-Brookesia 服务框架的统一调用范式——ServiceManager 启动、bind、同步/异步函数调用、事件订阅与 EventMonitor 阻塞等待。这是使用所有具体服务（Wi-Fi/NVS/Audio 等）的共同基础。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-brookesia/resources/`, source/examples in `repos/esp-brookesia/`, and this recipe path `repos/esp-brookesia/recipes/service_framework_basics.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "怎么调用 Brookesia 服务函数"

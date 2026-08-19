@@ -2,6 +2,10 @@
 
 > **适用摘要**: 以 Station 模式连接 AP，含事件循环注册、`esp_wifi_start`、连接成功判定（`IP_EVENT_STA_GOT_IP`）与重连（适配自 getting_started/station）。
 
+> Version: ESP-IDF version used by the project.
+> Evidence: `repos/esp-idf/resources/`, source/examples in `repos/esp-idf/`, and this recipe path `repos/esp-idf/recipes/wifi_sta.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "WiFi 连网"

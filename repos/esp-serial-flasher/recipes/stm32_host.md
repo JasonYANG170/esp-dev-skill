@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 STM32（任意 HAL 系列）作主机经 UART 烧录 ESP 目标，走内置 `stm32_port`（`PORT=STM32`）。与 `custom_port.md` 的 USER_DEFINED 不同：STM32 port 不实现 init 回调，而是要求外设由 CubeMX **预先生成并初始化**，调用者只填 `huart` 句柄和 BOOT/RESET 的 GPIO 端口/引脚。无现成工程，按 STM32CubeMX 流程生成。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/stm32_host.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "STM32 烧录 ESP"

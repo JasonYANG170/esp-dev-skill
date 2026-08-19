@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `CONFIG_ENABLE_ICD_SERVER=y` 把电池供电 / sleepy 的 ESP32-H2 / ESP32-C6 做成 Matter ICD（Intermittently Connected Device），按 SIT（Short Idle Time）或 LIT（Long Idle Time）配置 polling / idle / active 参数，并配合 power management、IEEE 802.15.4 sleep、tickless idle 真正进入低功耗。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-matter/resources/`, source/examples in `repos/esp-matter/`, and this recipe path `repos/esp-matter/recipes/icd_device.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做电池供电的 Matter 设备 / 低功耗"

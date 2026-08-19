@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `h264.H264Encoder` 把采集帧逐帧编码为 Annex-B H.264 NAL 单元并写入 SD 卡。`h264` 模块仅在 ESP32-P4 构建中可用。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-vision/resources/`, source/examples in `repos/esp-vision/`, and this recipe path `repos/esp-vision/recipes/h264_record.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "录制视频"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用 TLS 会话恢复以加速重连：服务端用会话缓存（`ssl_cache`）或会话票据（`ssl_ticket`），客户端用 `get_session`/`set_session` 或序列化保存会话。会话恢复可避免完整握手，显著降低重连延迟与计算开销。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/session_resumption.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "TLS 会话恢复"

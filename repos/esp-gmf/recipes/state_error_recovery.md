@@ -2,6 +2,10 @@
 
 > **适用摘要**: 理解 pipeline/task 状态机、各控制 API 的有效状态、ERROR 后的恢复步骤，以及 stop 超时、pause/resume、seek 的正确用法。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-gmf/resources/`, source/examples in `repos/esp-gmf/`, and this recipe path `repos/esp-gmf/recipes/state_error_recovery.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "流水线状态机"

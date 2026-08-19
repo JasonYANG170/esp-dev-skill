@@ -2,6 +2,10 @@
 
 > **适用摘要**: 让 host 与协处理器共享同一个 IP 地址，slave 根据端口把入站流量路由到自身或 host 的 lwIP 栈。host 睡眠时 slave 仍可处理 MQTT/DNS 等选定业务，并在收到唤醒包时把 host 拉起。仅支持 C5/C6/S2/S3 协处理器。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/network_split.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-Hosted 网络分流"

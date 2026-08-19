@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `dsps_fft2r_fc32` 对交错复数（Re,Im,Re,Im）信号做 radix-2 FFT，经 bit-reverse 与 `dsps_cplx2reC_fc32` 拆分，得到两个实信号的功率谱（dB）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/fft_complex.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做 FFT"

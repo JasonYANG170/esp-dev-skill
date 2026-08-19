@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 `esp-serial-flasher` 作为 Zephyr **west module** 集成，用 device-tree 驱动的 `espressif,esp-loader` 节点描述 UART/复位/BOOT 引脚与波特率，应用代码经 `esp_loader_from_device()` 取 loader，可选启用交互式 `esf` shell。与其它 port 的核心差别：**不手填 port 结构体**——一切配置来自 DTS overlay，连接参数也由 driver 提供。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/zephyr_host.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Zephyr 烧录 ESP"

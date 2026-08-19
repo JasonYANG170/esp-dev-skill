@@ -2,6 +2,10 @@
 
 > **适用摘要**: 当设备预置时启用 RSA Digital Signature (DS) 外设（ESP32-S2/S3/C3/C5 等），私钥以密文形式存于 `esp_secure_cert` 分区。本配方演示如何在固件中获取 `esp_ds_data_ctx_t` 并喂给 TLS / mbedTLS / PSA 完成签名，同时校验密文有效性。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp_secure_cert_mgr/resources/`, source/examples in `repos/esp_secure_cert_mgr/`, and this recipe path `repos/esp_secure_cert_mgr/recipes/use_ds_peripheral.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "DS 外设怎么用"

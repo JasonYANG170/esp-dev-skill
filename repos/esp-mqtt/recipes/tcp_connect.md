@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 ESP-MQTT 通过纯 TCP（`mqtt://`）连接 broker，完成 init/register/start 与事件回调的骨架，是所有其它传输方式的基础。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-mqtt/resources/`, source/examples in `repos/esp-mqtt/`, and this recipe path `repos/esp-mqtt/recipes/tcp_connect.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "MQTT 连接 broker"

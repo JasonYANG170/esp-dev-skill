@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 http_stream 从网络读 MP3，经 mp3_decoder 解码，i2s_stream 输出到 codec。包含 Wi-Fi 连接（periph_wifi）与事件监听。数据流：HTTP server → http_stream → mp3_decoder → i2s_stream → codec。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-adf/resources/`, source/examples in `repos/esp-adf/`, and this recipe path `repos/esp-adf/recipes/play_http_mp3.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "播放网络 MP3"

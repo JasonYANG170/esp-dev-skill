@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `sensor_hub` 组件统一管理传感器：创建传感器实例、按类型注册事件回调、启动后周期采集并接收 `SENSOR_XXX_DATA_READY` 事件。sensor_hub 通过链接脚本机制自动加载被加入工程的传感器驱动组件。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/sensor_hub.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "传感器采集"

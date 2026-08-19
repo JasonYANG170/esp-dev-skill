@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 AFE 内置 VAD 判断当前帧是语音还是噪声/静音，利用 `vad_cache` 避免首字被截断，并可把语音帧落盘到 SD 卡。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-skainet/resources/`, source/examples in `repos/esp-skainet/`, and this recipe path `repos/esp-skainet/recipes/voice_activity_detection.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "voice activity detection"

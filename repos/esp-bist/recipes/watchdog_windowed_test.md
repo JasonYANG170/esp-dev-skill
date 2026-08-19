@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 `bist_wdt_test()` 通过双启动序列验证 MWDT 能触发复位（IEC 60730 6.3）；用 `wdt_init()` + `wdt_init_windowed()` + `wdt_feed()` 实现下溢/溢出双向监控，并按 `tests/windowed_wdt_test` 的三个用例验证。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-bist/resources/`, source/examples in `repos/esp-bist/`, and this recipe path `repos/esp-bist/recipes/watchdog_windowed_test.md`.
+
 ## 触发意图
 
 - "看门狗自检 / WDT"

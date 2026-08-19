@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 ESP-DL 跑一个 MobileNetV2/ImageNet 分类模型：软件解码 JPEG 得到 `img_t`，构造 `ImageNetCls`（内部 `ImageNetClsPostprocessor` 输出 Top-K 类别，可选 softmax），`run(img)` 得到 `(类别名, 分数)` 列表。**分类不输出框，与检测后处理完全不同**。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dl/resources/`, source/examples in `repos/esp-dl/`, and this recipe path `repos/esp-dl/recipes/vision_classification.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "跑图像分类"

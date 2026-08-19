@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `display_service_set_pattern(handle, pattern, value)` 按功能语义（WiFi 连接中 / 蓝牙已连 / 唤醒 / 播放中 / 录音中 / 音量 / 低电等）点亮板载 LED，底层驱动由 `audio_board_led_init()` 根据 `CONFIG_*_BOARD` 自动选：PWM 单 LED（`led_indicator`）、AW2013、IS31x、WS2812。`display_pattern_t` 枚举定义了所有可用灯效，驱动里实现不支持的 pattern 会打 `LED_INDI: The led mode is invalid` 警告并安全跳过。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-adf/resources/`, source/examples in `repos/esp-adf/`, and this recipe path `repos/esp-adf/recipes/display_service.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "LED 状态灯 / 显示服务 / display_service"

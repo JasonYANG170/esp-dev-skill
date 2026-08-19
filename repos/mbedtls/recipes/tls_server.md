@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 Mbed TLS 实现 TLS 服务器（监听端口、装载服务器证书与私钥、接受客户端、握手并收发数据）。适用于 HTTPS 服务端、TLS 设备网关等场景。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/tls_server.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "写一个 TLS 服务器"

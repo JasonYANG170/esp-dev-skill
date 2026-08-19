@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 host 与协处理器之间建立一条独立于 RPC 控制流量与网络/BT 数据之外的私有二进制通道。用 `msg_id` 区分不同业务，发送任意原始字节（最大 8166 字节/包），host 与 slave 两侧 API 同名。适用于 host ↔ co-processor 的应用级命令/传感数据透传。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/peer_custom_data.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-Hosted 自定义数据传输"

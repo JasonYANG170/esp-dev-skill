@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 eppp_link 在两个 MCU 之间通过 UART/SPI/SDIO/以太网建立 PPP 通道。典型用途是 WiFi 协处理器（通信协处理器跑 PPP server + NAT，主控跑 PPP client 拿到联网能力）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-protocols/resources/`, source/examples in `repos/esp-protocols/`, and this recipe path `repos/esp-protocols/recipes/eppp_link.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "双 MCU 联网"

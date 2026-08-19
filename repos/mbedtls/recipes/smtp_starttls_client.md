@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用同一底层 TCP 连接先跑明文 SMTP（读 banner、发 `EHLO`、发 `STARTTLS`），收到 `220` 后再把该 socket 就地升级为 TLS——即 STARTTLS 机会式加密模式。升级后在 TLS 通道内继续 SMTP 会话（`AUTH LOGIN` base64 鉴权、`MAIL FROM`/`RCPT TO`/`DATA`）。也可选用 mode=0 直接在连接时即上 TLS（SMTPS，端口 465）。该 STARTTLS 模式可迁移到 IMAP/POP3/LDAP/Postgres 等同类协议。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/smtp_starttls_client.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "SMTP over TLS"

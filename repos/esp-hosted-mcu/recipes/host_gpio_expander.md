@@ -2,6 +2,10 @@
 
 > **适用摘要**: 通过 ESP-Hosted 链路，从 host 远程配置与读写协处理器的 GPIO（输出电平、输入读取、开漏、上下拉、中断类型）。相当于把协处理器的 IO"扩展"给 host 使用。API 平台无关，亦可用于非 ESP host。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-hosted-mcu/resources/`, source/examples in `repos/esp-hosted-mcu/`, and this recipe path `repos/esp-hosted-mcu/recipes/host_gpio_expander.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "host 控制 slave 的 GPIO"

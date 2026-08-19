@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 ESP Thread Border Router 板（ESP32-S3 主控 + ESP32-H2 作 15.4 RCP）搭一个 Matter Thread Border Router：烧 RCP 固件到 H2、烧 BR 固件到 S3、commission BR 后用 ThreadBorderRouterManagement cluster 配置 Thread 网络，再 commission Thread 终端设备入网。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-matter/resources/`, source/examples in `repos/esp-matter/`, and this recipe path `repos/esp-matter/recipes/thread_border_router.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做 Thread Border Router / 边界路由器"

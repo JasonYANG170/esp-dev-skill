@@ -8,20 +8,7 @@ description: >-
   Trigger words: "esp-matter", "Matter", "CHIP", "commissioning", "fabric", "endpoint",
   "cluster", "attribute", "chip-tool", "matter设备", "入网", "Matter SDK", "connectedhomeip",
   "On/Off Light", "Window Covering", "Door Lock", "data model", "数据模型"
-tags:
-  - embedded
-  - matter
-  - CHIP
-  - IoT
-  - espressif
-  - esp32
-  - commissioning
-  - fabric
-  - home-automation
-  - zigbee-bridge
-  - thread
 license: Apache-2.0
-compatibility: ESP32 family (esp32, esp32s3, esp32c3, esp32c2, esp32c5, esp32c6, esp32c61, esp32h2, esp32p4); requires ESP-IDF v5.5.4 and the connectedhomeip submodule; built with idf.py
 metadata:
   author: Community
   version: "1.1.0"

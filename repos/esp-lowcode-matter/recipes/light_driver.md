@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `light_driver_init` 配置 LED(PWM) 或 WS2812，设置通断/亮度/色温/色调/饱和度，并用 blink/breathe 特效做配网指示。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/light_driver.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "控制灯"

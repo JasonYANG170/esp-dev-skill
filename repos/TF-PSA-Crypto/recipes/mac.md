@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 PSA Crypto API 计算消息认证码。涵盖 HMAC（任意哈希）与 AES-CMAC，一次性 `psa_mac_compute`/`psa_mac_verify` 与分段 `psa_mac_sign_setup/update/finish`，以及签名(sign)与验签(verify)的对称用法。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/TF-PSA-Crypto/resources/`, source/examples in `repos/TF-PSA-Crypto/`, and this recipe path `repos/TF-PSA-Crypto/recipes/mac.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "计算 HMAC-SHA256"

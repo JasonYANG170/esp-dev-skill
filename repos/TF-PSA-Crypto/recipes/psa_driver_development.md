@@ -2,6 +2,10 @@
 
 > **适用摘要**: 为 TF-PSA-Crypto 编写并集成 PSA cryptoprocessor 驱动（transparent 加速器 / opaque 安全元件），以及配置 driver-only 构建（某机制只由驱动提供、移除内置实现以省代码体积）。涵盖 JSON 驱动描述文件、自动生成 vs 手动集成的入口点、`PSA_WANT_*` + `MBEDTLS_PSA_ACCEL_*` + `MBEDTLS_xxx_C` 三者关系，并以仓库自带的 ESP AES/SHA 硬件加速驱动 JSON 为实例。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/TF-PSA-Crypto/resources/`, source/examples in `repos/TF-PSA-Crypto/`, and this recipe path `repos/TF-PSA-Crypto/recipes/psa_driver_development.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "PSA 驱动 / cryptoprocessor driver / accelerator"

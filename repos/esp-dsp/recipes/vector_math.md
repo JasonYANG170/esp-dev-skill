@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `dsps_add_f32`/`dsps_sub_f32`/`dsps_mul_f32`/`dsps_mulc_f32`/`dsps_sqrt_f32` 做逐元素向量运算（含 step 参数），用 `dsps_dotprod_f32` 做点积。涵盖 f32 / s16 / s8 数据类型。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-dsp/resources/`, source/examples in `repos/esp-dsp/`, and this recipe path `repos/esp-dsp/recipes/vector_math.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "向量加 / 减 / 乘"

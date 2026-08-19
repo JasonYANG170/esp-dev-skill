@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把基于 ESP-SR V1.*（`AFE_CONFIG_DEFAULT`、`ESP_AFE_SR_HANDLE` 等）的旧代码迁移到 V2.0 的新 API（`afe_config_init` + `esp_afe_handle_from_config`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-sr/resources/`, source/examples in `repos/esp-sr/`, and this recipe path `repos/esp-sr/recipes/migration_v1_v2.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "迁移到 V2.0"

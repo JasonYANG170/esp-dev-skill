@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 ESP-SR 的 Audio Front-End（AFE）搭建离线语音识别主线：唤醒词触发后切换到命令词识别，包含 menuconfig 选模型、分区配置、AFE 初始化与 feed/fetch 双任务驱动。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-sr/resources/`, source/examples in `repos/esp-sr/`, and this recipe path `repos/esp-sr/recipes/afe_sr_pipeline.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做语音唤醒 + 命令词"

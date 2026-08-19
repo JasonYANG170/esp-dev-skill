@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 ESP32-P4 上配置 MIPI-CSI 接口摄像头（如 SC2336、OV5640、OV2640 等 MIPI 型号），完成初始化与 RAW/YUV/RGB 数据采集。MIPI-CSI 仅 ESP32-P4 支持。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-video-components/resources/`, source/examples in `repos/esp-video-components/`, and this recipe path `repos/esp-video-components/recipes/mipi_csi.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "MIPI-CSI 摄像头"

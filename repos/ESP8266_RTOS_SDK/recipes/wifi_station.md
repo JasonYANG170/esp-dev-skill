@@ -2,6 +2,10 @@
 
 > **适用摘要**: 把 ESP8266 配为 Station 连接到指定 AP，基于 esp_event 处理连接/断开/拿 IP，带最大重试次数，用事件组阻塞等待联网结果。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/wifi_station.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP8266 连 WiFi"

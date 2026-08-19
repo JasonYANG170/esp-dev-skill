@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `esp_loader_flash_read()` 从目标 flash 读取指定地址/长度的数据到主机缓冲区，并与写入数据比对校验。仅 serial(SLIP) 接口支持。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-serial-flasher/resources/`, source/examples in `repos/esp-serial-flasher/`, and this recipe path `repos/esp-serial-flasher/recipes/read_flash.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "读 ESP flash"

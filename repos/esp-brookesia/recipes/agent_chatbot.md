@@ -2,6 +2,10 @@
 
 > **适用摘要**: 基于 `brookesia_agent_manager` 构建完整 AI 语音助手——初始化 AgentManager、配置 XiaoZhi/Coze/OpenAI 多 Agent、通过 MCP 工具让 LLM 调用设备能力、用状态机（Activate→Start→Sleep→WakeUp→Stop）驱动生命周期、配合 Audio AFE 做语音唤醒与 Emote 做表情反馈。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-brookesia/resources/`, source/examples in `repos/esp-brookesia/`, and this recipe path `repos/esp-brookesia/recipes/agent_chatbot.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做一个 AI 语音助手"

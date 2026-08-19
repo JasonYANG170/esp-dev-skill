@@ -2,6 +2,9 @@
 
 > **适用摘要**: 在单个节点上挂载多个设备（如 Switch + Light + Fan + Temperature Sensor），共享 write 回调并按设备名分发。参考 `examples/multi_device/`。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "一个节点多个设备"

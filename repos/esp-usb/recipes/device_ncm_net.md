@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `tinyusb_net` 把 ESP32 暴露为一个 USB 网络接口（CDC-NCM 或 ECM/RNDIS），通过 `tinyusb_net_init` 注册收包/TX 释放回调，并用 `tinyusb_net_send_sync` / `tinyusb_net_send_async` 收发以太网帧。常用于 USB tethering、嵌入式 USB 以太网。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-usb/resources/`, source/examples in `repos/esp-usb/`, and this recipe path `repos/esp-usb/recipes/device_ncm_net.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 以太网"

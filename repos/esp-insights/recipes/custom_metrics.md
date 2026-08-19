@@ -2,6 +2,10 @@
 
 > **适用摘要**: 注册并上报自定义 metrics（如室温、CPU 负载），用于在仪表盘绘制随时间变化的曲线。覆盖 metadata 1.0 与 2.0 两套 API，以及各数据类型的上报函数。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-insights/resources/`, source/examples in `repos/esp-insights/`, and this recipe path `repos/esp-insights/recipes/custom_metrics.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "上报自定义指标"

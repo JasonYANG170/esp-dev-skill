@@ -2,6 +2,9 @@
 
 > **适用摘要**: 为 ESP32 / ESP32-S3（含 BOX）/ ESP32-C6 / ESP32-P4 选择正确的 `set-target` 与板级 `sdkconfig.defaults` 覆盖。
 
+> Evidence: `repos/esp-wasmachine/resources/`, source/examples in `repos/esp-wasmachine/`, and this recipe path `repos/esp-wasmachine/recipes/target_board.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "S3-BOX 怎么编译"

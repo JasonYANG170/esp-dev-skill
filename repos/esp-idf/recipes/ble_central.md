@@ -2,6 +2,9 @@
 
 > **适用摘要**: 用 Bluedroid 实现 BLE GATT Client：扫描（`esp_ble_gap_set_scan_params` + `esp_ble_gap_start_scanning`）、连接（`esp_ble_gattc_open` / `esp_ble_gattc_enh_open`）、服务/特征值发现（`esp_ble_gattc_search_service` + `esp_ble_gattc_get_char_by_uuid`）、读写（`esp_ble_gattc_read_char` / `esp_ble_gattc_write_char`）、订阅 notify。适配自 `examples/bluetooth/bluedroid/ble/gatt_client`。
 
+> Version: ESP-IDF version used by the project.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "BLE 主机"

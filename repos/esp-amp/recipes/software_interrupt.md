@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 ESP-AMP 软件中断（基于 PMU 或 INTMTX 的核间中断）实现异步核间通知。注册处理函数、触发对端核、多 handler 复用同一中断源。这是 Queue/RPMsg 通知机制的基础。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-amp/resources/`, source/examples in `repos/esp-amp/`, and this recipe path `repos/esp-amp/recipes/software_interrupt.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "核间中断"

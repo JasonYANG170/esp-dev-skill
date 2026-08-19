@@ -2,6 +2,10 @@
 
 > **适用摘要**: 配置 ESP-Claw `edge_agent` 的运行时项——LLM 后端、IM 平台凭据、记忆模式、HTTP/Web Search——理解「menuconfig 默认 vs NVS 覆盖」的优先级，并通过 Web / 串口生效。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-claw/resources/`, source/examples in `repos/esp-claw/`, and this recipe path `repos/esp-claw/recipes/configuration.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "配置 LLM / 模型 / API key"

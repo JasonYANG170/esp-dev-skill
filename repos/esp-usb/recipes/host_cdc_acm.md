@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 CDC-ACM 主机驱动与 USB 串口设备/调制解调器通信，包括 CP210x、FTDI、CH34x 等 vendor-specific 芯片。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-usb/resources/`, source/examples in `repos/esp-usb/`, and this recipe path `repos/esp-usb/recipes/host_cdc_acm.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB CDC-ACM 主机"

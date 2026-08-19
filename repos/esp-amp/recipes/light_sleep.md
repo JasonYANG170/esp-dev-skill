@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 ESP32-C5 / ESP32-C6（LP subcore）上启用 HP maincore 自动 light sleep，LP subcore 与 RTC RAM 在睡眠期间保持供电，仅在访问 HP RAM/外设时唤醒 maincore。适合电池供电的低功耗场景。**仅 LP subcore 支持，ESP32-P4 不支持。**
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-amp/resources/`, source/examples in `repos/esp-amp/`, and this recipe path `repos/esp-amp/recipes/light_sleep.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "light sleep"

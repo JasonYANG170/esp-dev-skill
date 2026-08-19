@@ -6,22 +6,7 @@ description: >-
   including wake word detection (WakeNet), speech commands recognition (MultiNet), the Audio Front-End
   (AFE: AEC / VAD / BSS / NS / AGC), voice activity detection, direction of arrival, and Chinese TTS.
   Trigger words: "ESP-Skainet", "esp-skainet", "Skainet", "WakeNet", "唤醒词", "MultiNet", "命令词", "AFE", "语音识别", "ESP-SR", "乐鑫语音", "TTS", "语音合成", "ESP32-S3", "Korvo"
-tags:
-  - embedded
-  - esp32
-  - esp32-s3
-  - esp32-p4
-  - voice
-  - speech-recognition
-  - wake-word
-  - wakenet
-  - multinet
-  - audio-front-end
-  - AFE
-  - espressif
-  - firmware
 license: Apache-2.0
-compatibility: ESP32 / ESP32-S3 (recommended) / ESP32-P4; build via ESP-IDF v4.4 or v5.x; depends on espressif/esp-sr component (^2.0.0) and a model partition (SPIFFS)
 metadata:
   author: Community
   version: "1.1.0"

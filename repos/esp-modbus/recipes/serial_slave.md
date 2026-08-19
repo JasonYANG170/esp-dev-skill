@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 ESP32 系列芯片上构建 Modbus 串行从站，覆盖 UART/RS485 初始化、寄存器区域描述符（Holding/Input/Coil/Discrete）、从站事件循环与销毁。适用于 RTU 与 ASCII 两种模式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-modbus/resources/`, source/examples in `repos/esp-modbus/`, and this recipe path `repos/esp-modbus/recipes/serial_slave.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做一个 Modbus 串行从机"

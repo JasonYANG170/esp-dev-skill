@@ -2,6 +2,10 @@
 
 > **适用摘要**: Thread 设备经 SRP 注册服务，BR 通过 mDNS 转发到 Wi-Fi；反之 Wi-Fi mDNS 服务也能被 Thread 设备经 DNS 解析。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/service_discovery.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "服务发现"
 - "SRP 注册服务"

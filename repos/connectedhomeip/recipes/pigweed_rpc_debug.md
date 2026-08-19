@@ -2,6 +2,10 @@
 
 > **适用摘要**: 构建并使用 `pigweed-app/esp32` 的 Echo RPC 服务端，通过 UART 在主机用 `pw_hdlc.rpc_console` 远程调用设备上的 `EchoService.Echo(msg=...)`。这是仓库文档化的主机 ↔ 设备 RPC 通道，能力超出普通串口日志（可双向触发设备动作、结构化往返）。当需要比 `ESP_LOGI` 更强的交互式调试时使用。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/connectedhomeip/resources/`, source/examples in `repos/connectedhomeip/`, and this recipe path `repos/connectedhomeip/recipes/pigweed_rpc_debug.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Pigweed RPC"

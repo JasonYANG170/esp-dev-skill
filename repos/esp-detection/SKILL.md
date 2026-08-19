@@ -6,23 +6,7 @@ description: >-
   export/quantize it to ESP-DL (.espdl) format, and deploy inference on ESP32-P4 / ESP32-S3 chips.
   Trigger words: "esp-detection", "ESPDet", "espdet_pico", "ESP-DL", "espdl", "YOLOv11", "object detection",
   "目标检测", "esp32p4", "esp32-s3", "esp-dl", "量化", "quantize", "esp-ppq", "deployment", "部署"
-tags:
-  - embedded
-  - esp32
-  - esp32-p4
-  - esp32-s3
-  - object-detection
-  - YOLO
-  - YOLOv11
-  - deep-learning
-  - model-deployment
-  - ESP-DL
-  - quantization
-  - computer-vision
 license: AGPL-3.0
-compatibility: >-
-  Training pipeline: Python 3.8, PyTorch 2.2.0, Ultralytics >= 8.3.112, esp-ppq. Firmware targets:
-  ESP32-P4 / ESP32-S3 built with ESP-IDF release/v5.3 or above (templates pinned to ESP-IDF 5.4.0).
 metadata:
   author: Community
   version: "1.0.0"

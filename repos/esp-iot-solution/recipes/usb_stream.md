@@ -2,6 +2,10 @@
 
 > **适用摘要**: 使用 `usb_stream` 组件在 ESP32-S2 / ESP32-S3 上以 USB Host 方式接入 UVC 摄像头与 UAC 音频设备，配置 UVC 帧回调、UAC 麦克风/扬声器流，并对流进行暂停/恢复与音量/静音控制。`usb_stream` 仅支持 ESP32-S2/ESP32-S3，且 UVC 摄像头须兼容 USB1.1 全速 + MJPEG 输出，UAC 须兼容 UAC1.0。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-iot-solution/resources/`, source/examples in `repos/esp-iot-solution/`, and this recipe path `repos/esp-iot-solution/recipes/usb_stream.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "USB 摄像头采集"

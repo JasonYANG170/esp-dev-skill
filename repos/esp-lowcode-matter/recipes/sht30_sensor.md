@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 I2C 初始化 + `temperature_sensor_sht30_init` + `temperature_sensor_sht30_get_celsius` 周期读取温度，并通过 `LOW_CODE_FEATURE_ID_TEMPERATURE_SENSOR_VALUE` 上报到 Matter。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-lowcode-matter/resources/`, source/examples in `repos/esp-lowcode-matter/`, and this recipe path `repos/esp-lowcode-matter/recipes/sht30_sensor.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "温度传感器"

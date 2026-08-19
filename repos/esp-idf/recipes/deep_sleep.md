@@ -2,6 +2,10 @@
 
 > **适用摘要**: 进入深度睡眠并配置定时器 / GPIO（ext0/ext1）唤醒源，启动后用 `esp_sleep_get_wakeup_causes` 判断唤醒来源（适配自 system/deep_sleep）。
 
+> Version: ESP-IDF version used by the project.
+> Evidence: `repos/esp-idf/resources/`, source/examples in `repos/esp-idf/`, and this recipe path `repos/esp-idf/recipes/deep_sleep.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "低功耗"

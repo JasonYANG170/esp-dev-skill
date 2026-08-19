@@ -2,6 +2,10 @@
 
 > **适用摘要**: 没有 LCD 或不想用图形库时，用 `WhoDetectAppTerm` 把每帧检测结果（box / score / keypoint）打印到串口。对应 `*_noglib` BSP。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-who/resources/`, source/examples in `repos/esp-who/`, and this recipe path `repos/esp-who/recipes/object_detect_term.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "object detect 不用 LCD"

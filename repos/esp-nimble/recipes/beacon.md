@@ -2,6 +2,10 @@
 
 > **适用摘要**: 实现不可连接的广播者（Broadcaster）：non-connectable advertising，常用于 Beacon / 厂商自定义数据广播，使用 NRPA 作为本机地址。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-nimble/resources/`, source/examples in `repos/esp-nimble/`, and this recipe path `repos/esp-nimble/recipes/beacon.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Beacon / 信标"

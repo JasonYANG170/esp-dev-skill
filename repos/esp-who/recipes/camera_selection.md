@@ -2,6 +2,10 @@
 
 > **适用摘要**: 根据 SoC 选择正确的 `WhoCam` 子类（S3 的 `WhoS3Cam` / P4 的 `WhoP4Cam` / USB 的 `WhoUVCCam`），正确传像素格式、帧尺寸、翻转方向与 fb_count。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-who/resources/`, source/examples in `repos/esp-who/`, and this recipe path `repos/esp-who/recipes/camera_selection.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "选摄像头"

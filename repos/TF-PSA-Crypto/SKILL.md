@@ -1,5 +1,5 @@
 ---
-name: TF-PSA-Crypto-skill
+name: tf-psa-crypto-skill
 description: >-
   AI Skill for the TF-PSA-Crypto library — the reference implementation of the
   PSA Cryptography API (v1.2). Used when users need to create, modify, or debug
@@ -9,23 +9,7 @@ description: >-
   Trigger words: "PSA Crypto", "PSA Cryptography", "TF-PSA-Crypto", "psa_crypto",
   "psa/crypto.h", "psa_sign", "psa_aead", "psa_key_derivation", "Mbed TLS crypto",
   "PSA加密", "PSA密码学", "密钥派生", "AEAD", "HMAC", "ECDSA", "RSA-PSS", "crypto_config.h"
-tags:
-  - cryptography
-  - psa-crypto
-  - security
-  - tls
-  - encryption
-  - hash
-  - signature
-  - key-management
-  - embedded
-  - mbedtls
-  - c-library
 license: Apache-2.0 OR GPL-2.0-or-later
-compatibility: >-
-  Portable C99 library; builds with CMake 3.20.2+, GCC/Clang/MSVC/Arm Compiler.
-  API version PSA Crypto 1.2; library version TF-PSA-Crypto 1.0.0.
-  No fixed chip target — runs on any platform meeting C99 + 32-bit int requirements.
 metadata:
   author: Community
   version: "1.1.0"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 创建 Door Lock 与 Window Covering 两种 device type endpoint，重点说明 Window Covering `config_t` 构造函数如何指定 `EndProductType`，以及 Door Lock 常用属性。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-matter/resources/`, source/examples in `repos/esp-matter/`, and this recipe path `repos/esp-matter/recipes/door_lock_window_covering.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "做一把 Matter 门锁"

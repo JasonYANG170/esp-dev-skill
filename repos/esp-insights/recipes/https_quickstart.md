@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用最少的代码把 ESP-Insights 通过 HTTPS 接入 ESP Insights 云端，采集错误/告警/事件日志。这是大多数新项目的默认起点。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-insights/resources/`, source/examples in `repos/esp-insights/`, and this recipe path `repos/esp-insights/recipes/https_quickstart.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "接入 ESP-Insights"

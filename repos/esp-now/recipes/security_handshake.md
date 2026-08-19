@@ -2,6 +2,9 @@
 
 > **适用摘要**: initiator 扫描 responder、用 ECDH+PoP 完成握手并分发 app key，双方基于 AES-CCM 加解密 ESP-NOW 用户数据（参考 `examples/security`）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP-NOW 加密"

@@ -2,6 +2,10 @@
 
 > **适用摘要**: 不走 AFE，直接对内存中的 PCM/WAV 数据逐帧调用 WakeNet 检测。适用于离线批量评估唤醒模型、回放录音测试、单元测试。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-skainet/resources/`, source/examples in `repos/esp-skainet/`, and this recipe path `repos/esp-skainet/recipes/wake_word_raw.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "用 wav 文件测试唤醒词"

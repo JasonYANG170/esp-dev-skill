@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 ESP8266 上挂载 SPIFFS 文件系统，用 POSIX/C 标准库函数（fopen/fprintf/fgets/rename/unlink/stat）进行文件读写，并查询分区容量。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/spiffs.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "SPIFFS 文件系统"

@@ -2,6 +2,9 @@
 
 > **适用摘要**: Matter 固件体积大、内存吃紧（尤其 esp32c2 / esp32h2）时，按收益从高到低逐项打开 Kconfig 优化项，并用 measured before/after 表预估节省量。所有数字取自 `docs/en/optimizations.rst`（基于 esp32c3 / esp32h2 + light 示例）。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "Matter 固件太大 / RAM 不够"

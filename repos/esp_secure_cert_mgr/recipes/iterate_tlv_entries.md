@@ -2,6 +2,10 @@
 
 > **适用摘要**: 当分区中同类型有多条目、或需要读取自定义 TLV（`USER_DATA_1..5`）时，使用通用 TLV API 按 type+subtype 查询、用迭代器遍历全部条目、或调用 `esp_secure_cert_list_tlv_entries()` 打印清单。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp_secure_cert_mgr/resources/`, source/examples in `repos/esp_secure_cert_mgr/`, and this recipe path `repos/esp_secure_cert_mgr/recipes/iterate_tlv_entries.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "读取自定义 TLV 数据"

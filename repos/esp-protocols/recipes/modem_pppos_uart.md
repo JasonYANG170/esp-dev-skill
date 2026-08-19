@@ -2,6 +2,10 @@
 
 > **适用摘要**: 通过 UART 连接蜂窝模组（如 SIM7600/SIM800/BG96），用 esp_modem 创建 PPP 网络接口并拨号上网，读取信号质量与 SIM 状态，切换 DATA 模式获取 IP。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-protocols/resources/`, source/examples in `repos/esp-protocols/`, and this recipe path `repos/esp-protocols/recipes/modem_pppos_uart.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "esp_modem 拨号上网"

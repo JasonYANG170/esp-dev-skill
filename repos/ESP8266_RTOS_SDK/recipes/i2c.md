@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 I2C 主机驱动（仅 `I2C_NUM_0`）通过命令链（command link）对从设备发起 start/write/read/stop 序列，以 MPU6050 为实例演示寄存器写与读。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/i2c.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "I2C 读写"

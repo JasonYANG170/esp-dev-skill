@@ -2,6 +2,10 @@
 
 > **适用摘要**: 启用 `OPENTHREAD_BR_AUTO_START`，设备开机自动连 Wi-Fi、生成 Thread dataset、成为 Leader，并提供 Ethernet backbone 的唯一可行路径。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-thread-br/resources/`, source/examples in `repos/esp-thread-br/`, and this recipe path `repos/esp-thread-br/recipes/auto_start_mode.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 - "开机自动连 Wi-Fi 并组网"
 - "OPENTHREAD_BR_AUTO_START"

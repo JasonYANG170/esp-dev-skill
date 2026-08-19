@@ -2,6 +2,10 @@
 
 > **适用摘要**: 联网后用 LwIP SNTP 模块从 NTP 服务器（如 `pool.ntp.org`）同步系统时间，通过 `time()`/`localtime_r()` 读取，用 POSIX `setenv("TZ",...)` + `tzset()` 设置时区。时间同步是 TLS 证书校验、日志时间戳、定时任务的前置需求。
 
+> Version: ESP8266 RTOS SDK version used by the project.
+> Evidence: `repos/ESP8266_RTOS_SDK/resources/`, source/examples in `repos/ESP8266_RTOS_SDK/`, and this recipe path `repos/ESP8266_RTOS_SDK/recipes/sntp_time.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "ESP8266 对时 / NTP"

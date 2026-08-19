@@ -2,6 +2,10 @@
 
 > **适用摘要**: 主机端工具或测试场景下，不直接写 flash，而是在 RAM 缓冲区中拼装出完整的 `esp_secure_cert` 分区镜像，再整体烧录或下发。使用 `ESP_SECURE_CERT_WRITE_MODE_BUFFER` 模式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp_secure_cert_mgr/resources/`, source/examples in `repos/esp_secure_cert_mgr/`, and this recipe path `repos/esp_secure_cert_mgr/recipes/generate_partition_in_buffer.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "主机端生成分区镜像"

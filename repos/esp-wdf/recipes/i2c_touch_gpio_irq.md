@@ -2,6 +2,10 @@
 
 > **适用摘要**：WASM 应用同时打开 I2C 设备 `/dev/i2c/0` 与 GPIO 设备 `/dev/gpio/<ready_pin>`，轮询 READY 引脚电平，当 READY 拉低时用两步 I2C 读取（先读 2 字节长度字，再读该长度字节）解析 TT21100 触点/按键报告。与 `i2c_sensor.md`（BH1750，单外设、定长读取）不同，本配方处理“GPIO 数据就绪门控 + 变长结构化多字节报告”这一真实 HMI 输入模式。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-wdf/resources/`, source/examples in `repos/esp-wdf/`, and this recipe path `repos/esp-wdf/recipes/i2c_touch_gpio_irq.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "读触摸屏 / 触控芯片"

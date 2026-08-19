@@ -2,6 +2,10 @@
 
 > **适用摘要**: 加载私钥，设置主题名、密钥用途、签名算法，生成 DER 或 PEM 格式的 CSR（Certificate Signing Request）。适用于向 CA 申请证书。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/csr_generation.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "生成 CSR"

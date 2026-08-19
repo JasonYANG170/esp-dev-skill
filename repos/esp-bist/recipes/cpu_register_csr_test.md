@@ -2,6 +2,10 @@
 
 > **适用摘要**: 用 `bist_cpu_regs_test()` 校验 RISC-V 通用寄存器（X1–X31），用 `bist_cpu_csr_regs_test()` 校验 CSR（trap / PMP / PMA / mexstatus），并按 IEC 60730 组件 1.1 在运行时主循环中周期执行。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/esp-bist/resources/`, source/examples in `repos/esp-bist/`, and this recipe path `repos/esp-bist/recipes/cpu_register_csr_test.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "CPU 寄存器自检"

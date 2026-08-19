@@ -2,6 +2,10 @@
 
 > **适用摘要**: 在 TLS/DTLS 中使用预共享密钥（PSK）做认证，无需证书。适用于资源受限、双方已共享密钥的嵌入式设备加密通信。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/mbedtls/resources/`, source/examples in `repos/mbedtls/`, and this recipe path `repos/mbedtls/recipes/psk_tls.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "PSK 加密"

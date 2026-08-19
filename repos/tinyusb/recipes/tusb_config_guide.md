@@ -2,6 +2,10 @@
 
 > **适用摘要**: 系统说明 TinyUSB 核心配置宏（`CFG_TUSB_*` / `CFG_TUD_*` / `CFG_TUH_*`）：MCU、OS、类使能、缓冲区、端点 0、速度、内存对齐。
 
+> Version: selected repo/component version; align with the user project and dependency manifest.
+> Evidence: `repos/tinyusb/resources/`, source/examples in `repos/tinyusb/`, and this recipe path `repos/tinyusb/recipes/tusb_config_guide.md`.
+> Validation: draft metadata added from repository routing; verify APIs, Kconfig symbols, and component dependencies against the selected version.
+
 ## 触发意图
 
 - "tusb_config.h 怎么配"

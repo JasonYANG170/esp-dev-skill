@@ -7,19 +7,7 @@ description: >-
   digital-signature, and custom outbox scenarios.
   Trigger words: "esp-mqtt", "MQTT", "MQTT 5", "mqtt client", "ESP32", "ESP-IDF",
   "subscribe", "publish", "broker", "last will", "QoS", "TLS", "WebSocket", "消息队列", "订阅", "发布", "遗嘱消息"
-tags:
-  - embedded
-  - esp-idf
-  - esp32
-  - mqtt
-  - mqtt5
-  - networking
-  - protocol
-  - tls
-  - websocket
-  - iot
 license: Apache-2.0
-compatibility: Targets ESP32 family (ESP32, ESP32-C2/C3/C5/C6/C61, ESP32-H2, ESP32-P4, ESP32-S2/S3); build requires ESP-IDF >= 5.3 and the mqtt component (espressif/mqtt)
 metadata:
   author: Community
   version: "1.1.0"
